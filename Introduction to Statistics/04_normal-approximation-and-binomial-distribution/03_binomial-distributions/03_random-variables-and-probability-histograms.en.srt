@@ -1,0 +1,127 @@
+1
+00:00:00,240 --> 00:00:05,585
+Now, keep in mind that the outcomes of the 10 experiments are due to chance,
+
+2
+00:00:05,585 --> 00:00:09,305
+so the number of successes you see are random.
+
+3
+00:00:09,305 --> 00:00:13,625
+One set of 10 experiments might give you 4 successes.
+
+4
+00:00:13,625 --> 00:00:15,905
+Another set might result in 7.
+
+5
+00:00:15,905 --> 00:00:20,320
+For that reason, the number of successes is called a random variable.
+
+6
+00:00:20,320 --> 00:00:22,070
+To make the notation easy,
+
+7
+00:00:22,070 --> 00:00:24,180
+we simply write a letter for it,
+
+8
+00:00:24,180 --> 00:00:26,365
+like X just like in math,
+
+9
+00:00:26,365 --> 00:00:30,310
+but we use capital letters to make clear that this is a random variable.
+
+10
+00:00:30,310 --> 00:00:32,770
+So, on the previous slide,
+
+11
+00:00:32,770 --> 00:00:37,405
+we computed the probability of having 2 successes.
+
+12
+00:00:37,405 --> 00:00:38,760
+And in that notation,
+
+13
+00:00:38,760 --> 00:00:42,110
+that would simply be the probability that X is 2,
+
+14
+00:00:42,110 --> 00:00:44,430
+and we found that's 30.2%.
+
+15
+00:00:44,430 --> 00:00:47,265
+Since these were binomial probabilities,
+
+16
+00:00:47,265 --> 00:00:52,120
+one says that the random variable X has the binomial distribution.
+
+17
+00:00:52,120 --> 00:00:56,720
+Instead of computing the probabilities of all possible outcomes,
+
+18
+00:00:56,720 --> 00:01:02,425
+we can simply visualize those probabilities with what's called a probability histogram.
+
+19
+00:01:02,425 --> 00:01:04,990
+In the case of a binomial distribution with
+
+20
+00:01:04,990 --> 00:01:10,880
+n = 10 experiments and the probability of success of P = 0.2,
+
+21
+00:01:10,880 --> 00:01:14,210
+the probability histogram looks like this.
+
+22
+00:01:14,210 --> 00:01:17,800
+The probability histogram is simply a bar graph,
+
+23
+00:01:17,800 --> 00:01:22,805
+where the height of the bar shows the probability of the corresponding outcome.
+
+24
+00:01:22,805 --> 00:01:29,695
+For example we saw that the probability of getting X = 2 is roughly 30%,
+
+25
+00:01:29,695 --> 00:01:31,880
+and that's the height of this bar.
+
+26
+00:01:31,880 --> 00:01:36,780
+So here is the same probability histogram we had on the previous slide.
+
+27
+00:01:36,780 --> 00:01:39,750
+Now, remember we talked about histograms before.
+
+28
+00:01:39,750 --> 00:01:42,935
+In that case, we talked about histograms for data.
+
+29
+00:01:42,935 --> 00:01:47,225
+And histograms of data give percentages for observed data,
+
+30
+00:01:47,225 --> 00:01:52,475
+but keep in mind that the probability histogram has nothing to do with observed data.
+
+31
+00:01:52,475 --> 00:01:55,050
+It's purely a theoretical construct.
+
+32
+00:01:55,050 --> 00:02:00,730
+It shows probabilities, not data that have been actually observed.

@@ -1,0 +1,237 @@
+1
+00:00:00,000 --> 00:00:02,940
+Let's look at the earlier example.
+
+2
+00:00:02,940 --> 00:00:05,690
+Suppose we poll 1,000 likely voters and
+
+3
+00:00:05,690 --> 00:00:10,810
+find that 58% approve of the way
+the president handles his job.
+
+4
+00:00:10,810 --> 00:00:11,850
+So the formula for
+
+5
+00:00:11,850 --> 00:00:15,670
+the standard error of the percentage
+is sigma over square root n.
+
+6
+00:00:15,670 --> 00:00:21,440
+And then we can convert into a percentage
+simply by multiplying with 100%.
+
+7
+00:00:21,440 --> 00:00:25,120
+And sigma is given by square
+
+8
+00:00:25,120 --> 00:00:31,040
+root p(1-p) where p is the proportion
+of all voters who approve.
+
+9
+00:00:31,040 --> 00:00:34,450
+That's simply using a formula
+which we looked at earlier.
+
+10
+00:00:34,450 --> 00:00:38,320
+So, in this case, p is unknown to us,
+
+11
+00:00:38,320 --> 00:00:44,470
+because we don't know the proportion
+of all 140 million voters who approve.
+
+12
+00:00:44,470 --> 00:00:49,250
+The bootstrap principle then
+says to replace sigma by s,
+
+13
+00:00:49,250 --> 00:00:54,370
+which is the standard deviation
+of the 0/1 labels in our sample.
+
+14
+00:00:54,370 --> 00:00:57,108
+And if we compute that standard deviation,
+
+15
+00:00:57,108 --> 00:01:01,402
+we get square root 0.58(1- 0.58),
+which is 0.49.
+
+16
+00:01:02,750 --> 00:01:03,590
+And by the way,
+
+17
+00:01:03,590 --> 00:01:08,520
+that's exactly the same answer we would
+have gotten if we had plugged in.
+
+18
+00:01:08,520 --> 00:01:12,630
+Instead of p here,
+our estimate from the sample.
+
+19
+00:01:12,630 --> 00:01:16,490
+So now we can write down our
+95% confidence interval for p.
+
+20
+00:01:17,820 --> 00:01:22,470
+The formula says we take the estimate
+in our sample, which is 58%.
+
+21
+00:01:22,470 --> 00:01:25,290
+Then we do plus minus z, and
+
+22
+00:01:25,290 --> 00:01:29,880
+since we have a 95% confidence level,
+we take z = 2.
+
+23
+00:01:29,880 --> 00:01:34,770
+And then we have the standard error
+which has the formula given above,
+
+24
+00:01:34,770 --> 00:01:39,150
+so we get 0.49 divided by
+square root sample size.
+
+25
+00:01:39,150 --> 00:01:45,090
+And we can write this as an interval,
+54.9% to 61.1%.
+
+26
+00:01:46,310 --> 00:01:48,790
+Now let's look at our second example,
+
+27
+00:01:48,790 --> 00:01:52,960
+where we estimate the speed of light
+using the average of 30 measurements.
+
+28
+00:01:54,220 --> 00:01:56,920
+So now, in this case,
+what is the population or
+
+29
+00:01:56,920 --> 00:02:00,000
+the probability histogram
+that we are sampling from?
+
+30
+00:02:00,000 --> 00:02:02,450
+We have to think through
+the question first
+
+31
+00:02:02,450 --> 00:02:04,680
+before we can apply
+the bootstrap principle.
+
+32
+00:02:06,050 --> 00:02:10,480
+Now, the reason why we get 30 different
+measurements in the first place
+
+33
+00:02:10,480 --> 00:02:14,181
+is because each measurement
+is off by a chance error.
+
+34
+00:02:15,270 --> 00:02:20,133
+So we have a model where each
+measurement = the true speed
+
+35
+00:02:20,133 --> 00:02:22,990
+of light + a measurement error.
+
+36
+00:02:22,990 --> 00:02:26,730
+And we can think of the measurement
+error as a random error.
+
+37
+00:02:28,440 --> 00:02:33,670
+This chance error follows some kind of
+probability histogram that we don't know.
+
+38
+00:02:34,950 --> 00:02:39,330
+But we can use the bootstrap principle to
+estimate the standard deviation of this
+
+39
+00:02:39,330 --> 00:02:40,950
+probability histogram.
+
+40
+00:02:40,950 --> 00:02:43,559
+Using the standard
+deviation of the sample.
+
+41
+00:02:45,280 --> 00:02:49,600
+By the way, the reason why this
+works is that we are looking at
+
+42
+00:02:49,600 --> 00:02:53,900
+the standard deviation, s,
+of the measurements on the left hand side.
+
+43
+00:02:55,190 --> 00:03:00,330
+And we want to use that standard
+deviation as an estimate.
+
+44
+00:03:00,330 --> 00:03:04,860
+Of the standard deviation sigma of the
+measurement errors on the right hand side.
+
+45
+00:03:04,860 --> 00:03:10,550
+So notice there is an added term,
+which is the speed of light.
+
+46
+00:03:10,550 --> 00:03:14,560
+But remember that adding a fixed
+number to the measurements
+
+47
+00:03:14,560 --> 00:03:17,470
+will not change the standard deviation.
+
+48
+00:03:17,470 --> 00:03:21,980
+That's the reason why the bootstrap
+principle works in this case.
+
+49
+00:03:21,980 --> 00:03:25,330
+Later on, we will see how we
+can use the bootstrap principle
+
+50
+00:03:25,330 --> 00:03:28,340
+in even more complicated
+situations than these.

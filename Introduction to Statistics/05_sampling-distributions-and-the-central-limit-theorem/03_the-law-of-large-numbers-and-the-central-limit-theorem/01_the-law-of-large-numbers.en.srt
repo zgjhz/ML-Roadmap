@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:03,650
+The square root law means that the standard error of
+
+2
+00:00:03,650 --> 00:00:08,190
+the sample mean goes down as the sample size increases.
+
+3
+00:00:08,190 --> 00:00:11,460
+This means that if the sample size is large enough,
+
+4
+00:00:11,460 --> 00:00:15,500
+then the sample mean will be close to its expected value mu.
+
+5
+00:00:15,500 --> 00:00:18,895
+This is the famous law of large numbers.
+
+6
+00:00:18,895 --> 00:00:25,600
+So keep in mind that the law of large numbers applies only for averages and percentages,
+
+7
+00:00:25,600 --> 00:00:29,140
+but it doesn't apply for sums, because we saw that
+
+8
+00:00:29,140 --> 00:00:34,100
+the standard error of the sum goes up as the sample size increases.
+
+9
+00:00:34,100 --> 00:00:38,955
+Also, we need to be sampling with replacement from a population,
+
+10
+00:00:38,955 --> 00:00:43,785
+or simulating the data with a computer from a probability histogram.
+
+11
+00:00:43,785 --> 00:00:47,790
+More sophisticated versions of the law of large numbers in
+
+12
+00:00:47,790 --> 00:00:51,830
+fact state that the whole empirical histogram of the data,
+
+13
+00:00:51,830 --> 00:00:55,755
+which is the second histogram among the three we considered previously,
+
+14
+00:00:55,755 --> 00:01:01,000
+would be close to the probability histogram if the sample size is large enough.

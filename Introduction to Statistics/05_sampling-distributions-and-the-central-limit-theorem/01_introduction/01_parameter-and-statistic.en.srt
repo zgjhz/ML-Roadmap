@@ -1,0 +1,99 @@
+1
+00:00:00,000 --> 00:00:02,740
+The main topics in this module are
+
+2
+00:00:02,740 --> 00:00:05,520
+the law of large numbers and the central limit theorem.
+
+3
+00:00:05,520 --> 00:00:09,150
+The name central limit theorem comes from the central place
+
+4
+00:00:09,150 --> 00:00:12,840
+that this theorem has in statistics. So it's important.
+
+5
+00:00:12,840 --> 00:00:17,190
+But it's also important to understand that in every statistical analysis,
+
+6
+00:00:17,190 --> 00:00:19,725
+there are several histograms floating around.
+
+7
+00:00:19,725 --> 00:00:23,060
+The probability histogram which generates the data,
+
+8
+00:00:23,060 --> 00:00:28,445
+the histogram of the observed data, and the probability histogram of an estimator.
+
+9
+00:00:28,445 --> 00:00:31,920
+It's important to understand these, and to keep them apart,
+
+10
+00:00:31,920 --> 00:00:34,565
+and that's another goal of this module.
+
+11
+00:00:34,565 --> 00:00:39,905
+So, let's have another look at the distinction between a parameter and a statistic.
+
+12
+00:00:39,905 --> 00:00:44,090
+What's the average height of adult men in the United States?
+
+13
+00:00:44,090 --> 00:00:49,760
+That's quite difficult to get a handle on, because there are 120 million adult men.
+
+14
+00:00:49,760 --> 00:00:53,390
+But it turns out that one can estimate
+
+15
+00:00:53,390 --> 00:00:57,250
+this number quite well with a relatively small sample.
+
+16
+00:00:57,250 --> 00:01:00,230
+In this section, we'll see why that is.
+
+17
+00:01:00,230 --> 00:01:05,195
+Remember that the population in this case is all adult men in the US,
+
+18
+00:01:05,195 --> 00:01:07,700
+and there are about 120 million of them.
+
+19
+00:01:07,700 --> 00:01:11,855
+A parameter is something about the population we are interested in.
+
+20
+00:01:11,855 --> 00:01:15,005
+For example, the population average which we call
+
+21
+00:01:15,005 --> 00:01:19,845
+mu or the population standard deviation which we call sigma.
+
+22
+00:01:19,845 --> 00:01:26,175
+A statistic or an estimate is this quantity as it's measured in the sample.
+
+23
+00:01:26,175 --> 00:01:32,300
+That could be the sample average x bar, or the sample standard deviation s. So,
+
+24
+00:01:32,300 --> 00:01:35,140
+the idea is that we will use the statistic from
+
+25
+00:01:35,140 --> 00:01:39,780
+the sample to estimate the parameter of the population.

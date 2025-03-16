@@ -1,0 +1,41 @@
+So if you look at
+the probability histogram for the binomial with 10 experiments and
+a probability of success of 0.2, you see that that histogram
+looks somewhat skewed. So there is a long right tail. But if we increase the number
+of experiments to 50, then you see that the corresponding probability
+histogram looks rather symmetric, and in fact it looks close
+to the normal curve. This suggests that we can use normal
+approximation to compute binomial probabilities, just as we used normal
+approximation before to compute frequencies for data. To use normal approximation for
+binomial probabilities, we need to standardize by
+subtracting off n times p and then dividing by square root np(1-p). Let's look at an example
+of how to do that. A few slides ago,
+we were playing the online game where the probability of winning
+a small prize was 0.2. Now let's say we play this game 50 times, what is the probability of
+getting at most 12 small prizes? We already know that this
+is the binomial setting, so we could use binomial probabilities,
+but this is rather tedious work. We would have to compute the probabilities
+of having 0 successes plus the probability of having 1 success, plus
+the probability of having 2 successes, and so on, all the way up to 12. On the other hand, if we use normal approximation, then
+this is a rather quick computation. Remember that the probability histogram
+of the binomial distribution with n = 50 and p = 0.2 looks roughly like a normal curve
+which is centered at around 10. Now we want to compute the probability
+of at most 12 successes. So here's 12, and that means we want to
+compute the shaded area to the left of 12. So we know in order to
+do normal approximation, we first have to standardize. To standardize, we have to subtract off np, so we take 12,
+we subtract off n times p and we divide by square root np(1- p). So we take 12 - 10 / 2.83, And that gives us 0.71. So after we standardize, we get
+a standard normal curve which is centered around 0, and
+the standardized value for 12 is 0.71. And so we have to find the area under the
+standard normal curve to the left of 0.71. Plugging this into software, we
+see that this area is roughly 76%, and that's going to be
+the answer to our question. Remember that when we
+talked about sampling, we know that that a poll typically selects
+subjects in a simple random sample, and that means sampling
+without replacement. If one is sampling without replacement,
+then this is not the binomial setting. For example, the probability of success p
+changes after a subject has been removed. But if the population we sample from
+is much larger than the sample, then sampling with replacement is about
+the same as sampling without replacement. So in that case, even if we take a simple
+random sample, that is, we sample without replacement, the number of successes
+will be approximately binomial, and that means we will be able
+to use normal approximation.

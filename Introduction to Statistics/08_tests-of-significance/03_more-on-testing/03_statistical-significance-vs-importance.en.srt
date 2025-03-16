@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:02,620
+Here are some more facts on testing.
+
+2
+00:00:02,620 --> 00:00:05,295
+The first one is particularly important.
+
+3
+00:00:05,295 --> 00:00:08,250
+It says that statistical significance is not
+
+4
+00:00:08,250 --> 00:00:12,475
+the same thing as practical importance. What does that mean?
+
+5
+00:00:12,475 --> 00:00:14,495
+Suppose in our example,
+
+6
+00:00:14,495 --> 00:00:17,435
+the sample average of lead concentrations
+
+7
+00:00:17,435 --> 00:00:21,055
+is just slightly above the health standard of 15 parts per billion.
+
+8
+00:00:21,055 --> 00:00:25,990
+For example, the sample average could be 15.05 parts per billion.
+
+9
+00:00:25,990 --> 00:00:28,320
+Now, that may not be very relevant.
+
+10
+00:00:28,320 --> 00:00:31,595
+After all, it's essentially the same thing as 15,
+
+11
+00:00:31,595 --> 00:00:37,530
+but it may turn out that a statistical test we just did is highly significant.
+
+12
+00:00:37,530 --> 00:00:40,965
+How can that be? Well, a statistical significance
+
+13
+00:00:40,965 --> 00:00:45,440
+simply says that we can be confident that the effect is there.
+
+14
+00:00:45,440 --> 00:00:48,570
+It doesn't say how big the effect is.
+
+15
+00:00:48,570 --> 00:00:52,195
+So, how can it be that a small difference such as going to
+
+16
+00:00:52,195 --> 00:00:58,235
+15.05 will result in a highly significant test?
+
+17
+00:00:58,235 --> 00:01:00,650
+Well, the answer is the square-root law.
+
+18
+00:01:00,650 --> 00:01:03,710
+A large sample size makes the standard error
+
+19
+00:01:03,710 --> 00:01:07,660
+small because the sample size is in the denominator.
+
+20
+00:01:07,660 --> 00:01:10,385
+And with a small standard error,
+
+21
+00:01:10,385 --> 00:01:13,870
+we may quickly get a very significant test result.
+
+22
+00:01:13,870 --> 00:01:18,620
+For that reason, it's helpful to complement the test with a confidence interval.
+
+23
+00:01:18,620 --> 00:01:23,120
+In that case, we might get a confidence interval that, for example,
+
+24
+00:01:23,120 --> 00:01:28,720
+goes from 15.02 all the way to 15.08,
+
+25
+00:01:28,720 --> 00:01:31,810
+and that, in effect, tells us that we can be
+
+26
+00:01:31,810 --> 00:01:35,600
+confident that we are not far away from the health limit.
+
+27
+00:01:35,600 --> 00:01:40,960
+It turns out that there's a general connection between confidence intervals and tests.
+
+28
+00:01:40,960 --> 00:01:44,910
+A 95% confidence interval contains all values for
+
+29
+00:01:44,910 --> 00:01:47,570
+the null hypothesis that will not be
+
+30
+00:01:47,570 --> 00:01:51,840
+rejected by a two-sided test at the 5% significance level.
+
+31
+00:01:51,840 --> 00:01:54,685
+Now, that's a difficult statement to digest.
+
+32
+00:01:54,685 --> 00:01:59,475
+The best way to think about this is in terms of the previous example,
+
+33
+00:01:59,475 --> 00:02:02,845
+rejecting the null hypothesis of 15
+
+34
+00:02:02,845 --> 00:02:07,335
+is the same as saying 15 is not in the confidence interval.
+
+35
+00:02:07,335 --> 00:02:12,410
+Finally, keep in mind that there are two ways that a test can result in a wrong decision.
+
+36
+00:02:12,410 --> 00:02:17,390
+It may be that the null hypothesis is true but we erroneously reject it.
+
+37
+00:02:17,390 --> 00:02:19,490
+This is called a type I error,
+
+38
+00:02:19,490 --> 00:02:22,295
+or you may know it under the name false positive.
+
+39
+00:02:22,295 --> 00:02:25,585
+The second type of error, which is called type II error
+
+40
+00:02:25,585 --> 00:02:30,520
+occurs if the null hypothesis is not true, but we fail to reject it.
+
+41
+00:02:30,520 --> 00:02:33,120
+Remember, the standard rule for rejecting
+
+42
+00:02:33,120 --> 00:02:38,260
+a null hypothesis is when the p-value falls below 5%.
+
+43
+00:02:38,260 --> 00:02:42,710
+If that's the rule, that means that the probability of a type I error is,
+
+44
+00:02:42,710 --> 00:02:44,940
+at most, 5%.

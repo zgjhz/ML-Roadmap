@@ -1,0 +1,327 @@
+1
+00:00:00,000 --> 00:00:03,240
+The bootstrap pushes this a bit further.
+
+2
+00:00:03,240 --> 00:00:07,530
+It makes it possible to use Monte Carlo sampling even in
+
+3
+00:00:07,530 --> 00:00:11,880
+situations where I can not draw as many samples as I wish.
+
+4
+00:00:11,880 --> 00:00:14,425
+Let's look at a simple situation,
+
+5
+00:00:14,425 --> 00:00:16,835
+where I have an estimate theta hat,
+
+6
+00:00:16,835 --> 00:00:20,640
+and I want to know what the standard error of theta hat is.
+
+7
+00:00:20,640 --> 00:00:23,400
+To explain how the bootstrap works,
+
+8
+00:00:23,400 --> 00:00:27,625
+let's first look at the so-called plug-in principle.
+
+9
+00:00:27,625 --> 00:00:30,410
+In the example we had earlier,
+
+10
+00:00:30,410 --> 00:00:34,395
+we were interested in the average height of all people in the US,
+
+11
+00:00:34,395 --> 00:00:41,890
+and we estimated that with the average height theta hat of 100 randomly selected people.
+
+12
+00:00:41,890 --> 00:00:47,030
+This simple step already illustrates the plug-in principle.
+
+13
+00:00:47,030 --> 00:00:50,770
+We can't compute the population mean because there are
+
+14
+00:00:50,770 --> 00:00:55,555
+over 300 million people and we cannot possibly measure all of their heights.
+
+15
+00:00:55,555 --> 00:00:57,895
+So what we do is,
+
+16
+00:00:57,895 --> 00:01:02,530
+we plug in a sample of size 100 in place of the population and we
+
+17
+00:01:02,530 --> 00:01:07,825
+simply compute the mean of the sample instead of the mean of the whole population.
+
+18
+00:01:07,825 --> 00:01:11,800
+So let's look at what we did here in terms of histograms.
+
+19
+00:01:11,800 --> 00:01:15,160
+There was a population histogram which is
+
+20
+00:01:15,160 --> 00:01:18,640
+the histogram of the heights of all the people in the United States.
+
+21
+00:01:18,640 --> 00:01:22,565
+The task was to compute the average of that histogram,
+
+22
+00:01:22,565 --> 00:01:24,010
+and that's impossible to do.
+
+23
+00:01:24,010 --> 00:01:27,700
+So what we did is we drew a sample of size 100,
+
+24
+00:01:27,700 --> 00:01:31,149
+we looked at the histogram of the sample,
+
+25
+00:01:31,149 --> 00:01:32,890
+and we used the average of
+
+26
+00:01:32,890 --> 00:01:37,660
+the sample histogram in place of the average of the population histogram.
+
+27
+00:01:37,660 --> 00:01:41,260
+The reason why this works is because the histogram of
+
+28
+00:01:41,260 --> 00:01:45,970
+the sample tends to look very similar to the histogram of the population.
+
+29
+00:01:45,970 --> 00:01:49,685
+That's really the key idea behind the bootstrap,
+
+30
+00:01:49,685 --> 00:01:55,555
+and we will see how this idea can be used in all kinds of complicated situations.
+
+31
+00:01:55,555 --> 00:01:59,590
+The bootstrap uses both this plug-in principle and
+
+32
+00:01:59,590 --> 00:02:02,740
+Monte Carlo simulation to approximate quantities
+
+33
+00:02:02,740 --> 00:02:06,160
+of interests such as the standard error of a statistic.
+
+34
+00:02:06,160 --> 00:02:08,155
+To explain how it works,
+
+35
+00:02:08,155 --> 00:02:09,580
+remember how we used
+
+36
+00:02:09,580 --> 00:02:14,755
+Monte Carlo simulation to estimate the standard error of a statistic.
+
+37
+00:02:14,755 --> 00:02:18,280
+If I can draw a sample X_1 to X_n,
+
+38
+00:02:18,280 --> 00:02:22,710
+then I can compute my estimate as theta hat based on that sample.
+
+39
+00:02:22,710 --> 00:02:26,800
+If I can sample as many times as I wish,
+
+40
+00:02:26,800 --> 00:02:29,655
+then I can repeat this process many times.
+
+41
+00:02:29,655 --> 00:02:31,800
+Let's say 1,000 times,
+
+42
+00:02:31,800 --> 00:02:35,090
+and I get 1,000 copies of my estimator.
+
+43
+00:02:35,090 --> 00:02:38,305
+We saw earlier, when we discussed Monte Carlo,
+
+44
+00:02:38,305 --> 00:02:41,230
+that the standard deviation of these 1,000
+
+45
+00:02:41,230 --> 00:02:45,175
+estimates is close to the standard error of my estimator,
+
+46
+00:02:45,175 --> 00:02:48,170
+and that's simply because of the law of large numbers.
+
+47
+00:02:48,170 --> 00:02:52,150
+But remember, the caveat in Monte Carlo was that we only have
+
+48
+00:02:52,150 --> 00:02:56,440
+one sample and we cannot sample as many times as we wish.
+
+49
+00:02:56,440 --> 00:03:01,785
+The trick that the bootstrap uses is the plug-in principle.
+
+50
+00:03:01,785 --> 00:03:08,340
+It simply simulates from the sample histogram instead of from the population histogram.
+
+51
+00:03:08,340 --> 00:03:11,370
+In other words, the bootstrap pretends that
+
+52
+00:03:11,370 --> 00:03:16,880
+the sample histogram is the population histogram, and then simply uses Monte Carlo.
+
+53
+00:03:16,880 --> 00:03:18,735
+So, how does that work?
+
+54
+00:03:18,735 --> 00:03:22,665
+Drawing a sample from the sample histogram means
+
+55
+00:03:22,665 --> 00:03:28,215
+drawing with replacement from the n numbers X_1 to X_n.
+
+56
+00:03:28,215 --> 00:03:34,185
+Let's call those numbers X_1 star to X_n star.
+
+57
+00:03:34,185 --> 00:03:39,945
+That means, X_1 star is drawn at random from these n numbers, X_1 to X_n.
+
+58
+00:03:39,945 --> 00:03:45,015
+And likewise, X_2 star is drawn at random and X_3 star is drawn at random.
+
+59
+00:03:45,015 --> 00:03:46,815
+Such a bootstrap sample,
+
+60
+00:03:46,815 --> 00:03:48,995
+X_1 star to X_n star,
+
+61
+00:03:48,995 --> 00:03:54,235
+has numbers that are among the sample X_1 to X_n.
+
+62
+00:03:54,235 --> 00:04:00,400
+Some of the X's may come up several times, and others may not come up at all.
+
+63
+00:04:00,400 --> 00:04:03,145
+Now what the bootstrap does is,
+
+64
+00:04:03,145 --> 00:04:09,745
+it draws capital B bootstrap samples, and computes the estimator for each bootstrap sample.
+
+65
+00:04:09,745 --> 00:04:11,770
+So we draw a bootstrap sample,
+
+66
+00:04:11,770 --> 00:04:13,450
+just as explained above,
+
+67
+00:04:13,450 --> 00:04:16,905
+simply by drawing with replacement from the original data.
+
+68
+00:04:16,905 --> 00:04:19,120
+We evaluate our estimator,
+
+69
+00:04:19,120 --> 00:04:22,400
+and we call this thing theta 1 hat star.
+
+70
+00:04:22,400 --> 00:04:25,795
+Then we repeat the whole process capital B times.
+
+71
+00:04:25,795 --> 00:04:27,655
+Let's say 1,000 times.
+
+72
+00:04:27,655 --> 00:04:32,805
+And we come up with 1,000 copies of these estimators.
+
+73
+00:04:32,805 --> 00:04:36,819
+Then we use these 1,000 copies to approximate
+
+74
+00:04:36,819 --> 00:04:41,465
+the quantity of interest just as we did in the example of Monte Carlo simulation.
+
+75
+00:04:41,465 --> 00:04:44,425
+For example, we would approximate a standard error of
+
+76
+00:04:44,425 --> 00:04:49,150
+theta hat by the standard deviation of these 1,000 estimates.
+
+77
+00:04:49,150 --> 00:04:50,880
+So, in other words,
+
+78
+00:04:50,880 --> 00:04:54,080
+the bootstrap uses two approximations.
+
+79
+00:04:54,080 --> 00:04:56,480
+In the first approximation,
+
+80
+00:04:56,480 --> 00:05:00,980
+it replaces the population histogram by the sample histogram.
+
+81
+00:05:00,980 --> 00:05:02,720
+In the second approximation,
+
+82
+00:05:02,720 --> 00:05:09,570
+it does Monte Carlo in order to approximate a quantity by the law of large numbers.

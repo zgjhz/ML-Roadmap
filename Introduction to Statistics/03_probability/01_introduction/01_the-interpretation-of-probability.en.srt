@@ -1,0 +1,191 @@
+1
+00:00:00,000 --> 00:00:03,990
+In this module, we will discuss the basic rules of
+
+2
+00:00:03,990 --> 00:00:08,735
+probability that we will need for our statistical methodology later on.
+
+3
+00:00:08,735 --> 00:00:12,420
+It turns out that there are only a few rules that are essential.
+
+4
+00:00:12,420 --> 00:00:15,300
+Even quite difficult problems in probability can be
+
+5
+00:00:15,300 --> 00:00:18,855
+solved by applying these few rules in the right places.
+
+6
+00:00:18,855 --> 00:00:22,110
+We will also look at some case studies that show
+
+7
+00:00:22,110 --> 00:00:25,205
+how these simple rules can be used in surprising ways.
+
+8
+00:00:25,205 --> 00:00:28,540
+For example, to build a spam filter for email.
+
+9
+00:00:28,540 --> 00:00:32,065
+So, what does it mean to talk about probability?
+
+10
+00:00:32,065 --> 00:00:35,030
+Let's look at a data example.
+
+11
+00:00:35,030 --> 00:00:40,020
+According to the National Center for Health Statistics, in 2015,
+
+12
+00:00:40,020 --> 00:00:42,810
+there were about 4 million babies born in the US
+
+13
+00:00:42,810 --> 00:00:46,540
+and 48.8% of these newborns were girls.
+
+14
+00:00:46,540 --> 00:00:53,550
+So then, if we look at a baby that's born someday in 2015 and we ask ourselves,
+
+15
+00:00:53,550 --> 00:00:57,265
+what are the chances that this baby is a girl, we would say, "Well,
+
+16
+00:00:57,265 --> 00:01:02,125
+the probability of a baby being a girl is 48.8%."
+
+17
+00:01:02,125 --> 00:01:07,385
+And we write this with a capital P for probability and then,
+
+18
+00:01:07,385 --> 00:01:10,375
+in brackets, we write down the event we're interested in.
+
+19
+00:01:10,375 --> 00:01:16,715
+In this case, the newborn is a girl and this equals 48.8%.
+
+20
+00:01:16,715 --> 00:01:22,085
+So this example shows how the probability of an event is defined.
+
+21
+00:01:22,085 --> 00:01:28,275
+It's defined as the proportion of times that this event occurs in many repetitions.
+
+22
+00:01:28,275 --> 00:01:31,320
+So, this definition requires that we look at
+
+23
+00:01:31,320 --> 00:01:36,115
+a chance experiment that can be repeated many, many times.
+
+24
+00:01:36,115 --> 00:01:39,595
+For example, if we toss a fair coin,
+
+25
+00:01:39,595 --> 00:01:43,440
+we say the chances of getting heads is 50%,
+
+26
+00:01:43,440 --> 00:01:47,210
+and the chances of getting tails is also 50%,
+
+27
+00:01:47,210 --> 00:01:49,645
+and that's something that can actually be checked.
+
+28
+00:01:49,645 --> 00:01:52,355
+And believe it or not, some people did check it.
+
+29
+00:01:52,355 --> 00:01:54,205
+In World War II,
+
+30
+00:01:54,205 --> 00:01:57,680
+the South African mathematician, John Kerrich,
+
+31
+00:01:57,680 --> 00:02:05,310
+tossed a coin 10,000 times and found that 5,067 tosses resulted in heads.
+
+32
+00:02:05,310 --> 00:02:09,355
+So, that's roughly 50% of the tosses.
+
+33
+00:02:09,355 --> 00:02:13,600
+This definition of probability as
+
+34
+00:02:13,600 --> 00:02:16,660
+a long-run interpretation of frequencies can make it
+
+35
+00:02:16,660 --> 00:02:19,815
+difficult to interpret probabilities for a single event.
+
+36
+00:02:19,815 --> 00:02:23,955
+For example, the journalist David Leonhardt of the New York Times,
+
+37
+00:02:23,955 --> 00:02:27,345
+writes about this problem in his article,
+
+38
+00:02:27,345 --> 00:02:29,435
+"What I was wrong about this year".
+
+39
+00:02:29,435 --> 00:02:33,545
+Sometimes people use a different interpretation of probability.
+
+40
+00:02:33,545 --> 00:02:36,600
+For example, if somebody says,
+
+41
+00:02:36,600 --> 00:02:42,140
+"The probability that my best friend calls today is 30%," then this statement
+
+42
+00:02:42,140 --> 00:02:48,469
+clearly cannot be interpreted as a long-run frequency because today,
+
+43
+00:02:48,469 --> 00:02:51,620
+the particular circumstances of today happened only once.
+
+44
+00:02:51,620 --> 00:02:55,010
+So, what this person means is there's
+
+45
+00:02:55,010 --> 00:02:59,460
+simply a subjective feeling of 30% that this event will happen.
+
+46
+00:02:59,460 --> 00:03:02,610
+So, this is called a subjective probability.
+
+47
+00:03:02,610 --> 00:03:04,645
+It's not based on experiments,
+
+48
+00:03:04,645 --> 00:03:10,150
+and different people may assign different probabilities to the same event.

@@ -1,0 +1,227 @@
+1
+00:00:00,000 --> 00:00:07,110
+For each observation, we have an observed y-value and we have a predicted y-value.
+
+2
+00:00:07,110 --> 00:00:11,845
+The difference between these two y-values is called the residual.
+
+3
+00:00:11,845 --> 00:00:17,655
+Residuals are useful for checking whether the regression we're doing is appropriate.
+
+4
+00:00:17,655 --> 00:00:22,000
+The main tool here is what's called the residual plot.
+
+5
+00:00:22,000 --> 00:00:26,640
+It is simply a scatter plot of the residuals against the x-values.
+
+6
+00:00:26,640 --> 00:00:28,145
+Here's an example.
+
+7
+00:00:28,145 --> 00:00:35,330
+We have midterm scores on the horizontal axis, and final scores on the vertical axis,
+
+8
+00:00:35,330 --> 00:00:39,435
+and we also see the regression line through the scatter.
+
+9
+00:00:39,435 --> 00:00:41,380
+Based on the regression line,
+
+10
+00:00:41,380 --> 00:00:43,110
+we can computer the residuals,
+
+11
+00:00:43,110 --> 00:00:45,320
+and those are shown on the right plot.
+
+12
+00:00:45,320 --> 00:00:50,580
+What we are seeing in the residual plot is a scatter that doesn't show any structure.
+
+13
+00:00:50,580 --> 00:00:53,465
+That's just the way we would like to have it.
+
+14
+00:00:53,465 --> 00:00:56,330
+Here is another example where
+
+15
+00:00:56,330 --> 00:01:00,455
+the residual plot shows that regression might not be appropriate.
+
+16
+00:01:00,455 --> 00:01:04,720
+The left plot shows income versus education.
+
+17
+00:01:04,720 --> 00:01:06,220
+And looking at the scatter,
+
+18
+00:01:06,220 --> 00:01:09,785
+you can already tell that there's a lot of curvature in there.
+
+19
+00:01:09,785 --> 00:01:13,275
+When we fit the regression and look at the residual plot,
+
+20
+00:01:13,275 --> 00:01:16,895
+we see a pattern that shows a big curve.
+
+21
+00:01:16,895 --> 00:01:19,860
+That's an indication that a scatter is not
+
+22
+00:01:19,860 --> 00:01:23,205
+linear and the regression shouldn't be applied.
+
+23
+00:01:23,205 --> 00:01:25,180
+However, not all is lost.
+
+24
+00:01:25,180 --> 00:01:31,270
+It may still be possible to use regression for those data after we transform those data.
+
+25
+00:01:31,270 --> 00:01:34,140
+For example, we could regress the square root of
+
+26
+00:01:34,140 --> 00:01:37,865
+income or the logarithm of income on education.
+
+27
+00:01:37,865 --> 00:01:41,595
+Sometimes, that results in a linear pattern,
+
+28
+00:01:41,595 --> 00:01:44,840
+and we can use regression on those transformed data,
+
+29
+00:01:44,840 --> 00:01:48,690
+and then we would simply transform back the results.
+
+30
+00:01:48,690 --> 00:01:54,760
+Here's another deviation of the linear scatter that a residual plot might catch.
+
+31
+00:01:54,760 --> 00:01:58,800
+The scatter on the left-hand side is linear.
+
+32
+00:01:58,800 --> 00:02:00,610
+So it roughly follows a line,
+
+33
+00:02:00,610 --> 00:02:05,655
+but we see that it looks like a fan shape. It opens up.
+
+34
+00:02:05,655 --> 00:02:09,495
+And that also shows up in the residual plot.
+
+35
+00:02:09,495 --> 00:02:12,730
+Such a scatter is called heteroscedastic.
+
+36
+00:02:12,730 --> 00:02:18,080
+It simply means that the variability changes with the x-values.
+
+37
+00:02:18,080 --> 00:02:21,150
+There's a little bit variability on the left side,
+
+38
+00:02:21,150 --> 00:02:24,090
+but there's a lot of variability on the right-hand side.
+
+39
+00:02:24,090 --> 00:02:29,750
+Those types of problems can oftentimes be fixed by transforming the y-values.
+
+40
+00:02:29,750 --> 00:02:32,630
+However, it may turn out that that transformation on
+
+41
+00:02:32,630 --> 00:02:37,245
+the y-values changes that scatter from linear to nonlinear.
+
+42
+00:02:37,245 --> 00:02:41,755
+So we may have to do another transformation on the x-values to fix that.
+
+43
+00:02:41,755 --> 00:02:47,050
+Here's an example from the 2000 presidential election in the United States.
+
+44
+00:02:47,050 --> 00:02:51,930
+The scatter on the left-hand side shows the election results for each county in Florida,
+
+45
+00:02:51,930 --> 00:02:54,425
+with the exception of Palm Beach County.
+
+46
+00:02:54,425 --> 00:02:56,810
+In the 2000 presidential election,
+
+47
+00:02:56,810 --> 00:02:58,955
+there was a third party candidate,
+
+48
+00:02:58,955 --> 00:03:02,905
+Pat Buchanan, who got a sizable proportion of the votes.
+
+49
+00:03:02,905 --> 00:03:09,150
+The scatter shows the votes that Bush got versus those that Buchanan got.
+
+50
+00:03:09,150 --> 00:03:10,890
+Just looking at the scatter,
+
+51
+00:03:10,890 --> 00:03:13,355
+It seems that it's roughly linear,
+
+52
+00:03:13,355 --> 00:03:17,430
+but when we look at the residual plot on the right hand side,
+
+53
+00:03:17,430 --> 00:03:19,965
+we see that it's heteroscedastic.
+
+54
+00:03:19,965 --> 00:03:23,260
+However, if we take logs of both variables,
+
+55
+00:03:23,260 --> 00:03:26,245
+we get a result that looks quite satisfactory.
+
+56
+00:03:26,245 --> 00:03:29,845
+In particular, notice when looking at a residual plot,
+
+57
+00:03:29,845 --> 00:03:35,000
+we get a horizontal band that doesn't show any structure.

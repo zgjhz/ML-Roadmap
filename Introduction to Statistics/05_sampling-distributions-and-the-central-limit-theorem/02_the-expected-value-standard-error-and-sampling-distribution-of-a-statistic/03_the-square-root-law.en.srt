@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:04,435
+So now, let's look at an example that applies the square root law.
+
+2
+00:00:04,435 --> 00:00:07,405
+We toss a fair coin 100 times,
+
+3
+00:00:07,405 --> 00:00:12,160
+how many tails do we expect to see and what's the give or take number?
+
+4
+00:00:12,160 --> 00:00:15,010
+This is an example where we count.
+
+5
+00:00:15,010 --> 00:00:19,115
+We count how many tails we're going to see in 100 tosses.
+
+6
+00:00:19,115 --> 00:00:28,610
+So we'll introduce labels, where a 1 stands for tails and a 0 stands for heads. Then,
+
+7
+00:00:28,610 --> 00:00:32,690
+we simulate this 100 tosses either by literally tossing a coin
+
+8
+00:00:32,690 --> 00:00:37,010
+100 times or by using a computer, and in each case,
+
+9
+00:00:37,010 --> 00:00:39,835
+we have the probability of getting a 1 is a
+
+10
+00:00:39,835 --> 00:00:44,390
+half and the probability of getting a 0 is also a half.
+
+11
+00:00:44,390 --> 00:00:47,800
+Because we have 0 and 1 labels,
+
+12
+00:00:47,800 --> 00:00:57,100
+we find that the number of tails in the 100 tosses equals the sum of the 100 draws.
+
+13
+00:00:58,760 --> 00:01:05,660
+So then we can use our formula for the expected value of the sum and it says,
+
+14
+00:01:05,660 --> 00:01:10,325
+it's the sample size which is 100 times Mu.
+
+15
+00:01:10,325 --> 00:01:14,530
+Now the formula for Mu on the previous slide says,
+
+16
+00:01:14,530 --> 00:01:21,195
+it's the sum of all outcomes times their probabilities and that is a half.
+
+17
+00:01:21,195 --> 00:01:26,200
+So the expected value of the sum is 50 and that would be our answer,
+
+18
+00:01:26,200 --> 00:01:28,960
+we expect to see 50 tails.
+
+19
+00:01:28,960 --> 00:01:33,060
+Now the give or take number is the standard error.
+
+20
+00:01:33,060 --> 00:01:38,550
+So we have to look at the standard error of the sum and the formula says,
+
+21
+00:01:38,550 --> 00:01:42,560
+this is square root sample size times Sigma.
+
+22
+00:01:42,560 --> 00:01:45,130
+So we have to figure out what Sigma is,
+
+23
+00:01:45,130 --> 00:01:48,120
+the formula for Sigma square is,
+
+24
+00:01:48,120 --> 00:01:50,715
+take each outcome, subtract off the mean,
+
+25
+00:01:50,715 --> 00:01:55,800
+square it, times the probability which is a half, and then we have to do
+
+26
+00:01:55,800 --> 00:02:01,485
+that for the second outcome, and we find this is one-quarter.
+
+27
+00:02:01,485 --> 00:02:05,130
+So now since we are looking at Sigma, not Sigma squared,
+
+28
+00:02:05,130 --> 00:02:10,780
+we get 10 times one-half instead of a quarter and that is 5.
+
+29
+00:02:10,780 --> 00:02:12,675
+So our answer would be,
+
+30
+00:02:12,675 --> 00:02:17,125
+that we expect to see 50 tails, give or take five.
+
+31
+00:02:17,125 --> 00:02:21,090
+By the way, if we did this for the percentage of tails,
+
+32
+00:02:21,090 --> 00:02:24,070
+then the formula for the percentage says,
+
+33
+00:02:24,070 --> 00:02:32,740
+we take Sigma over square root of sample size and that is 0.05, or 5%.
+
+34
+00:02:32,740 --> 00:02:35,020
+So in terms of percentages,
+
+35
+00:02:35,020 --> 00:02:36,360
+our answer would be,
+
+36
+00:02:36,360 --> 00:02:41,870
+we expect to see 50% tails give or take 5 percentage points.

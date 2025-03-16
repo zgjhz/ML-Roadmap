@@ -1,0 +1,259 @@
+1
+00:00:00,000 --> 00:00:03,915
+You may have read in the news that people who eat red meat
+
+2
+00:00:03,915 --> 00:00:08,725
+have higher rates of certain cancers than people who don't eat red meat.
+
+3
+00:00:08,725 --> 00:00:12,270
+The statistical term for this is that
+
+4
+00:00:12,270 --> 00:00:15,640
+there's an association between red meat consumption and
+
+5
+00:00:15,640 --> 00:00:19,080
+cancer but it's important to keep in mind
+
+6
+00:00:19,080 --> 00:00:23,350
+that this does not mean that eating red meat causes cancer.
+
+7
+00:00:23,350 --> 00:00:28,380
+This is because people who don't eat red meat are known to exercise more and drink
+
+8
+00:00:28,380 --> 00:00:30,450
+less alcohol, and it could be
+
+9
+00:00:30,450 --> 00:00:33,980
+the latter two issues that caused the difference in cancer rates.
+
+10
+00:00:33,980 --> 00:00:37,730
+What we have here is called an observational study.
+
+11
+00:00:37,730 --> 00:00:40,990
+It simply measures the outcomes of interest.
+
+12
+00:00:40,990 --> 00:00:44,580
+In this case, it would measure the cancer rate among
+
+13
+00:00:44,580 --> 00:00:49,595
+people who eat red meat and the cancer rate among people who do not eat red meat.
+
+14
+00:00:49,595 --> 00:00:52,125
+Based on these measurements,
+
+15
+00:00:52,125 --> 00:00:56,890
+one can say whether there's an association between these two factors.
+
+16
+00:00:56,890 --> 00:00:59,565
+But as we saw before,
+
+17
+00:00:59,565 --> 00:01:04,650
+association does not mean causation because there may be other factors.
+
+18
+00:01:04,650 --> 00:01:07,025
+These are called confounding factors.
+
+19
+00:01:07,025 --> 00:01:10,635
+Sometimes they have the name lurking variable.
+
+20
+00:01:10,635 --> 00:01:17,320
+Now, what we really would like to know is whether eating red meat actually causes cancer.
+
+21
+00:01:17,320 --> 00:01:20,335
+For that, we need an experiment.
+
+22
+00:01:20,335 --> 00:01:23,520
+In an experiment, a treatment is actually
+
+23
+00:01:23,520 --> 00:01:27,210
+assigned to people in one group but not in the other group.
+
+24
+00:01:27,210 --> 00:01:30,365
+Treatment is a technical term.
+
+25
+00:01:30,365 --> 00:01:36,230
+For example, if we have a new medication against high blood pressure,
+
+26
+00:01:36,230 --> 00:01:40,600
+then the treatment would be to take this medication.
+
+27
+00:01:41,170 --> 00:01:44,070
+The group that gets the treatment is called
+
+28
+00:01:44,070 --> 00:01:47,790
+a treatment group, and the other group is called the control group.
+
+29
+00:01:47,790 --> 00:01:50,050
+After we assign the treatment,
+
+30
+00:01:50,050 --> 00:01:53,260
+we compare the outcomes in the two groups.
+
+31
+00:01:53,260 --> 00:01:57,330
+We have already seen that confounders can be a problem.
+
+32
+00:01:57,330 --> 00:02:00,520
+For that reason, the two groups should be similar.
+
+33
+00:02:00,520 --> 00:02:04,375
+Of course, the treatment is different in the two groups.
+
+34
+00:02:04,375 --> 00:02:08,940
+The best way to make sure that the two groups are similar is
+
+35
+00:02:08,940 --> 00:02:13,895
+to assign the persons into the two groups at random.
+
+36
+00:02:13,895 --> 00:02:17,159
+The way to think about the random assignment
+
+37
+00:02:17,159 --> 00:02:21,010
+is that for each subject we toss a coin and if
+
+38
+00:02:21,010 --> 00:02:23,350
+it comes up heads then the subject goes into
+
+39
+00:02:23,350 --> 00:02:28,345
+the treatment group and if it comes up tails it will go in the control group.
+
+40
+00:02:28,345 --> 00:02:31,780
+Another precaution we should take is
+
+41
+00:02:31,780 --> 00:02:35,860
+that every subject in the control group gets a placebo.
+
+42
+00:02:35,860 --> 00:02:41,435
+A placebo is very similar to the treatment but it doesn't do anything.
+
+43
+00:02:41,435 --> 00:02:47,275
+In the example where we want to test a new medication against high blood pressure,
+
+44
+00:02:47,275 --> 00:02:51,050
+the treatment might consist of a pill then the placebo
+
+45
+00:02:51,050 --> 00:02:54,630
+would also be a pill which doesn't have any medication in it.
+
+46
+00:02:54,630 --> 00:02:56,195
+Why would we do that?
+
+47
+00:02:56,195 --> 00:03:03,760
+It turns out that the idea of being treated may already have an effect by itself.
+
+48
+00:03:04,050 --> 00:03:07,460
+This is called the placebo effect.
+
+49
+00:03:07,460 --> 00:03:11,330
+Assigning a placebo to the control group makes sure
+
+50
+00:03:11,330 --> 00:03:16,195
+that both groups are equally affected by this placebo effect.
+
+51
+00:03:16,195 --> 00:03:22,065
+The third precaution is that the experiment should be double-blind.
+
+52
+00:03:22,065 --> 00:03:26,060
+That means that neither the subject nor the evaluators know
+
+53
+00:03:26,060 --> 00:03:30,390
+which subjects are assigned to the treatment, and which are assigned to control.
+
+54
+00:03:30,390 --> 00:03:32,985
+This is done to avoid biases.
+
+55
+00:03:32,985 --> 00:03:38,120
+For example, if a doctor has to evaluate whether their medication helped,
+
+56
+00:03:38,120 --> 00:03:40,990
+then the doctor might be inclined to give
+
+57
+00:03:40,990 --> 00:03:46,720
+a positive assessment if the doctor knows that the patient has received the treatment.
+
+58
+00:03:46,720 --> 00:03:50,440
+Let's briefly go back to the placebo effect.
+
+59
+00:03:50,440 --> 00:03:52,925
+It sounds a bit mysterious.
+
+60
+00:03:52,925 --> 00:03:57,385
+Indeed, the placebo effect is still not fully understood.
+
+61
+00:03:57,385 --> 00:04:00,810
+It's somewhere on the boundary between biology and
+
+62
+00:04:00,810 --> 00:04:05,855
+psychology, and it's probably one of the most interesting phenomena in science.
+
+63
+00:04:05,855 --> 00:04:09,585
+If you're interested more in reading about the placebo effect,
+
+64
+00:04:09,585 --> 00:04:12,780
+there's the accessible article, 'The weird power of
+
+65
+00:04:12,780 --> 00:04:17,070
+the placebo effect, explained' by Brian Resnick.

@@ -1,0 +1,267 @@
+1
+00:00:00,000 --> 00:00:02,290
+The idea of a test statistic,
+
+2
+00:00:02,290 --> 00:00:03,910
+such as a disease statistic,
+
+3
+00:00:03,910 --> 00:00:11,230
+is that large values of the absolute value of z are evidence against the null hypothesis.
+
+4
+00:00:11,230 --> 00:00:13,680
+Why is that? So remember,
+
+5
+00:00:13,680 --> 00:00:19,725
+z is the observed minus expected over the standard error.
+
+6
+00:00:19,725 --> 00:00:22,910
+So if the absolute value of z is large, that means
+
+7
+00:00:22,910 --> 00:00:26,615
+there's a big discrepancy between observed and expected.
+
+8
+00:00:26,615 --> 00:00:29,445
+So the larger the absolute value of z is,
+
+9
+00:00:29,445 --> 00:00:31,395
+the stronger the evidence.
+
+10
+00:00:31,395 --> 00:00:36,340
+So the last piece of hypothesis testing that's missing is we have to find
+
+11
+00:00:36,340 --> 00:00:42,030
+a way that converts the size of z into some measure of evidence.
+
+12
+00:00:42,030 --> 00:00:44,975
+And that measure is given by the p-value,
+
+13
+00:00:44,975 --> 00:00:48,610
+or sometimes, it's called the observed significance level.
+
+14
+00:00:48,610 --> 00:00:51,920
+The p-value is the probability of getting a value of
+
+15
+00:00:51,920 --> 00:00:56,970
+the z-statistic that is as extreme or more extreme than the observed one,
+
+16
+00:00:56,970 --> 00:01:00,135
+under the assumption that the null hypothesis is true.
+
+17
+00:01:00,135 --> 00:01:03,250
+So that sentence might be a bit difficult to digest,
+
+18
+00:01:03,250 --> 00:01:05,405
+and it's best to look at some examples.
+
+19
+00:01:05,405 --> 00:01:07,280
+To see what's going on,
+
+20
+00:01:07,280 --> 00:01:10,495
+we already know that under the null hypothesis,
+
+21
+00:01:10,495 --> 00:01:15,840
+the z-statistic follows the standard normal curve by the central limit theorem.
+
+22
+00:01:15,840 --> 00:01:18,970
+That is simply because we have
+
+23
+00:01:18,970 --> 00:01:23,160
+an observed sum minus expected sum over the standard error.
+
+24
+00:01:23,160 --> 00:01:25,910
+So this is simply standardizing a sum,
+
+25
+00:01:25,910 --> 00:01:27,780
+and we know by the central limit theorem,
+
+26
+00:01:27,780 --> 00:01:29,300
+that follows a normal curve.
+
+27
+00:01:29,300 --> 00:01:34,965
+What that means is that the p-value can be computed using normal approximation.
+
+28
+00:01:34,965 --> 00:01:37,175
+Let's look at this picture here.
+
+29
+00:01:37,175 --> 00:01:39,105
+We have a standard normal curve,
+
+30
+00:01:39,105 --> 00:01:42,650
+and then suppose, we have an observed z value here.
+
+31
+00:01:42,650 --> 00:01:45,780
+And now, the p-value is the probability of
+
+32
+00:01:45,780 --> 00:01:49,010
+getting z as extreme or more extreme than the observed one,
+
+33
+00:01:49,010 --> 00:01:50,875
+so that would be here,
+
+34
+00:01:50,875 --> 00:01:53,140
+or to the left of -z.
+
+35
+00:01:53,140 --> 00:01:56,585
+So the p-value is this shaded area there.
+
+36
+00:01:56,585 --> 00:02:00,550
+And now, you get the idea that as z gets large,
+
+37
+00:02:00,550 --> 00:02:02,975
+that shaded area gets small.
+
+38
+00:02:02,975 --> 00:02:08,255
+So a small shaded area is evidence against the null hypothesis.
+
+39
+00:02:08,255 --> 00:02:10,860
+Oftentimes, the criterion for rejecting
+
+40
+00:02:10,860 --> 00:02:15,845
+the null hypothesis is having a p-value that is smaller than 5%.
+
+41
+00:02:15,845 --> 00:02:18,360
+Then the technical term for this is,
+
+42
+00:02:18,360 --> 00:02:21,725
+that the result is statistically significant.
+
+43
+00:02:21,725 --> 00:02:25,135
+Let's look at our example about coin tossing.
+
+44
+00:02:25,135 --> 00:02:30,175
+We have an observed z-statistic of 1.27.
+
+45
+00:02:30,175 --> 00:02:32,230
+So, that's somewhere here.
+
+46
+00:02:32,230 --> 00:02:37,625
+Turns out, the area to the right of 1.27 is 10.2%.
+
+47
+00:02:37,625 --> 00:02:45,145
+So the p-value is the probability of getting a normal outcome that's larger than 1.27,
+
+48
+00:02:45,145 --> 00:02:48,960
+or smaller than -1.27.
+
+49
+00:02:48,960 --> 00:02:51,120
+And since the normal curve is symmetric,
+
+50
+00:02:51,120 --> 00:02:53,890
+we simply double the shaded area.
+
+51
+00:02:53,890 --> 00:03:00,960
+So we find that the p-value in this case is twice 10.2%.
+
+52
+00:03:00,960 --> 00:03:03,020
+So it's 20.4%.
+
+53
+00:03:03,020 --> 00:03:05,265
+So what would be the conclusion of this case?
+
+54
+00:03:05,265 --> 00:03:09,005
+Well, 20.4% is not smaller than 5%,
+
+55
+00:03:09,005 --> 00:03:12,235
+so we would not reject the null hypothesis.
+
+56
+00:03:12,235 --> 00:03:15,050
+And so, remember, the interpretation of the p-value,
+
+57
+00:03:15,050 --> 00:03:20,605
+if the coin is fair, then there's a 20.4% chance to get such an extreme outcome.
+
+58
+00:03:20,605 --> 00:03:23,995
+So in other words, that's actually not very surprising.
+
+59
+00:03:23,995 --> 00:03:28,675
+And that means, there's not enough evidence to reject the null hypothesis.
+
+60
+00:03:28,675 --> 00:03:31,485
+But keep in mind that the p-value does not
+
+61
+00:03:31,485 --> 00:03:34,635
+give the probability that the null hypothesis is true.
+
+62
+00:03:34,635 --> 00:03:38,525
+That's because the null hypothesis is either true or not,
+
+63
+00:03:38,525 --> 00:03:40,815
+and there are no chances involved in that one.
+
+64
+00:03:40,815 --> 00:03:43,390
+Rather, what the p-value does is,
+
+65
+00:03:43,390 --> 00:03:45,765
+it gives the probability of seeing
+
+66
+00:03:45,765 --> 00:03:50,835
+a statistic which is as extreme or even more extreme than the one you observe,
+
+67
+00:03:50,835 --> 00:03:54,000
+under the assumption that the null hypothesis is true.

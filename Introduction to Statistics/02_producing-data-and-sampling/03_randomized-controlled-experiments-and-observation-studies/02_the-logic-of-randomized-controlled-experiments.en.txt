@@ -1,0 +1,7 @@
+Remember that a good experiment requires
+that the subjects are assigned to treatment of control by a random process. The idea is that any confounders
+operate equally on both groups. Of course, since we are using
+a random assignment, there's a chance that one confounder is more prevalent
+in one group than the other. But here's the second key point. Because we use a random assignment, we
+can actually calculate the size of these chance effects when we evaluate
+the outcome of the experiment. We will see later how to do that.

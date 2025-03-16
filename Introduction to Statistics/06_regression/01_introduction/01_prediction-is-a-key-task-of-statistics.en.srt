@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:04,830
+Regression is arguably the most important statistical technique.
+
+2
+00:00:04,830 --> 00:00:09,390
+It is extremely versatile, and can be used for problems where at first sight,
+
+3
+00:00:09,390 --> 00:00:12,575
+one might not have expected that regression is useful.
+
+4
+00:00:12,575 --> 00:00:15,210
+We will discuss the main ideas for inference and
+
+5
+00:00:15,210 --> 00:00:18,090
+regression and how to do regression diagnostics.
+
+6
+00:00:18,090 --> 00:00:20,764
+We will also look at some pitfalls.
+
+7
+00:00:20,764 --> 00:00:27,165
+The histogram on the top left shows the heights of 928 sons.
+
+8
+00:00:27,165 --> 00:00:31,570
+The average of the heights is 68.1 inches.
+
+9
+00:00:31,570 --> 00:00:37,050
+Now suppose we pick one of these sons at random and the task is to predict his height.
+
+10
+00:00:37,050 --> 00:00:40,335
+In fact, what one typically finds in statistics
+
+11
+00:00:40,335 --> 00:00:45,910
+is taking the average is in some sense the best predictor.
+
+12
+00:00:45,910 --> 00:00:49,135
+Now suppose we have more information.
+
+13
+00:00:49,135 --> 00:00:53,790
+Not only do we have a histogram of the heights for the sons,
+
+14
+00:00:53,790 --> 00:00:58,185
+but we also know the heights of their fathers.
+
+15
+00:00:58,185 --> 00:01:05,380
+The heights of these 928 father-son pairs are given in the scatter plot on the left.
+
+16
+00:01:05,380 --> 00:01:08,320
+Again we have to predict the height of a son,
+
+17
+00:01:08,320 --> 00:01:13,005
+but now suppose we know that the father is 72 inches tall.
+
+18
+00:01:13,005 --> 00:01:18,690
+Clearly this additional information should help us somehow in our prediction.
+
+19
+00:01:18,710 --> 00:01:24,500
+The reason for this is that if we know that the father is 72 inches tall,
+
+20
+00:01:24,500 --> 00:01:29,640
+then we know that they are somewhere among this group of fathers and sons.
+
+21
+00:01:29,640 --> 00:01:35,350
+And we know that for this group the heights of the sons are on the higher end.
+
+22
+00:01:35,350 --> 00:01:39,580
+What this means is that the additional information of knowing
+
+23
+00:01:39,580 --> 00:01:44,480
+the father's height should allow us to come up with a better predictor.
+
+24
+00:01:44,480 --> 00:01:48,950
+And that is precisely what a regression does for us.

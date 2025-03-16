@@ -1,0 +1,39 @@
+So here's a survey question
+that's quite tricky. What percentage of students have
+cheated during an exam in college? The problem here is that you cannot simply
+ask students whether they have cheated. Students may simply be too embarrassed to
+answer truthfully, so what can be done? This is being addressed with
+what's called randomization. It works as follows. We do a survey that first instructs
+students to toss a coin twice. If the student gets
+tails on the first toss, then the student has to answer question 1. Otherwise, the student
+has to answer question 2. Here are the two questions. Question 1 says, have you ever
+cheated on an exam in college? Question 2 is,
+did you get tails on the second toss? So why are we doing this? The answer we are going to
+get will be partly random. A yes answer could be due to
+the student answering question 1 and having cheated on an exam,
+or it could be due to the student answering question 2 in
+getting tails on the second toss. So a yes answer doesn't
+really tell us anything, and this should put the student
+at ease to answer truthfully. So if a yes answer doesn't tell us
+anything, then why does that work at all? So here's the key point. We cannot really tell what an individual
+yes means, but by looking at all the answers collectively, we can actually
+estimate the proportion of cheaters. Here's how it works. A yes answer can come from
+either question 1 or question 2. So we can divide up the event
+of a yes into two parts. This is the same reasoning that we've
+used before with the spam filter. So the probability of a yes answer could
+be a probability of a yes answer and question 1 was answered, plus
+the probability of a yes answer and question 2 was answered. And now I simply plug in the formulas for conditional probabilities,
+and I get this. What we are interested
+in is this probability. A yes answer on question 1,
+which is the question about cheating. So what we do is we solve for this
+probability, and we get this expression. So let's see, we know the probability
+that question 2 was asked. That's just a half, because it
+depended on the first coin toss. The probability that question
+1 was asked is also half. And the probability of a yes answer
+given question 2 was asked, that's also half because question 2 simply asks
+whether you got tails on the second toss. So the only thing which we don't know is
+the probability that the answer will be yes. But this we can estimate from data. In one survey, 27 students answered yes and
+30 answered no. So we can estimate the probability of
+a yes answer as 27 over 57, which is 47%. Now we plug in and we find that
+the probability of a yes answer, given question 1 was answered, is 44%. So we can estimate that about
+44% of all students have cheated on an exam in college.

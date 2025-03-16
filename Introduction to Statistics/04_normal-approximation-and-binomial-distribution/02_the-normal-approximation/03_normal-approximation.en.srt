@@ -1,0 +1,183 @@
+1
+00:00:00,000 --> 00:00:07,300
+Normal approximation means to use the area under the normal curve to figure percentages.
+
+2
+00:00:07,300 --> 00:00:10,095
+Let's look at an example.
+
+3
+00:00:10,095 --> 00:00:18,410
+What percentage of fathers have heights between 67.4 inches and 71.9 inches?
+
+4
+00:00:18,410 --> 00:00:22,250
+Remember that we know the mean and the standard deviation
+
+5
+00:00:22,250 --> 00:00:25,860
+for those data and that's really all we need to know.
+
+6
+00:00:25,860 --> 00:00:29,315
+Normal approximation consists of four steps.
+
+7
+00:00:29,315 --> 00:00:30,640
+In the first steps,
+
+8
+00:00:30,640 --> 00:00:33,080
+we standardize the data.
+
+9
+00:00:33,080 --> 00:00:38,975
+That means, we take the endpoint, 67.4 inches,
+
+10
+00:00:38,975 --> 00:00:41,115
+and we subtract of the mean,
+
+11
+00:00:41,115 --> 00:00:43,275
+divide by standard deviation,
+
+12
+00:00:43,275 --> 00:00:47,460
+and we get a standardized value of -0.5.
+
+13
+00:00:47,460 --> 00:00:53,405
+Then we do the same thing with the other endpoint of 71.9 inches,
+
+14
+00:00:53,405 --> 00:00:56,130
+and we get a z score of 2.
+
+15
+00:00:56,130 --> 00:00:57,920
+In the second step,
+
+16
+00:00:57,920 --> 00:01:01,930
+we mark the area on the histogram we're interested in.
+
+17
+00:01:01,930 --> 00:01:10,430
+67.4 is somewhere here and 71.9 is here.
+
+18
+00:01:10,430 --> 00:01:15,360
+So, we want to know the shaded area in that histogram.
+
+19
+00:01:15,360 --> 00:01:19,280
+Once we standardize, we get
+
+20
+00:01:19,280 --> 00:01:22,950
+a standard normal curve and we've
+
+21
+00:01:22,950 --> 00:01:29,165
+seen that the left endpoint gets standardized to -0.5,
+
+22
+00:01:29,165 --> 00:01:34,870
+and the right endpoint gets standardized to 2.
+
+23
+00:01:34,870 --> 00:01:41,930
+So now, we have to find the shaded area under the standard normal curve.
+
+24
+00:01:41,930 --> 00:01:49,915
+At this point, we use a computer or a table to look up that area.
+
+25
+00:01:49,915 --> 00:01:54,960
+That requires us to do a small extra step,
+
+26
+00:01:54,960 --> 00:02:03,120
+because typically, software requires us to look at areas that come in a certain form.
+
+27
+00:02:03,120 --> 00:02:08,840
+Typically, we can look at the area to the left of a given value.
+
+28
+00:02:08,840 --> 00:02:17,170
+In our example, we were interested in the area between -0.5 and 2.
+
+29
+00:02:19,250 --> 00:02:25,265
+Since software can give us only the value to the left of a number,
+
+30
+00:02:25,265 --> 00:02:29,295
+we have to rewrite the whole thing accordingly.
+
+31
+00:02:29,295 --> 00:02:32,290
+So, what we are going to do is,
+
+32
+00:02:32,290 --> 00:02:38,510
+we write this as all of the area to the left of 2,
+
+33
+00:02:39,430 --> 00:02:47,850
+and then we subtract off the area to the left of -0.5.
+
+34
+00:02:49,990 --> 00:02:56,780
+Both of these areas can be looked up in computer programs.
+
+35
+00:02:56,780 --> 00:03:01,210
+Once we look at these areas with software, or on a table,
+
+36
+00:03:01,210 --> 00:03:08,615
+we find that the first one is 97.7% and the second one is 30.9%.
+
+37
+00:03:08,615 --> 00:03:15,315
+And so, the area we're interested in is simply the difference, which is 66.8%.
+
+38
+00:03:15,315 --> 00:03:19,210
+By now, you've probably realized that
+
+39
+00:03:19,210 --> 00:03:23,210
+the empirical rule is simply a special case of normal approximation.
+
+40
+00:03:23,210 --> 00:03:27,920
+Remember, the empirical rule says that there's 95% of
+
+41
+00:03:27,920 --> 00:03:33,090
+the data between the standardized values of -2 and 2.
+
+42
+00:03:33,090 --> 00:03:39,250
+That leaves us 2.5% to the left of -2.
+
+43
+00:03:39,250 --> 00:03:47,810
+So, the total area to the left of 2 is 2.5% + 95%,
+
+44
+00:03:47,810 --> 00:03:52,805
+and that gives us 97.5%.
+
+45
+00:03:52,805 --> 00:03:56,850
+So, this rule of thumb is very close to the
+
+46
+00:03:56,850 --> 00:04:02,920
+97.7% that we got on the previous slide using software.

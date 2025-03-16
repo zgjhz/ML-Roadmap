@@ -1,0 +1,180 @@
+1
+00:00:00,750 --> 00:00:02,150
+The amount of information and
+
+2
+00:00:02,150 --> 00:00:06,800
+data that are becoming available
+to us is growing exponentially.
+
+3
+00:00:06,800 --> 00:00:11,070
+As the amount of available data grows,
+so is our need to understand it.
+
+4
+00:00:12,080 --> 00:00:16,870
+Statistics is the science of learning
+from data. This course will help you to
+
+5
+00:00:16,870 --> 00:00:22,150
+develop the skills you need to analyze
+data and to communicate your findings.
+
+6
+00:00:22,150 --> 00:00:24,650
+There won't be many
+formulas in the course.
+
+7
+00:00:24,650 --> 00:00:28,600
+Rather, we will develop the key
+ideas of statistical thinking
+
+8
+00:00:28,600 --> 00:00:30,370
+that are essential for learning from data.
+
+9
+00:00:31,590 --> 00:00:36,260
+When you take this course, it is helpful
+if you have access to a spreadsheet,
+
+10
+00:00:36,260 --> 00:00:41,410
+a software package, or website that
+provides basic statistical functions,
+
+11
+00:00:41,410 --> 00:00:44,150
+such as areas under the normal curve.
+
+12
+00:00:44,150 --> 00:00:46,700
+But proficiency in
+a programming language is not
+
+13
+00:00:46,700 --> 00:00:49,710
+necessary to master the contents and
+to complete the course.
+
+14
+00:00:50,950 --> 00:00:55,276
+We will discuss the main tools for
+descriptive statistics which are essential
+
+15
+00:00:55,276 --> 00:00:59,091
+for exploring data, with an emphasis
+on visualizing information.
+
+16
+00:00:59,091 --> 00:01:04,280
+We will explain the important ideas about
+sampling and conducting experiments.
+
+17
+00:01:04,280 --> 00:01:08,090
+Then we will look over some
+important rules of probability and
+
+18
+00:01:08,090 --> 00:01:10,900
+discuss normal approximation and
+the central limit theorem.
+
+19
+00:01:12,020 --> 00:01:15,780
+We will show you the important concepts
+and pitfalls of regression and
+
+20
+00:01:15,780 --> 00:01:19,570
+how to do inference with confidence
+intervals and tests of hypotheses.
+
+21
+00:01:20,910 --> 00:01:24,410
+You will learn the key ideas about
+computer-intensive inference
+
+22
+00:01:24,410 --> 00:01:26,910
+with the Monte Carlo method and
+the Bootstrap.
+
+23
+00:01:26,910 --> 00:01:29,620
+We will show you how to
+analyze categorical data and
+
+24
+00:01:29,620 --> 00:01:31,870
+discuss one-way analysis of variance.
+
+25
+00:01:32,890 --> 00:01:36,480
+Finally, we will look at reproducibility,
+data snooping and
+
+26
+00:01:36,480 --> 00:01:41,530
+the multiple testing fallacy and
+how to account for multiple comparisons.
+
+27
+00:01:41,530 --> 00:01:45,220
+These issues have become particularly
+important in the era of big data.
+
+28
+00:01:46,730 --> 00:01:50,870
+Broadly, there are three main reasons
+why statistical literacy is essential
+
+29
+00:01:50,870 --> 00:01:51,700
+in data science.
+
+30
+00:01:52,720 --> 00:01:57,720
+First, it provides the skills to assess
+whether the data are sufficient to
+
+31
+00:01:57,720 --> 00:02:00,090
+answer the questions at hand.
+
+32
+00:02:00,090 --> 00:02:05,500
+Second, it establishes a rigorous
+framework for quantifying uncertainty.
+
+33
+00:02:05,500 --> 00:02:07,560
+And finally, it provides techniques for
+
+34
+00:02:07,560 --> 00:02:10,670
+effectively communicating
+the findings of your analyses.
+
+35
+00:02:11,780 --> 00:02:16,250
+This course equips you with important
+tools in all of these areas.
+
+36
+00:02:16,250 --> 00:02:21,070
+It is the statistical foundation on which
+the recent exciting advances in machine
+
+37
+00:02:21,070 --> 00:02:22,600
+learning are built.
+
+38
+00:02:22,600 --> 00:02:24,230
+I hope you will enjoy the course.

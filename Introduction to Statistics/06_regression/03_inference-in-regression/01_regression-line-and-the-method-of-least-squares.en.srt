@@ -1,0 +1,131 @@
+1
+00:00:00,000 --> 00:00:02,525
+So, how does regression work?
+
+2
+00:00:02,525 --> 00:00:04,080
+Let's look at this scatter,
+
+3
+00:00:04,080 --> 00:00:09,235
+it shows the age and the percent of body fat for a number of people.
+
+4
+00:00:09,235 --> 00:00:12,255
+This scatter appears roughly linear.
+
+5
+00:00:12,255 --> 00:00:15,650
+So this is a case where we might use regression.
+
+6
+00:00:15,650 --> 00:00:20,955
+The idea is that we want to summarize this scatter by a line.
+
+7
+00:00:20,955 --> 00:00:26,975
+This line should look something like this one, and the question is how do we get it?
+
+8
+00:00:26,975 --> 00:00:31,120
+Recall that the equation of a line looks like this,
+
+9
+00:00:31,120 --> 00:00:38,915
+you have an intercept a, plus a slope times the argument x.
+
+10
+00:00:38,915 --> 00:00:43,600
+So, if we plug in the ith x variable,
+
+11
+00:00:43,600 --> 00:00:50,035
+then the equation of a line gives us a point which we call yi hat.
+
+12
+00:00:50,035 --> 00:00:57,310
+The idea of finding the line is we want to look at those values of a and b that
+
+13
+00:00:57,310 --> 00:01:05,670
+minimize the difference between the point on the line yi hat, and the true observed value yi.
+
+14
+00:01:05,670 --> 00:01:11,545
+One way to do that is to look at the difference between yi and yi hat,
+
+15
+00:01:11,545 --> 00:01:15,285
+square it up, and sum it over all the observations,
+
+16
+00:01:15,285 --> 00:01:20,720
+and then we want to find a and b to minimize that sum.
+
+17
+00:01:20,720 --> 00:01:25,130
+Minimizing that sum in a and b can be
+
+18
+00:01:25,130 --> 00:01:29,860
+done either by calculus or simply using software on the computer.
+
+19
+00:01:29,860 --> 00:01:34,775
+The whole idea is called the method of least squares.
+
+20
+00:01:34,775 --> 00:01:37,665
+It turns out that the solutions
+
+21
+00:01:37,665 --> 00:01:41,280
+involve all the summary quantities that we looked at before.
+
+22
+00:01:41,280 --> 00:01:48,545
+The slope equals the correlation coefficient times the ratio of the two standard deviations,
+
+23
+00:01:48,545 --> 00:01:54,310
+and the intercept involves the means as well as the slope previously derived.
+
+24
+00:01:54,310 --> 00:01:57,780
+This line is called the regression line.
+
+25
+00:01:57,780 --> 00:02:02,075
+Now there's another interpretation of the regression line.
+
+26
+00:02:02,075 --> 00:02:05,435
+It computes the average value of y,
+
+27
+00:02:05,435 --> 00:02:08,455
+when the first coordinate is near x.
+
+28
+00:02:08,455 --> 00:02:15,940
+Remember, the idea in statistics is that an average is oftentimes a best predictor.
+
+29
+00:02:15,940 --> 00:02:22,450
+So by computing averages of y values, where the first coordinate is near x,
+
+30
+00:02:22,450 --> 00:02:24,910
+we finesse that argument somewhat to
+
+31
+00:02:24,910 --> 00:02:29,225
+incorporate the information given to us in terms of x.
+
+32
+00:02:29,225 --> 00:02:32,780
+And the idea would be that this is a better predictor
+
+33
+00:02:32,780 --> 00:02:36,950
+of y than simply taking the average of all the y's.

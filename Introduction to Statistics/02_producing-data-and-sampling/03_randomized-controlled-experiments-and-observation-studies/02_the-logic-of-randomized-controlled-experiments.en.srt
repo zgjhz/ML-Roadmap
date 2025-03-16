@@ -1,0 +1,41 @@
+1
+00:00:00,490 --> 00:00:04,762
+Remember that a good experiment requires
+that the subjects are assigned to
+
+2
+00:00:04,762 --> 00:00:07,220
+treatment of control by a random process.
+
+3
+00:00:08,250 --> 00:00:14,000
+The idea is that any confounders
+operate equally on both groups.
+
+4
+00:00:15,710 --> 00:00:20,120
+Of course, since we are using
+a random assignment, there's a chance
+
+5
+00:00:20,120 --> 00:00:23,730
+that one confounder is more prevalent
+in one group than the other.
+
+6
+00:00:26,130 --> 00:00:28,320
+But here's the second key point.
+
+7
+00:00:28,320 --> 00:00:33,140
+Because we use a random assignment, we
+can actually calculate the size of these
+
+8
+00:00:33,140 --> 00:00:38,150
+chance effects when we evaluate
+the outcome of the experiment.
+
+9
+00:00:38,150 --> 00:00:39,700
+We will see later how to do that.

@@ -1,0 +1,131 @@
+1
+00:00:00,000 --> 00:00:02,780
+A nice fact about the normal curve is,
+
+2
+00:00:02,780 --> 00:00:07,200
+that it is completely determined by the mean and the standard deviation.
+
+3
+00:00:07,200 --> 00:00:10,405
+Once we know the mean and the standard deviation,
+
+4
+00:00:10,405 --> 00:00:14,560
+then we know the whole histogram and we can compute percentages.
+
+5
+00:00:14,560 --> 00:00:18,535
+To do that, we first standardize the data.
+
+6
+00:00:18,535 --> 00:00:23,035
+Standardizing means that we take the data, in this case,
+
+7
+00:00:23,035 --> 00:00:29,115
+the height measurements and we subtract of the mean and divide by the standard deviation.
+
+8
+00:00:29,115 --> 00:00:35,115
+Oftentimes, the resulting standardized data is denoted by z.
+
+9
+00:00:35,115 --> 00:00:39,615
+It's called a standardized value or a z-score.
+
+10
+00:00:39,615 --> 00:00:43,340
+Now keep in mind that z has no units.
+
+11
+00:00:43,340 --> 00:00:46,355
+In this example where we looked at heights,
+
+12
+00:00:46,355 --> 00:00:48,090
+heights come in inches,
+
+13
+00:00:48,090 --> 00:00:52,450
+and the mean and the standard deviation all come in inches,
+
+14
+00:00:52,450 --> 00:00:56,110
+but the z-scores have no units whatsoever,
+
+15
+00:00:56,110 --> 00:00:59,550
+and that's simply because we have inches in
+
+16
+00:00:59,550 --> 00:01:02,925
+the numerator and we have inches in the denominator,
+
+17
+00:01:02,925 --> 00:01:04,850
+and so the inches cancel out.
+
+18
+00:01:04,850 --> 00:01:11,285
+Z tells you how many standard deviations the measurement is above or below average.
+
+19
+00:01:11,285 --> 00:01:14,680
+For example, if z = 2,
+
+20
+00:01:14,680 --> 00:01:18,565
+that means the height is two standard deviations above average.
+
+21
+00:01:18,565 --> 00:01:20,955
+If z is -1.5,
+
+22
+00:01:20,955 --> 00:01:26,355
+then we know that the height is 1.5 standard deviations below average.
+
+23
+00:01:26,355 --> 00:01:28,550
+Once we standardize the data,
+
+24
+00:01:28,550 --> 00:01:32,320
+they have mean 0 and standard deviation equal to 1.
+
+25
+00:01:32,320 --> 00:01:35,130
+This is the whole point of the exercise.
+
+26
+00:01:35,130 --> 00:01:39,600
+We already saw that fathers' heights follow the normal curve with a mean of
+
+27
+00:01:39,600 --> 00:01:44,645
+68.3 inches and a standard deviation of 1.8 inches.
+
+28
+00:01:44,645 --> 00:01:49,220
+After we standardize, the standardized values follow what's
+
+29
+00:01:49,220 --> 00:01:54,260
+called the standard normal curve which has mean 0 and standard deviation 1.
+
+30
+00:01:54,260 --> 00:01:57,920
+Here's a graph of the standard normal curve.
+
+31
+00:01:57,920 --> 00:02:02,540
+You can plot this graph using the equation y = 1 over
+
+32
+00:02:02,540 --> 00:02:06,840
+square root 2 pi times e to -1/2 x-squared.
+
+33
+00:02:06,840 --> 00:02:11,510
+Don't worry, we are not going to use that formula in this class.

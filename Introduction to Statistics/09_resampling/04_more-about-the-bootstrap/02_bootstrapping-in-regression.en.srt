@@ -1,0 +1,159 @@
+1
+00:00:00,000 --> 00:00:04,685
+Now, let's look at bootstrapping in a more complicated situation.
+
+2
+00:00:04,685 --> 00:00:08,530
+Let's look at the case where we have pairs of data,
+
+3
+00:00:08,530 --> 00:00:10,775
+and we look at a regression model.
+
+4
+00:00:10,775 --> 00:00:15,100
+Remember our regression model says that the Y observation is
+
+5
+00:00:15,100 --> 00:00:19,060
+a linear function of the X's, plus a measurement error,
+
+6
+00:00:19,060 --> 00:00:23,575
+e. We already saw how we can use these squares,
+
+7
+00:00:23,575 --> 00:00:27,700
+to estimate the unknown parameters A and B.
+
+8
+00:00:27,700 --> 00:00:33,115
+And that gives us least square estimates a hat, and b hat.
+
+9
+00:00:33,115 --> 00:00:37,760
+Now, we would like to have some standard errors for these estimates.
+
+10
+00:00:37,760 --> 00:00:41,465
+How would we use the bootstrap to do that?
+
+11
+00:00:41,465 --> 00:00:44,015
+The key point here is,
+
+12
+00:00:44,015 --> 00:00:48,360
+that we don't re-sample the whole pairs of observations,
+
+13
+00:00:48,360 --> 00:00:52,740
+but rather we re-sample the error terms.
+
+14
+00:00:52,740 --> 00:00:55,835
+Now, of course we don't know the error terms,
+
+15
+00:00:55,835 --> 00:00:57,780
+but what we can do is,
+
+16
+00:00:57,780 --> 00:01:01,965
+we can use the residuals in place of the error terms.
+
+17
+00:01:01,965 --> 00:01:07,640
+Remember, once we fit a regression line and we have observations of the line,
+
+18
+00:01:07,640 --> 00:01:11,370
+then the residuals are simply the vertical distances to the line.
+
+19
+00:01:11,370 --> 00:01:15,460
+And if the regression line is a good estimator,
+
+20
+00:01:15,460 --> 00:01:18,335
+then the residual should behave similarly,
+
+21
+00:01:18,335 --> 00:01:20,545
+to the unknown error terms.
+
+22
+00:01:20,545 --> 00:01:23,310
+While the error terms, e, are unknown,
+
+23
+00:01:23,310 --> 00:01:27,560
+we do know the residuals because we fit the regression line.
+
+24
+00:01:27,560 --> 00:01:31,375
+So we can draw a bootstrap sample from those residuals,
+
+25
+00:01:31,375 --> 00:01:39,760
+and we get n bootstrap residuals e star 1 to e star n. In the next step,
+
+26
+00:01:39,760 --> 00:01:44,120
+we pretend that the estimated regression line is the true line,
+
+27
+00:01:44,120 --> 00:01:48,155
+and we add on the bootstrapped residuals.
+
+28
+00:01:48,155 --> 00:01:52,790
+That generates a new set of observations, Y star.
+
+29
+00:01:52,790 --> 00:01:55,910
+So, the X's stay the same,
+
+30
+00:01:55,910 --> 00:02:00,650
+but the Y stars are now different because they are generated from the
+
+31
+00:02:00,650 --> 00:02:05,990
+X's and the estimated regression line with the bootstrap residual added on.
+
+32
+00:02:05,990 --> 00:02:09,139
+This gives us a bootstrap sample X1,
+
+33
+00:02:09,139 --> 00:02:12,380
+Y1 star up to X n, Yn star.
+
+34
+00:02:12,380 --> 00:02:14,765
+And from that sample,
+
+35
+00:02:14,765 --> 00:02:20,700
+we can estimate the parameters a hat and b hat in the usual way by least squares.
+
+36
+00:02:20,700 --> 00:02:24,010
+And now we follow the usual bootstrap algorithm,
+
+37
+00:02:24,010 --> 00:02:27,930
+we repeat this whole process 1000 times,
+
+38
+00:02:27,930 --> 00:02:31,820
+and then we estimate a standard error of a hat
+
+39
+00:02:31,820 --> 00:02:35,870
+by the standard deviation of these 1,000 estimates,
+
+40
+00:02:35,870 --> 00:02:38,870
+a hat star, and likewise for b hat.

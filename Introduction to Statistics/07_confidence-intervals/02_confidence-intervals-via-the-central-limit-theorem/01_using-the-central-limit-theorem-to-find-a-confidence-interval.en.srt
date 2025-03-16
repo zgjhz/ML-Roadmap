@@ -1,0 +1,183 @@
+1
+00:00:00,000 --> 00:00:04,690
+The idea of a confidence interval is that it gives a range
+
+2
+00:00:04,690 --> 00:00:09,175
+of plausible values for a population parameter which we call mu.
+
+3
+00:00:09,175 --> 00:00:14,830
+Usually, a confidence interval is constructed around an estimate for mu,
+
+4
+00:00:14,830 --> 00:00:18,505
+which oftentimes is some form of an average.
+
+5
+00:00:18,505 --> 00:00:20,930
+Let's look at some examples.
+
+6
+00:00:20,930 --> 00:00:22,735
+In the first example,
+
+7
+00:00:22,735 --> 00:00:26,210
+the population parameter mu we're interested in is
+
+8
+00:00:26,210 --> 00:00:30,380
+the approval percentage among all 140 million likely voters.
+
+9
+00:00:30,380 --> 00:00:35,590
+As an estimate, we use the approval percentage among the voters in our sample.
+
+10
+00:00:35,590 --> 00:00:38,975
+This percentage is an average in
+
+11
+00:00:38,975 --> 00:00:43,125
+our usual accounting schemes where we have 0 and 1 labels.
+
+12
+00:00:43,125 --> 00:00:47,460
+As another example, suppose we want to measure the speed of light.
+
+13
+00:00:47,460 --> 00:00:53,410
+In that case, our estimate would be the average of, say, 30 measurements.
+
+14
+00:00:53,410 --> 00:00:56,905
+A key point now is that if we use averages,
+
+15
+00:00:56,905 --> 00:00:59,910
+then we know that the central limit theorem applies.
+
+16
+00:00:59,910 --> 00:01:04,340
+Therefore, we have a very simple form for the confidence interval,
+
+17
+00:01:04,340 --> 00:01:10,485
+which is simply the estimate plus minus a z-value times the standard error.
+
+18
+00:01:10,485 --> 00:01:14,855
+And that z-value simply comes from the normal approximation.
+
+19
+00:01:14,855 --> 00:01:17,300
+Which z-value should we take?
+
+20
+00:01:17,300 --> 00:01:20,825
+Well, that depends on the desired confidence level.
+
+21
+00:01:20,825 --> 00:01:25,165
+For example, if we would like to have a 95% confidence level,
+
+22
+00:01:25,165 --> 00:01:28,335
+then we get z = 1.96.
+
+23
+00:01:28,335 --> 00:01:31,990
+That comes from normal approximation where we look at
+
+24
+00:01:31,990 --> 00:01:38,140
+the value of the z such that 95% lies in the middle.
+
+25
+00:01:38,140 --> 00:01:42,960
+That value of z is 1.96 or,
+
+26
+00:01:42,960 --> 00:01:45,130
+oftentimes, we simply use 2.
+
+27
+00:01:45,130 --> 00:01:49,360
+On the other hand, if we were interested in a 90% confidence level,
+
+28
+00:01:49,360 --> 00:01:52,385
+then we would find z = 1.65.
+
+29
+00:01:52,385 --> 00:01:55,220
+And for a 99% confidence level,
+
+30
+00:01:55,220 --> 00:01:58,420
+we would get z = 2.58.
+
+31
+00:01:58,420 --> 00:02:04,825
+The third number which we have to write down for our confidence interval is the SE.
+
+32
+00:02:04,825 --> 00:02:07,785
+That's the standard error of the estimate.
+
+33
+00:02:07,785 --> 00:02:10,810
+If the estimate is an average, for example,
+
+34
+00:02:10,810 --> 00:02:14,535
+or a percentage, then we know that by the square root law,
+
+35
+00:02:14,535 --> 00:02:18,570
+the standard error is sigma over square root sample size,
+
+36
+00:02:18,570 --> 00:02:21,505
+where sigma is the standard deviation of the population.
+
+37
+00:02:21,505 --> 00:02:26,220
+So, now we have a small problem because we need to know sigma,
+
+38
+00:02:26,220 --> 00:02:29,805
+but we don't because sigma is
+
+39
+00:02:29,805 --> 00:02:35,300
+the standard deviation of the population and we don't know what the population is.
+
+40
+00:02:35,300 --> 00:02:41,170
+A way out of this is to simply estimate sigma from the sample.
+
+41
+00:02:41,170 --> 00:02:42,400
+That is, we use
+
+42
+00:02:42,400 --> 00:02:46,480
+a sample standard deviation in place of the population standard deviation.
+
+43
+00:02:46,480 --> 00:02:48,360
+That's a very simple idea.
+
+44
+00:02:48,360 --> 00:02:53,960
+And we will see later that this idea can be used in much more complicated situations.
+
+45
+00:02:53,960 --> 00:02:55,810
+For that reason, it has a name.
+
+46
+00:02:55,810 --> 00:02:58,000
+It's called the bootstrap principle.

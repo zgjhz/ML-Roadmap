@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:04,230
+We will now look at the empirical rule, and norm approximation for data.
+
+2
+00:00:04,230 --> 00:00:10,530
+This is an important technique in statistics, because it is used in many statistical procedures.
+
+3
+00:00:10,530 --> 00:00:16,830
+We will also discuss the binomial distribution, and some basic ideas about random variables.
+
+4
+00:00:16,830 --> 00:00:23,830
+It turns out that many data have histograms which have a very characteristic shape.
+
+5
+00:00:23,830 --> 00:00:30,830
+Heights, weights, IQ scores, and many other data have a histogram which has a bell shape.
+
+6
+00:00:30,830 --> 00:00:39,530
+The histogram that you see here shows the heights of 928 fathers that were collected
+
+7
+00:00:39,530 --> 00:00:43,530
+by Sir Francis Galton in the 19th century.
+
+8
+00:00:43,530 --> 00:00:47,530
+This is a typical example of a bell-shaped histogram.
+
+9
+00:00:47,530 --> 00:00:55,030
+In such a case, one says that the data follow the normal curve.
+
+10
+00:00:55,030 --> 00:00:59,050
+But keep in mind that some data have histograms that are quite different.
+
+11
+00:00:59,050 --> 00:01:03,000
+We already saw that when we looked at incomes.

@@ -1,0 +1,24 @@
+Remember when we talked about graphical
+summaries, we talked about the boxplot. The boxplot shows five
+numbers about the data. The smallest number,
+which is given on the lower whisker, the 1st quartile up here, the median,
+the 3rd quartile, and the largest number. The distance between the 3rd quartile and the 1st quartile tells you how
+much the data is spread out. This has a special name,
+it's called the interquartile range. When it comes to measuring
+spread in the data, it's more common to use a different
+measure, namely the standard deviation. You've probably seen the notation x bar,
+which stands for the average of a list of numbers. Let's call them x1 to xn. Here's the formula for
+the standard deviation of these numbers. It's not that important to remember
+the formula, since calculators and computers can compute it for you. But let's just have a look what
+the interpretation of that formula is. What the standard deviation does
+is it looks at the difference of each number from its average,
+squares the difference, and then looks at the average
+of those squared differences. And finally, it takes the square root. Sometimes, you see a formula that has
+n-1 instead of n in the denominator. Both of these formulas
+work roughly equally well. The mean and the standard deviation
+are often used to summarize data. The first one gives you
+a measure of center, and the second one gives a measure of spread. Both can be sensitive to a few large or small data,
+just as we saw in the example before. So if you're worried about that, for
+example, if the histogram is very skewed, then it may be better to use
+the median and the interquartile range. Of course, one problem is that many
+people don't know what the median and the interquartile range is. So you may have to explain that.

@@ -1,0 +1,99 @@
+1
+00:00:00,000 --> 00:00:02,245
+In our first module,
+
+2
+00:00:02,245 --> 00:00:04,455
+we will look at descriptive statistics.
+
+3
+00:00:04,455 --> 00:00:08,620
+That is, ways to summarize data with numbers and graphs.
+
+4
+00:00:08,620 --> 00:00:13,855
+In particular, we will look at some important principles for visualizing information.
+
+5
+00:00:13,855 --> 00:00:19,060
+This is important because most people prefer to look at figures, rather than at numbers.
+
+6
+00:00:19,060 --> 00:00:23,500
+So, it's best to communicate information with figures whenever possible.
+
+7
+00:00:23,500 --> 00:00:29,260
+Let's first look at an example that shows why descriptive statistics are so useful.
+
+8
+00:00:29,260 --> 00:00:35,520
+In January 1986, the space shuttle Challenger broke apart shortly after liftoff.
+
+9
+00:00:35,520 --> 00:00:39,700
+This accident was caused by a part that was not designed to
+
+10
+00:00:39,700 --> 00:00:44,140
+fly at the unusually cold temperature of 29 degrees at launch.
+
+11
+00:00:44,140 --> 00:00:48,935
+This was actually discussed by the engineers before the launch.
+
+12
+00:00:48,935 --> 00:00:51,200
+But let's look at the data.
+
+13
+00:00:51,200 --> 00:00:57,200
+Here is a list of the launch temperatures for the first 25 shuttle missions.
+
+14
+00:00:57,200 --> 00:00:59,880
+And if you look at this long list of numbers,
+
+15
+00:00:59,880 --> 00:01:02,330
+it's kind of difficult to see what's going on.
+
+16
+00:01:02,330 --> 00:01:06,170
+However, if we make a simpler graphic like this one,
+
+17
+00:01:06,170 --> 00:01:10,345
+we see immediately that the temperature of
+
+18
+00:01:10,345 --> 00:01:17,115
+29 degrees at launch day is really far below all the other temperatures.
+
+19
+00:01:17,115 --> 00:01:22,275
+So, this makes clear why a simple graphic can be very useful.
+
+20
+00:01:22,275 --> 00:01:26,000
+So, while descriptive statistics has a number of uses,
+
+21
+00:01:26,000 --> 00:01:30,225
+the two most important functions are to communicate information,
+
+22
+00:01:30,225 --> 00:01:32,880
+and to support reasoning about the data.
+
+23
+00:01:32,880 --> 00:01:35,985
+Also, when the data are really large,
+
+24
+00:01:35,985 --> 00:01:39,750
+then it becomes essential to use summaries because there's
+
+25
+00:01:39,750 --> 00:01:44,050
+simply no other way to look at the data or to use the data.

@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:03,275
+Here are some more important points on ANOVA.
+
+2
+00:00:03,275 --> 00:00:05,820
+The F-test that we looked at assumes that
+
+3
+00:00:05,820 --> 00:00:08,980
+all the groups have the same variance sigma squared.
+
+4
+00:00:08,980 --> 00:00:10,810
+This needs to be checked.
+
+5
+00:00:10,810 --> 00:00:15,075
+One way to roughly check it is simply look at the side-by-side boxplots,
+
+6
+00:00:15,075 --> 00:00:17,935
+but there are also formal tests that can be used for that.
+
+7
+00:00:17,935 --> 00:00:20,520
+Another assumption that we used was that
+
+8
+00:00:20,520 --> 00:00:23,605
+the data are independent within and across groups.
+
+9
+00:00:23,605 --> 00:00:28,820
+If the data we get are the results of a randomized controlled experiment,
+
+10
+00:00:28,820 --> 00:00:32,570
+then this randomization condition would be met.
+
+11
+00:00:32,570 --> 00:00:36,985
+On the other hand, if the data were obtained from an observational study,
+
+12
+00:00:36,985 --> 00:00:40,055
+then we have to be careful with the analysis.
+
+13
+00:00:40,055 --> 00:00:43,800
+Not only may the assumptions not be met,
+
+14
+00:00:43,800 --> 00:00:46,800
+but we have to be careful with the conclusion, because remember,
+
+15
+00:00:46,800 --> 00:00:49,110
+if we have an observational study,
+
+16
+00:00:49,110 --> 00:00:54,820
+we cannot conclude that there is causation going on, because there could be confounders.
+
+17
+00:00:54,820 --> 00:00:59,960
+Finally, suppose we do the ANOVA and the F-test rejects.
+
+18
+00:00:59,960 --> 00:01:04,525
+So, the conclusion is that the group means are not all equal.
+
+19
+00:01:04,525 --> 00:01:08,150
+The next question then is how are they different?
+
+20
+00:01:08,150 --> 00:01:14,890
+One way to look more closely at those differences would be to use the two-sample t-tests,
+
+21
+00:01:14,890 --> 00:01:18,375
+comparing all possible pairs of means.
+
+22
+00:01:18,375 --> 00:01:23,445
+In this case, one would use the pooled standard deviation for the t-test.
+
+23
+00:01:23,445 --> 00:01:26,100
+This is simply the within group variation.
+
+24
+00:01:26,100 --> 00:01:29,580
+So, it's the square root of the error mean square,
+
+25
+00:01:29,580 --> 00:01:32,765
+but since we would look at many of such comparisons,
+
+26
+00:01:32,765 --> 00:01:37,150
+we have to be a little bit careful with our tests and have to make an adjustment.
+
+27
+00:01:37,150 --> 00:01:40,330
+We will talk about this in the next module.

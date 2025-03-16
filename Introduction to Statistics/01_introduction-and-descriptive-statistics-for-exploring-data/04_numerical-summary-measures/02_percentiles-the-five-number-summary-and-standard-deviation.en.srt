@@ -1,0 +1,150 @@
+1
+00:00:00,200 --> 00:00:05,470
+Remember when we talked about graphical
+summaries, we talked about the boxplot.
+
+2
+00:00:05,470 --> 00:00:08,880
+The boxplot shows five
+numbers about the data.
+
+3
+00:00:08,880 --> 00:00:13,668
+The smallest number,
+which is given on the lower whisker,
+
+4
+00:00:13,668 --> 00:00:20,590
+the 1st quartile up here, the median,
+the 3rd quartile, and the largest number.
+
+5
+00:00:24,428 --> 00:00:27,942
+The distance between the 3rd quartile and
+
+6
+00:00:27,942 --> 00:00:32,830
+the 1st quartile tells you how
+much the data is spread out.
+
+7
+00:00:34,350 --> 00:00:38,570
+This has a special name,
+it's called the interquartile range.
+
+8
+00:00:42,180 --> 00:00:44,900
+When it comes to measuring
+spread in the data,
+
+9
+00:00:44,900 --> 00:00:48,250
+it's more common to use a different
+measure, namely the standard deviation.
+
+10
+00:00:49,480 --> 00:00:53,540
+You've probably seen the notation x bar,
+which stands for
+
+11
+00:00:53,540 --> 00:00:55,660
+the average of a list of numbers.
+
+12
+00:00:55,660 --> 00:00:57,620
+Let's call them x1 to xn.
+
+13
+00:00:59,170 --> 00:01:02,450
+Here's the formula for
+the standard deviation of these numbers.
+
+14
+00:01:03,730 --> 00:01:07,400
+It's not that important to remember
+the formula, since calculators and
+
+15
+00:01:07,400 --> 00:01:10,090
+computers can compute it for you.
+
+16
+00:01:10,090 --> 00:01:14,970
+But let's just have a look what
+the interpretation of that formula is.
+
+17
+00:01:14,970 --> 00:01:20,220
+What the standard deviation does
+is it looks at the difference
+
+18
+00:01:20,220 --> 00:01:25,350
+of each number from its average,
+squares the difference,
+
+19
+00:01:25,350 --> 00:01:29,760
+and then looks at the average
+of those squared differences.
+
+20
+00:01:29,760 --> 00:01:31,550
+And finally, it takes the square root.
+
+21
+00:01:34,610 --> 00:01:40,861
+Sometimes, you see a formula that has
+n-1 instead of n in the denominator.
+
+22
+00:01:40,861 --> 00:01:44,860
+Both of these formulas
+work roughly equally well.
+
+23
+00:01:46,120 --> 00:01:51,000
+The mean and the standard deviation
+are often used to summarize data.
+
+24
+00:01:51,000 --> 00:01:53,500
+The first one gives you
+a measure of center, and
+
+25
+00:01:53,500 --> 00:01:55,310
+the second one gives a measure of spread.
+
+26
+00:01:57,360 --> 00:01:59,710
+Both can be sensitive to a few large or
+
+27
+00:01:59,710 --> 00:02:02,740
+small data,
+just as we saw in the example before.
+
+28
+00:02:05,290 --> 00:02:09,775
+So if you're worried about that, for
+example, if the histogram is very skewed,
+
+29
+00:02:09,775 --> 00:02:13,490
+then it may be better to use
+the median and the interquartile range.
+
+30
+00:02:15,000 --> 00:02:19,580
+Of course, one problem is that many
+people don't know what the median and
+
+31
+00:02:19,580 --> 00:02:21,410
+the interquartile range is.
+
+32
+00:02:21,410 --> 00:02:23,080
+So you may have to explain that.

@@ -1,0 +1,35 @@
+Now let's have a look how exactly we would
+sample these 1,000 voters at random. A simple way would be to select
+1,000 voters from your neighborhood, say your hometown, this is called
+the sample of convenience and it's not a good way to sample. The reason is that the voters of your
+hometown will likely be different from the population of US voters. For example, voters on the West Coast and
+on the East Coast tend to be more Democratic voters, whereas voters in
+the Midwest tend to vote more Republican. This will introduce what's called a bias, that means the sampling will
+favor a certain outcome. There are various kinds of biases. Let's look at the three
+most important ones. We already looked at selection bias. For example,
+a sample of convenience makes it more likely to sample certain
+subjects than others. Non-response bias means that
+the people who choose to respond to the question may be different
+from the non-responders. For example, parents are less likely to
+answer a survey request at 6 pm because they are busy with children and dinner. Finally, you've probably seen websites
+that allow you to rate businesses. The reviews you see there are not
+very representative because those reviews are more likely to come
+from customers who had very bad or very good experiences and therefore
+feel strongly about writing a review. This is called a voluntary response bias. The best way to avoid
+such biases is to use chance in some planned
+way in the sampling. The most well-known way of sampling
+is called a simple random sample. It means that subjects are selected
+at random without replacement. So if you sample 1,000 voters
+out of the yes population, that means each sample of size 1,000
+is equally likely to be selected. How would one choose
+a simple random sample? A popular way to do that is
+using random digit dialing, that means the computer will dial
+telephone numbers at random. That worked pretty when every
+household had a landline. It's more complicated now with many
+people using cell phones instead, and the polling companies are figuring
+out ways to get around that. A more sophisticated way to sample
+is stratified random sampling. There, the population is divided into
+groups of similar objects called strata. For example, the yes voters would be
+divided in urban voters, suburban voters, and rural voters. Then a simple random sample is chosen in
+each stratum and the results are combined. This sampling can result in a more precise
+estimate than with simple random sampling. However, it's more complicated to execute.

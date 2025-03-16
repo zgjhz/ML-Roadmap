@@ -1,0 +1,267 @@
+1
+00:00:00,000 --> 00:00:02,730
+So, we saw earlier that for a newborn baby,
+
+2
+00:00:02,730 --> 00:00:06,885
+there's about a 49% chance that it is a girl.
+
+3
+00:00:06,885 --> 00:00:10,500
+Now, what are the chances that if we look at three newborns,
+
+4
+00:00:10,500 --> 00:00:12,075
+we have two girls?
+
+5
+00:00:12,075 --> 00:00:15,445
+So, if we think back about the section on probability,
+
+6
+00:00:15,445 --> 00:00:19,650
+we can compute this by simply listing all the possibilities.
+
+7
+00:00:19,650 --> 00:00:22,510
+Remember we called this total enumeration.
+
+8
+00:00:22,510 --> 00:00:26,140
+So, the probability that two out of three newborns are
+
+9
+00:00:26,140 --> 00:00:30,630
+girls would be that we have a girl,
+
+10
+00:00:30,630 --> 00:00:32,195
+another girl, and a boy,
+
+11
+00:00:32,195 --> 00:00:33,790
+or we have a girl,
+
+12
+00:00:33,790 --> 00:00:38,345
+a boy and a girl, or a boy and a girl, and a girl.
+
+13
+00:00:38,345 --> 00:00:43,740
+Then we can simply add up these three terms because of the addition rule.
+
+14
+00:00:43,740 --> 00:00:46,600
+Remember, for the addition rule we required
+
+15
+00:00:46,600 --> 00:00:49,975
+that the events are mutually exclusive, which they are.
+
+16
+00:00:49,975 --> 00:00:55,750
+And finally, we can use the multiplication rule on each of these three probabilities,
+
+17
+00:00:55,750 --> 00:00:58,885
+because the three pairs are independent.
+
+18
+00:00:58,885 --> 00:01:06,415
+So, what we end up with is a term three for the three terms in the sum,
+
+19
+00:01:06,415 --> 00:01:11,230
+and then we have 0.49 for the probability of a girl here,
+
+20
+00:01:11,230 --> 00:01:13,885
+0.49 for the probability of a girl,
+
+21
+00:01:13,885 --> 00:01:16,880
+and 0.51 for the probability of a boy.
+
+22
+00:01:16,880 --> 00:01:21,895
+The three counts the number of ways we can arrange two girls and one boy,
+
+23
+00:01:21,895 --> 00:01:24,465
+and the product 0.49 times,
+
+24
+00:01:24,465 --> 00:01:31,220
+0.49 times 0.51, is the same for all three terms.
+
+25
+00:01:31,220 --> 00:01:34,380
+The calculation that we did on
+
+26
+00:01:34,380 --> 00:01:38,950
+the previous slide was an example of what's called the binomial setting.
+
+27
+00:01:38,950 --> 00:01:45,130
+We had three repetitions of an experiment and these repetitions were independent.
+
+28
+00:01:45,130 --> 00:01:51,065
+In our example, an experiment was simply giving birth to a child.
+
+29
+00:01:51,065 --> 00:01:55,570
+Each of these experiments has two possible outcomes.
+
+30
+00:01:55,570 --> 00:02:01,305
+In our example, these were the sex of the child, a girl or a boy.
+
+31
+00:02:01,305 --> 00:02:03,425
+And in the binomial setting,
+
+32
+00:02:03,425 --> 00:02:07,875
+these two outcomes are generically called success and failure.
+
+33
+00:02:07,875 --> 00:02:12,110
+Success is typically the outcome we are interested in.
+
+34
+00:02:12,110 --> 00:02:14,215
+So, in our example,
+
+35
+00:02:14,215 --> 00:02:17,655
+this would be that the newborn is a girl.
+
+36
+00:02:17,655 --> 00:02:22,075
+And finally, the probability of success, which was 49%,
+
+37
+00:02:22,075 --> 00:02:24,320
+was the same in each experiment.
+
+38
+00:02:24,320 --> 00:02:28,830
+These three conditions define what's called the binomial setting.
+
+39
+00:02:28,830 --> 00:02:32,550
+Now, let's look at a little bit more challenging problem.
+
+40
+00:02:32,550 --> 00:02:36,630
+What's the probability that 2 out of 5 newborns are girls?
+
+41
+00:02:36,630 --> 00:02:39,735
+In principle, we can compute this just as before.
+
+42
+00:02:39,735 --> 00:02:42,360
+So, now we have to look at
+
+43
+00:02:42,360 --> 00:02:47,440
+all the possibilities how we can arrange 2 girls among 5 newborns.
+
+44
+00:02:47,440 --> 00:02:50,590
+And it turns out there are now 10 of these possibilities.
+
+45
+00:02:50,590 --> 00:02:52,995
+I wrote down the first three here.
+
+46
+00:02:52,995 --> 00:02:55,760
+You could have a girl-girl,
+
+47
+00:02:55,760 --> 00:02:58,010
+boy-boy-boy, or girl-boy,
+
+48
+00:02:58,010 --> 00:03:01,270
+girl-boy-boy, and you get the idea.
+
+49
+00:03:01,270 --> 00:03:03,590
+So, the problem is that the number of
+
+50
+00:03:03,590 --> 00:03:07,965
+these possibilities grows very quickly as n gets larger.
+
+51
+00:03:07,965 --> 00:03:11,165
+But fortunately, there's a formula for computing those.
+
+52
+00:03:11,165 --> 00:03:15,510
+That formula is given by the binomial coefficient which counts
+
+53
+00:03:15,510 --> 00:03:20,540
+the number of ways one can arrange k successes in n experiments.
+
+54
+00:03:20,540 --> 00:03:28,860
+The formula reads n factorial so that exclamation mark is pronounced as factorial.
+
+55
+00:03:28,860 --> 00:03:31,860
+n factorial simply means,
+
+56
+00:03:31,860 --> 00:03:36,860
+you multiply up all the numbers up to n. For example,
+
+57
+00:03:36,860 --> 00:03:40,060
+if we look at 3 factorial,
+
+58
+00:03:40,060 --> 00:03:46,765
+that would be 1 times 2 times 3, which is 6.
+
+59
+00:03:46,765 --> 00:03:53,015
+Then we have to divide by k factorial and n - k factorial.
+
+60
+00:03:53,015 --> 00:03:54,765
+As a special case,
+
+61
+00:03:54,765 --> 00:03:56,985
+0 factorial is always 1.
+
+62
+00:03:56,985 --> 00:03:59,375
+In our previous example,
+
+63
+00:03:59,375 --> 00:04:02,490
+we had n = 3 births,
+
+64
+00:04:02,490 --> 00:04:07,160
+and we wanted to know what are the chances to get k = 2 girls.
+
+65
+00:04:07,160 --> 00:04:12,270
+So, we have to compute 3 factorial over 2 factorial times 1 factorial,
+
+66
+00:04:12,270 --> 00:04:13,855
+which gives us 3.
+
+67
+00:04:13,855 --> 00:04:17,000
+And that's exactly what we got when we did it by hand.

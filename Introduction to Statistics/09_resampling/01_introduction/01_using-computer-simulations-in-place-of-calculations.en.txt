@@ -1,0 +1,19 @@
+Computer power has revolutionized
+statistical inference. In this module, we look at the two main
+concepts that are behind this revolution, the Monte Carlo method and the bootstrap. We will discuss the main principles
+behind these methods and then see how to apply them in
+various important contexts, such as in regression and for
+constructing confidence intervals. Remember that very simple formula for the
+confidence interval for a population mean. We simply take the sample mean
+plus minus z times standard error. The reason why we used z
+was because the sample mean approximately follows the normal curve. Now what happens if we're interested
+in a different estimator, let's call it theta hat, for
+some parameter, theta, of the population. And the normal approximation is
+not valid for this estimator. In that case, such a simple formula
+is not applicable anymore, and we have to do something else. Likewise the simple formula for
+the standard error of the mean, which was based on the square root law,
+may not work anymore. So then what's the standard
+error in that case? It turns out that in such situations, simulations can be used to
+estimate those quantities. In fact, it may turn out that simulations
+sometimes result in better estimates. That what we would have gotten,
+if we would be able to use the formula for the normal approximation.

@@ -1,0 +1,187 @@
+1
+00:00:00,000 --> 00:00:03,715
+Now, if we draw an adult male at random from the population,
+
+2
+00:00:03,715 --> 00:00:07,880
+then we expect his height to be around the population average mu,
+
+3
+00:00:07,880 --> 00:00:11,585
+give or take about one standard deviation sigma.
+
+4
+00:00:11,585 --> 00:00:18,255
+After all, the standard deviation sigma measures the spread of the population.
+
+5
+00:00:18,255 --> 00:00:24,865
+And most observations are around one standard deviation away from the mean mu.
+
+6
+00:00:24,865 --> 00:00:31,810
+We say that the expected value of one random draw is the population average mu.
+
+7
+00:00:31,810 --> 00:00:34,975
+Now, how about the average of n draws,
+
+8
+00:00:34,975 --> 00:00:38,185
+which we call x bar, with a subscript n?
+
+9
+00:00:38,185 --> 00:00:41,735
+So the subscript stands for the sample size.
+
+10
+00:00:41,735 --> 00:00:47,045
+So, it turns out that the expected value of the sample average is,
+
+11
+00:00:47,045 --> 00:00:49,705
+again, the population average mu.
+
+12
+00:00:49,705 --> 00:00:54,050
+But keep in mind that the sample average is actually random,
+
+13
+00:00:54,050 --> 00:00:56,965
+because sampling is a random process.
+
+14
+00:00:56,965 --> 00:01:01,225
+That means that x bar won't be exactly equal to the population mean,
+
+15
+00:01:01,225 --> 00:01:04,450
+which is actually 69.3 inches.
+
+16
+00:01:04,450 --> 00:01:08,920
+For example, we might get x bar equal to 70.1 inches.
+
+17
+00:01:08,920 --> 00:01:11,260
+And if we take another sample of size n,
+
+18
+00:01:11,260 --> 00:01:15,335
+we might get x bar equal to 69.1 inches.
+
+19
+00:01:15,335 --> 00:01:17,890
+So then the question is,
+
+20
+00:01:17,890 --> 00:01:21,935
+how far off from the population mean will the sample mean be?
+
+21
+00:01:21,935 --> 00:01:26,040
+This is determined by the standard error, or SE.
+
+22
+00:01:26,040 --> 00:01:29,625
+This is a very important quantity in statistics,
+
+23
+00:01:29,625 --> 00:01:35,835
+and it tells you roughly how far off the statistic will be from an expected value.
+
+24
+00:01:35,835 --> 00:01:42,175
+The standard error for a statistic is used for all kinds of statistical procedures.
+
+25
+00:01:42,175 --> 00:01:46,190
+The standard error of a statistic plays the same role
+
+26
+00:01:46,190 --> 00:01:50,500
+that the standard deviation sigma plays for one observation drawn at random,
+
+27
+00:01:50,500 --> 00:01:53,890
+because it's a give or take number that shows how far
+
+28
+00:01:53,890 --> 00:01:58,460
+off we expect the statistic to be from the mean.
+
+29
+00:01:58,460 --> 00:02:02,800
+So, here's one of the key facts for a statistical inference,
+
+30
+00:02:02,800 --> 00:02:04,995
+it's called the square root law.
+
+31
+00:02:04,995 --> 00:02:08,795
+It says that, "the standard error of the sample average,
+
+32
+00:02:08,795 --> 00:02:12,725
+equals sigma, divided by square root of sample size".
+
+33
+00:02:12,725 --> 00:02:15,430
+Why is the square root law so important?
+
+34
+00:02:15,430 --> 00:02:17,390
+There are actually two reasons for that.
+
+35
+00:02:17,390 --> 00:02:20,890
+First, it shows that the standard error becomes smaller
+
+36
+00:02:20,890 --> 00:02:24,330
+if we use a larger sample size n. After all,
+
+37
+00:02:24,330 --> 00:02:27,165
+there's a square root in the denominator.
+
+38
+00:02:27,165 --> 00:02:30,610
+We can actually use that formula to determine what
+
+39
+00:02:30,610 --> 00:02:35,590
+sample size is required to get a desired accuracy for our standard error.
+
+40
+00:02:35,590 --> 00:02:40,655
+The second point is that the formula does not depend on the size of the population,
+
+41
+00:02:40,655 --> 00:02:43,195
+only on the size of the sample.
+
+42
+00:02:43,195 --> 00:02:46,975
+This is the reason why statistics works in polls.
+
+43
+00:02:46,975 --> 00:02:49,775
+After all, remember our previous example,
+
+44
+00:02:49,775 --> 00:02:53,240
+where we looked at 140 million adult men.
+
+45
+00:02:53,240 --> 00:02:57,405
+It doesn't really matter that we look at 140 million.
+
+46
+00:02:57,405 --> 00:03:00,845
+If we take a sample of size 1,000,
+
+47
+00:03:00,845 --> 00:03:06,000
+we get a certain standard error, no matter how large the population is.

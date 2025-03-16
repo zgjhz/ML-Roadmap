@@ -1,0 +1,86 @@
+1
+00:00:00,250 --> 00:00:04,760
+In life sciences in general, data
+science is being applied across
+
+2
+00:00:04,760 --> 00:00:08,930
+the spectrum, right? So we're working in
+the earliest stages of drug discovery.
+
+3
+00:00:08,930 --> 00:00:12,182
+But there's certainly work that data
+science can do to help optimize
+
+4
+00:00:12,182 --> 00:00:13,087
+clinical trials.
+
+5
+00:00:13,087 --> 00:00:17,231
+So part of having an effective drug
+therapy is knowing in advance whether or
+
+6
+00:00:17,231 --> 00:00:19,664
+not that medication would work for
+you, and
+
+7
+00:00:19,664 --> 00:00:22,186
+maybe you've had this experience, right?
+
+8
+00:00:22,186 --> 00:00:25,625
+You go to your doctor, you're not feeling
+well, you're given a prescription, and
+
+9
+00:00:25,625 --> 00:00:27,869
+then the doctor says, and
+if this doesn't work, right,
+
+10
+00:00:27,869 --> 00:00:30,481
+come back in a couple weeks and
+we'll try something different.
+
+11
+00:00:30,481 --> 00:00:34,670
+And so part of what's going on there is
+that your genetic makeup as an individual,
+
+12
+00:00:34,670 --> 00:00:37,360
+and sort of you as a biological entity,
+
+13
+00:00:37,360 --> 00:00:40,370
+you might react differently to
+a medication than someone else.
+
+14
+00:00:40,370 --> 00:00:43,346
+And so, some of the other work
+that data science can help with,
+
+15
+00:00:43,346 --> 00:00:45,370
+is some of those companion
+diagnostics, right,
+
+16
+00:00:45,370 --> 00:00:49,390
+to figure out which treatments would
+be most effective with which people.
+
+17
+00:00:49,390 --> 00:00:53,240
+This is not work that we do as a company,
+but these are all opportunities where
+
+18
+00:00:53,240 --> 00:00:57,330
+artificial intelligence, data science
+helps make people healthier as a whole.

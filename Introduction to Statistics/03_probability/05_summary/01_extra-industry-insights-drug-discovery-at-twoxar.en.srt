@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:04,230
+So, I think a lot of the work we're doing is pretty unique in
+
+2
+00:00:04,230 --> 00:00:06,940
+this field in that, so we're certainly
+
+3
+00:00:06,940 --> 00:00:10,180
+not the only folks using data science in drug discovery.
+
+4
+00:00:10,180 --> 00:00:15,750
+But I would characterize a lot of these other efforts as going after either one type of
+
+5
+00:00:15,750 --> 00:00:21,895
+data generation, and sort of examining that data to see if there's some new insight there.
+
+6
+00:00:21,895 --> 00:00:27,415
+Or it's some sort of clever methodology to examine data that already exists.
+
+7
+00:00:27,415 --> 00:00:30,540
+And kind of that approach reminds me
+
+8
+00:00:30,540 --> 00:00:33,610
+a bit about the children's story of the blind men and the elephant, right?
+
+9
+00:00:33,610 --> 00:00:37,080
+When you're only inspecting sort of a small piece
+
+10
+00:00:37,080 --> 00:00:40,975
+of the entire universe that represents a drug or a disease,
+
+11
+00:00:40,975 --> 00:00:44,070
+you might look at that elephant as that blind man and
+
+12
+00:00:44,070 --> 00:00:48,125
+say it's a rope, or a spear, rather than seeing the entire picture.
+
+13
+00:00:48,125 --> 00:00:51,210
+And our view is, it would be much more interesting to
+
+14
+00:00:51,210 --> 00:00:54,735
+pull in the widest diversity of data you can get your hands on.
+
+15
+00:00:54,735 --> 00:00:58,220
+And then across that sort of spectrum of information,
+
+16
+00:00:58,220 --> 00:01:00,350
+help figure out, what's a false positive?
+
+17
+00:01:00,350 --> 00:01:02,000
+What's actually meaningful?
+
+18
+00:01:02,000 --> 00:01:04,440
+Help correlate a signal you see across
+
+19
+00:01:04,440 --> 00:01:07,400
+these very different datasets, and use that to help focus
+
+20
+00:01:07,400 --> 00:01:09,880
+in on what's the most likely drug treatment that's going to work for
+
+21
+00:01:09,880 --> 00:01:12,875
+that disease, and for those populations.
+
+22
+00:01:12,875 --> 00:01:18,840
+For us, we'd probably fall more in the category of translational bioinformatics,
+
+23
+00:01:18,840 --> 00:01:22,380
+which is saying we want to actually take data and
+
+24
+00:01:22,380 --> 00:01:25,915
+translate that into some medical intervention in some way.
+
+25
+00:01:25,915 --> 00:01:28,070
+And so yeah, there's different disciplines.
+
+26
+00:01:28,070 --> 00:01:30,860
+There's people who are just interested in raw knowledge and not
+
+27
+00:01:30,860 --> 00:01:34,560
+necessarily trying to produce a diagnostic, or a drug, sorts of things.
+
+28
+00:01:34,560 --> 00:01:38,380
+So there's lots of different ways that technologies in this field can be applied.

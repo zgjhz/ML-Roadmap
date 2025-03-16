@@ -1,0 +1,263 @@
+1
+00:00:00,000 --> 00:00:02,270
+So if we have pairs of data,
+
+2
+00:00:02,270 --> 00:00:05,985
+and we see that the scatter follows the linear form,
+
+3
+00:00:05,985 --> 00:00:10,575
+then we can summarize these data by the average of the x's,
+
+4
+00:00:10,575 --> 00:00:12,890
+the standard deviation of the x's,
+
+5
+00:00:12,890 --> 00:00:14,815
+the average of the y's,
+
+6
+00:00:14,815 --> 00:00:17,075
+the standard deviations of the y's,
+
+7
+00:00:17,075 --> 00:00:20,495
+and finally the correlation coefficient r,
+
+8
+00:00:20,495 --> 00:00:25,135
+which tells us something about the relationship between x and y.
+
+9
+00:00:25,135 --> 00:00:28,255
+When we plot these pairs, x and y,
+
+10
+00:00:28,255 --> 00:00:31,400
+then we use always the convention that whatever goes on
+
+11
+00:00:31,400 --> 00:00:35,820
+the horizontal axis is called the explanatory variable or predictor.
+
+12
+00:00:35,820 --> 00:00:40,325
+And the one which goes on the vertical axis is called the response variable.
+
+13
+00:00:40,325 --> 00:00:46,865
+It turns out that the correlation coefficient r is always between -1 and 1.
+
+14
+00:00:46,865 --> 00:00:49,660
+The idea is that the sign of r gives
+
+15
+00:00:49,660 --> 00:00:53,700
+the direction of the association, whether it slopes up or down,
+
+16
+00:00:53,700 --> 00:00:57,195
+and the absolute value of r gives its strength.
+
+17
+00:00:57,195 --> 00:00:59,880
+Here are a number of examples.
+
+18
+00:00:59,880 --> 00:01:01,685
+In the leftmost case,
+
+19
+00:01:01,685 --> 00:01:05,020
+we have r equal to -0.9.
+
+20
+00:01:05,020 --> 00:01:07,210
+Because r is negative,
+
+21
+00:01:07,210 --> 00:01:10,760
+the whole scatter slopes downward.
+
+22
+00:01:10,760 --> 00:01:16,455
+0.9 means that the scatter is tightly clustered around a line.
+
+23
+00:01:16,455 --> 00:01:18,400
+In the second example,
+
+24
+00:01:18,400 --> 00:01:21,675
+we have r = -0.6.
+
+25
+00:01:21,675 --> 00:01:27,150
+Again, the scatter is sloping downward, but 0.6 is much closer to 0,
+
+26
+00:01:27,150 --> 00:01:30,470
+so we see that the scatter is much more spread out.
+
+27
+00:01:30,470 --> 00:01:33,080
+Finally, if r = 0,
+
+28
+00:01:33,080 --> 00:01:36,975
+then there's no perceptible upwards or downwards trend.
+
+29
+00:01:36,975 --> 00:01:40,365
+Now let's go to positive correlation coefficients.
+
+30
+00:01:40,365 --> 00:01:42,680
+If r = 0.2,
+
+31
+00:01:42,680 --> 00:01:44,475
+we get an upward scatter,
+
+32
+00:01:44,475 --> 00:01:46,890
+which is rather loose.
+
+33
+00:01:46,890 --> 00:01:49,770
+Finally, if r = 1,
+
+34
+00:01:49,770 --> 00:01:51,340
+the scatter slopes upward,
+
+35
+00:01:51,340 --> 00:01:53,845
+and everything falls perfectly on a line.
+
+36
+00:01:53,845 --> 00:01:59,235
+These examples give you an idea how to think about the correlation coefficient.
+
+37
+00:01:59,235 --> 00:02:04,465
+Keep in mind that the correlation coefficient r comes without units,
+
+38
+00:02:04,465 --> 00:02:10,080
+and that's because both x and y were standardized when we computed r. It also
+
+39
+00:02:10,080 --> 00:02:16,530
+turns out that r is not affected by changing the center or the scale of either variable.
+
+40
+00:02:16,530 --> 00:02:21,790
+For example, if you compute the correlation coefficient between height and weight,
+
+41
+00:02:21,790 --> 00:02:27,135
+then it doesn't matter whether you measure weight in pounds or in kilograms.
+
+42
+00:02:27,135 --> 00:02:29,665
+It's important to keep in mind, however,
+
+43
+00:02:29,665 --> 00:02:35,380
+that the correlation coefficient is only useful for measuring linear association.
+
+44
+00:02:35,380 --> 00:02:37,375
+Look at this example here.
+
+45
+00:02:37,375 --> 00:02:43,050
+Clearly, there's a very strong association between the two variables.
+
+46
+00:02:43,050 --> 00:02:48,325
+You see a tightly clustered scatter around a curve.
+
+47
+00:02:48,325 --> 00:02:51,480
+However, if you compute the correlation coefficient,
+
+48
+00:02:51,480 --> 00:02:53,575
+you see r = 0.
+
+49
+00:02:53,575 --> 00:02:56,490
+r = 0 suggests that there's
+
+50
+00:02:56,490 --> 00:03:00,855
+actually no linear association between these two variables.
+
+51
+00:03:00,855 --> 00:03:02,900
+That's true but, of course,
+
+52
+00:03:02,900 --> 00:03:05,330
+it misses the point in this case.
+
+53
+00:03:05,330 --> 00:03:12,040
+The bottom line is that r is really only useful when we look at linear scatters.
+
+54
+00:03:12,040 --> 00:03:16,300
+Finally, it's tempting to see a large correlation coefficient and
+
+55
+00:03:16,300 --> 00:03:18,950
+conclude that there must be some type of
+
+56
+00:03:18,950 --> 00:03:22,445
+causal correlationship between the two variables.
+
+57
+00:03:22,445 --> 00:03:28,070
+But the example on the bottom left shows that this is just not true.
+
+58
+00:03:28,070 --> 00:03:32,790
+That scatter plot shows shoe sizes as
+
+59
+00:03:32,790 --> 00:03:37,865
+well as the score on a reading test for 100 schoolchildren.
+
+60
+00:03:37,865 --> 00:03:43,230
+Clearly, there is a very strong association between these two variables.
+
+61
+00:03:43,230 --> 00:03:50,040
+But we would agree that shoe size has no causal effect on reading ability whatsoever.
+
+62
+00:03:50,040 --> 00:03:54,145
+Rather, what's going on here is that there's a third variable,
+
+63
+00:03:54,145 --> 00:03:56,665
+namely the age of the school children,
+
+64
+00:03:56,665 --> 00:04:01,115
+which determines both the shoe size and the reading ability.
+
+65
+00:04:01,115 --> 00:04:06,800
+So, what's going on here is that correlation does not mean causation,
+
+66
+00:04:06,800 --> 00:04:09,000
+and we've talked about that before.

@@ -1,0 +1,13 @@
+Let's look again at the previous
+example of tossing a coin 100 times. If we are interested in
+the number of tails, there are the following possible outcomes. We could get 0 tails or
+1, or 2, up to 100. Now how likely is each of these outcomes? We know that this is the binomial
+distribution with n = 100, and p = 0.5. Because if we call a coin landing
+tails a success, then the number of tails is simply the number
+of successes in 100 experiments. So if we are interested in the statistic
+that counts the number of tails, then this statistic is a random variable whose probability histogram is
+given by the binomial distribution. This is called the sampling
+distribution of the statistic. The reason why we use a sampling
+distribution is because it provides more detailed information about the chance
+properties of the statistic than the summary numbers given by the expected
+value and the standard error alone.

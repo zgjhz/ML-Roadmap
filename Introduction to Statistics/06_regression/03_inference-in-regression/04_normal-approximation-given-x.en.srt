@@ -1,0 +1,167 @@
+1
+00:00:00,000 --> 00:00:03,605
+So, remember, in order to do regression,
+
+2
+00:00:03,605 --> 00:00:08,785
+we must have a scatter plot that looks somewhat football-shaped.
+
+3
+00:00:08,785 --> 00:00:11,340
+It turns out, in that case,
+
+4
+00:00:11,340 --> 00:00:14,395
+not only can we compute a regression line,
+
+5
+00:00:14,395 --> 00:00:16,400
+but we can actually also do
+
+6
+00:00:16,400 --> 00:00:20,555
+normal approximation and say a little bit more about the y-values.
+
+7
+00:00:20,555 --> 00:00:23,095
+For a given value of X,
+
+8
+00:00:23,095 --> 00:00:27,995
+we can predict by simply by looking at the point that falls onto the line.
+
+9
+00:00:27,995 --> 00:00:31,190
+But it turns out that the y-values of pairs,
+
+10
+00:00:31,190 --> 00:00:32,785
+which are near that x-value,
+
+11
+00:00:32,785 --> 00:00:35,185
+actually follow the normal curve.
+
+12
+00:00:35,185 --> 00:00:39,120
+So, there's a normal curve for the y-values around that point.
+
+13
+00:00:39,120 --> 00:00:44,005
+That means we can use normal approximation for those y-values.
+
+14
+00:00:44,005 --> 00:00:47,025
+Remember, in order to do normal approximation,
+
+15
+00:00:47,025 --> 00:00:48,855
+we need to know two things.
+
+16
+00:00:48,855 --> 00:00:54,230
+We need to know the center and the scale of the normal curve in order to standardize.
+
+17
+00:00:54,230 --> 00:00:56,180
+In the case of regression,
+
+18
+00:00:56,180 --> 00:01:00,610
+these two numbers are given by the predicted value y-hat.
+
+19
+00:01:00,610 --> 00:01:04,030
+And the scale is given by the formula
+
+20
+00:01:04,030 --> 00:01:08,515
+square root 1 - r squared times the standard deviation of y.
+
+21
+00:01:08,515 --> 00:01:09,985
+Let's do an example.
+
+22
+00:01:09,985 --> 00:01:13,475
+Among the students who scored around 41 on the midterm,
+
+23
+00:01:13,475 --> 00:01:17,000
+what percentage scored above 60 on the final?
+
+24
+00:01:17,000 --> 00:01:22,320
+We already computed that the predicted value for a student
+
+25
+00:01:22,320 --> 00:01:30,015
+who scores 41 on the midterm is 62.5.
+
+26
+00:01:30,015 --> 00:01:36,615
+That means that the normal curve is centered at 62.5.
+
+27
+00:01:36,615 --> 00:01:41,320
+So, the percentage of students who scored above 60 on the final follows
+
+28
+00:01:41,320 --> 00:01:47,535
+a normal curve that is centered at 62.5.
+
+29
+00:01:47,535 --> 00:01:51,880
+And we want to figure out what percentage scored above 60.
+
+30
+00:01:51,880 --> 00:01:54,810
+So that would be that shaded area.
+
+31
+00:01:54,810 --> 00:01:57,580
+So, now we simply standardize 60.
+
+32
+00:01:57,580 --> 00:02:01,330
+We take 60, subtract off 62.5,
+
+33
+00:02:01,330 --> 00:02:05,330
+and we divide by that formula over here.
+
+34
+00:02:05,330 --> 00:02:09,540
+So, that's square root 1 - 0.67
+
+35
+00:02:09,540 --> 00:02:15,130
+squared times the standard deviation of the final exam scores,
+
+36
+00:02:15,130 --> 00:02:20,615
+which is 11.8, and we find -0.29.
+
+37
+00:02:20,615 --> 00:02:23,935
+So then, we get a standard normal curve,
+
+38
+00:02:23,935 --> 00:02:30,805
+and we have to figure out the area to the right of -0.29.
+
+39
+00:02:30,805 --> 00:02:34,135
+And if you look up software,
+
+40
+00:02:34,135 --> 00:02:39,265
+you'll find that this area is 61.4%.
+
+41
+00:02:39,265 --> 00:02:45,725
+So, the answer would be that among all the students who scored around 41 on the midterm,
+
+42
+00:02:45,725 --> 00:02:50,080
+about 61% scored above 60 on the final exam.

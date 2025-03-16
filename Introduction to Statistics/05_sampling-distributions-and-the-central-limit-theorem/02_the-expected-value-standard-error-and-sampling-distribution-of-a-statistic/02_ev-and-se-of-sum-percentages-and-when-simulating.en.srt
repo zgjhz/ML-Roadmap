@@ -1,0 +1,359 @@
+1
+00:00:00,000 --> 00:00:04,925
+Sometimes we are interested in the sum of the n draws rather than the average.
+
+2
+00:00:04,925 --> 00:00:08,540
+Now, we get the average by taking the sum and dividing by n,
+
+3
+00:00:08,540 --> 00:00:12,525
+and so we get the sum back by taking n times the average.
+
+4
+00:00:12,525 --> 00:00:17,010
+So, it turns out that the formulas for the expected value and the standard error of
+
+5
+00:00:17,010 --> 00:00:21,855
+the sum can simply be obtained by multiplying the formulas
+
+6
+00:00:21,855 --> 00:00:26,760
+for the sample mean by n. The important thing to keep in mind here is that
+
+7
+00:00:26,760 --> 00:00:33,000
+the standard error for the sum actually increases at a rate of square root n. So,
+
+8
+00:00:33,000 --> 00:00:36,150
+while the standard error of the average goes down,
+
+9
+00:00:36,150 --> 00:00:38,675
+the standard error of the sum goes up.
+
+10
+00:00:38,675 --> 00:00:43,560
+Another important statistic that comes up all the time are percentages.
+
+11
+00:00:43,560 --> 00:00:47,655
+We already looked at approval ratings for US presidents.
+
+12
+00:00:47,655 --> 00:00:51,300
+That's a question that was introduced by George Gallup in the late
+
+13
+00:00:51,300 --> 00:00:55,565
+1930s, and it's asked regularly every week or so.
+
+14
+00:00:55,565 --> 00:00:58,620
+That poll tries to figure out what percentage of
+
+15
+00:00:58,620 --> 00:01:03,930
+likely voters approve of the way that the US President is handling his job.
+
+16
+00:01:03,930 --> 00:01:05,460
+Looking closely at this,
+
+17
+00:01:05,460 --> 00:01:09,425
+we see that the percentage of likely voters is actually an average.
+
+18
+00:01:09,425 --> 00:01:14,570
+It's helpful to look at this in somewhat detail because it comes up all the time.
+
+19
+00:01:14,570 --> 00:01:17,910
+It's called a framework for counting and classifying.
+
+20
+00:01:17,910 --> 00:01:20,285
+In this example, the population consists of
+
+21
+00:01:20,285 --> 00:01:24,415
+all likely voters which are about 140 million adults.
+
+22
+00:01:24,415 --> 00:01:28,205
+Each of these likely voters falls into one of two categories,
+
+23
+00:01:28,205 --> 00:01:32,165
+either they approve of the President's handling of the job, or they don't.
+
+24
+00:01:32,165 --> 00:01:35,615
+What do we do now is we put the label '1' on
+
+25
+00:01:35,615 --> 00:01:40,975
+each likely voter who approves and '0' on each who doesn't approve.
+
+26
+00:01:40,975 --> 00:01:45,830
+The reason we do that is because then the number of likely voters
+
+27
+00:01:45,830 --> 00:01:50,780
+who approve equals the sum of all 140 million labels.
+
+28
+00:01:50,780 --> 00:01:52,330
+To see why that is,
+
+29
+00:01:52,330 --> 00:01:56,195
+let's look at a simple example with five voters.
+
+30
+00:01:56,195 --> 00:01:59,225
+Suppose the first voter approves,
+
+31
+00:01:59,225 --> 00:02:01,165
+so we give him a label '1'.
+
+32
+00:02:01,165 --> 00:02:03,050
+The second voter doesn't,
+
+33
+00:02:03,050 --> 00:02:04,780
+so he gets a label '0'.
+
+34
+00:02:04,780 --> 00:02:07,775
+The third voter doesn't, gets a label '0'.
+
+35
+00:02:07,775 --> 00:02:10,280
+The next voter approves, gets a label '1',
+
+36
+00:02:10,280 --> 00:02:13,010
+and the last voter doesn't, and gets a label '0'.
+
+37
+00:02:13,010 --> 00:02:16,950
+So, if we look at the sum of the labels,
+
+38
+00:02:16,950 --> 00:02:20,950
+then that will be 2, and indeed 2 of
+
+39
+00:02:20,950 --> 00:02:25,045
+the 5 voters approved of the President's handling of his job.
+
+40
+00:02:25,045 --> 00:02:28,730
+So by putting 0s and 1s on the labels,
+
+41
+00:02:28,730 --> 00:02:33,680
+the sum of the labels simply counts how many approve,
+
+42
+00:02:33,680 --> 00:02:36,970
+and likewise one sees that the percentage of likely voters who
+
+43
+00:02:36,970 --> 00:02:42,390
+approve is simply the percentage of 1s among all the labels.
+
+44
+00:02:42,390 --> 00:02:45,465
+So, if we introduce labels,
+
+45
+00:02:45,465 --> 00:02:49,950
+then sampling n likely voters means that the number of voters
+
+46
+00:02:49,950 --> 00:02:54,480
+in the sample who are approving is simply the sum of the n draws.
+
+47
+00:02:54,480 --> 00:02:57,870
+Likewise, the percentage of voters approving is
+
+48
+00:02:57,870 --> 00:03:02,935
+the percentage of 1s, and that's then simply the sample average.
+
+49
+00:03:02,935 --> 00:03:08,790
+And we can multiply by 100% just to convert the whole thing into percentages.
+
+50
+00:03:08,790 --> 00:03:12,330
+So, the bottom line is that percentages are
+
+51
+00:03:12,330 --> 00:03:17,140
+simply averages after introducing 0 and 1 labels.
+
+52
+00:03:17,140 --> 00:03:21,870
+That means we can simply use the formulas for averages and we
+
+53
+00:03:21,870 --> 00:03:26,950
+find that the expected value of the percentage of 1s is Mu times 100%,
+
+54
+00:03:26,950 --> 00:03:32,820
+and the standard error for the percentage of 1s is sigma over square root n times 100%,
+
+55
+00:03:32,820 --> 00:03:36,870
+where mu is the population average and sigma
+
+56
+00:03:36,870 --> 00:03:40,695
+is the standard deviation of the population of 0s and 1s.
+
+57
+00:03:40,695 --> 00:03:44,500
+So now, we have a number of formulas for the average,
+
+58
+00:03:44,500 --> 00:03:46,825
+for the sum and for the percentages.
+
+59
+00:03:46,825 --> 00:03:48,995
+But really, they all look quite similar.
+
+60
+00:03:48,995 --> 00:03:54,540
+In the end, it comes down to sigma over square root n. But remember that all
+
+61
+00:03:54,540 --> 00:03:56,760
+of these formulas are actually for sampling with
+
+62
+00:03:56,760 --> 00:04:00,165
+replacement, but polls are simple random samples.
+
+63
+00:04:00,165 --> 00:04:02,649
+So, those are samples without replacement.
+
+64
+00:04:02,649 --> 00:04:07,060
+Now, we already saw that in the case of sampling without replacement,
+
+65
+00:04:07,060 --> 00:04:11,235
+where the sample size is much smaller than the size of the population,
+
+66
+00:04:11,235 --> 00:04:13,605
+these two things are roughly the same,
+
+67
+00:04:13,605 --> 00:04:16,820
+so all of these formulas are still approximately true.
+
+68
+00:04:16,820 --> 00:04:19,030
+In fact, it turns out the formulas for
+
+69
+00:04:19,030 --> 00:04:23,920
+the expected values are exactly true even for sampling without replacement
+
+70
+00:04:23,920 --> 00:04:27,580
+and for the standard error it's only approximately true and
+
+71
+00:04:27,580 --> 00:04:31,940
+they are explicit formulas to correct for sampling without replacement.
+
+72
+00:04:31,940 --> 00:04:35,290
+All of these formulas are also true if we don't
+
+73
+00:04:35,290 --> 00:04:38,510
+draw from a population but we simulate data.
+
+74
+00:04:38,510 --> 00:04:45,180
+Simulating data means we generate data according to a probability histogram, for example,
+
+75
+00:04:45,180 --> 00:04:46,710
+by using a computer.
+
+76
+00:04:46,710 --> 00:04:49,470
+Now, what are mu and sigma in that case?
+
+77
+00:04:49,470 --> 00:04:51,980
+Remember, when we draw from a population,
+
+78
+00:04:51,980 --> 00:04:57,714
+mu is simply the population average and sigma is the population standard deviation.
+
+79
+00:04:57,714 --> 00:05:03,775
+If we simulate a random variable X that has K possible outcomes,
+
+80
+00:05:03,775 --> 00:05:10,180
+X1 to XK, then the formulas for mu and sigma square are given here.
+
+81
+00:05:10,180 --> 00:05:14,700
+These formulas actually also apply to the case of sampling from
+
+82
+00:05:14,700 --> 00:05:21,120
+a population, because if we sample from a population with K possible subjects,
+
+83
+00:05:21,120 --> 00:05:24,960
+then the probability of picking one subject is simply 1
+
+84
+00:05:24,960 --> 00:05:29,130
+over K and the whole thing becomes the population mean.
+
+85
+00:05:29,130 --> 00:05:31,260
+Likewise for sigma square,
+
+86
+00:05:31,260 --> 00:05:34,245
+where this formula simply turns into the formula
+
+87
+00:05:34,245 --> 00:05:37,870
+for the population standard deviation squared.
+
+88
+00:05:37,870 --> 00:05:40,305
+In the case where the random variable X has
+
+89
+00:05:40,305 --> 00:05:45,070
+infinitely many possible outcomes such as when X follows the normal curve,
+
+90
+00:05:45,070 --> 00:05:51,000
+they are analogous formulas, but we don't need these for the rest of the course.

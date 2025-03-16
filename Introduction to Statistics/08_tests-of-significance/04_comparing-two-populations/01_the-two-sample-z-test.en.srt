@@ -1,0 +1,467 @@
+1
+00:00:00,000 --> 00:00:05,930
+Now, let's look at a slightly different situation where it turns out we can use a z-test.
+
+2
+00:00:05,930 --> 00:00:09,570
+Last month, the President's approval rating in a sample of
+
+3
+00:00:09,570 --> 00:00:13,035
+1,000 likely voters was 55%.
+
+4
+00:00:13,035 --> 00:00:19,420
+This month, a poll of 1,500 likely voters resulted in a rating of 58%.
+
+5
+00:00:19,420 --> 00:00:21,660
+So the question is whether that's
+
+6
+00:00:21,660 --> 00:00:25,620
+sufficient evidence to conclude that the rating has changed.
+
+7
+00:00:25,620 --> 00:00:30,305
+In this case, we want to compare these two percentages.
+
+8
+00:00:30,305 --> 00:00:35,755
+The first step is to find a way to write this down as a null hypothesis.
+
+9
+00:00:35,755 --> 00:00:42,045
+So what we do is we write p1 for the proportion of all likely voters,
+
+10
+00:00:42,045 --> 00:00:43,880
+which approved last month,
+
+11
+00:00:43,880 --> 00:00:48,015
+and p2 for the proportion of voters approving this month.
+
+12
+00:00:48,015 --> 00:00:53,110
+So, remember, the null hypothesis means that nothing unusual is going on.
+
+13
+00:00:53,110 --> 00:00:56,400
+So that means p1 = p2.
+
+14
+00:00:56,400 --> 00:01:00,270
+It's easier to look at the difference of these two numbers,
+
+15
+00:01:00,270 --> 00:01:04,110
+and then the null hypothesis becomes that the difference is 0,
+
+16
+00:01:04,110 --> 00:01:08,440
+and the alternative is that the difference is not equal to 0.
+
+17
+00:01:08,440 --> 00:01:14,295
+Of course, each proportion is estimated by its corresponding percentage.
+
+18
+00:01:14,295 --> 00:01:17,865
+So, now the key point is that the central limit theorem
+
+19
+00:01:17,865 --> 00:01:22,695
+applies to the difference just as well as it does to the individual estimates.
+
+20
+00:01:22,695 --> 00:01:26,105
+So that suggests that we can use a z-test.
+
+21
+00:01:26,105 --> 00:01:28,455
+So, remember, for the z-test,
+
+22
+00:01:28,455 --> 00:01:34,345
+we look at the difference of observed minus expected divided by the standard error.
+
+23
+00:01:34,345 --> 00:01:38,630
+And then in this case, we will simply look at the observed difference
+
+24
+00:01:38,630 --> 00:01:43,580
+and the expected difference and divide by the standard error of the difference.
+
+25
+00:01:43,580 --> 00:01:47,150
+So we know what the observed difference is,
+
+26
+00:01:47,150 --> 00:01:49,885
+that's just the difference of the percentages,
+
+27
+00:01:49,885 --> 00:01:52,070
+and we can also figure out what
+
+28
+00:01:52,070 --> 00:01:56,080
+the expected difference is because under the null hypothesis,
+
+29
+00:01:56,080 --> 00:01:57,190
+these two are the same.
+
+30
+00:01:57,190 --> 00:01:58,800
+So the difference is 0.
+
+31
+00:01:58,800 --> 00:02:00,190
+And then, the question is,
+
+32
+00:02:00,190 --> 00:02:02,455
+what's the standard error?
+
+33
+00:02:02,455 --> 00:02:06,250
+That's really the only thing that's new here.
+
+34
+00:02:06,250 --> 00:02:10,595
+It turns out that if the two proportions are independent,
+
+35
+00:02:10,595 --> 00:02:13,670
+that means the two samples were taken independently,
+
+36
+00:02:13,670 --> 00:02:16,920
+then the standard error of the difference is,
+
+37
+00:02:16,920 --> 00:02:19,660
+we take the standard error of the first one,
+
+38
+00:02:19,660 --> 00:02:23,150
+square it, take the standard error of the second one,
+
+39
+00:02:23,150 --> 00:02:26,765
+square it, and take the square root of the sum.
+
+40
+00:02:26,765 --> 00:02:29,440
+So let's plug this in.
+
+41
+00:02:29,440 --> 00:02:34,500
+We get the difference of the percentages minus 0 on the top,
+
+42
+00:02:34,500 --> 00:02:38,110
+and then we have the formula on the bottom.
+
+43
+00:02:38,110 --> 00:02:42,880
+And now we simply use the formula for the standard error of a proportion,
+
+44
+00:02:42,880 --> 00:02:44,800
+which is this thing there,
+
+45
+00:02:44,800 --> 00:02:47,065
+and we have to square it.
+
+46
+00:02:47,065 --> 00:02:52,860
+And now we have to simply estimate p1 by the percentage,
+
+47
+00:02:52,860 --> 00:02:55,450
+we estimate p2 by the percentage,
+
+48
+00:02:55,450 --> 00:02:59,515
+and what we get is 1.48.
+
+49
+00:02:59,515 --> 00:03:02,775
+So, now we can find a p-value,
+
+50
+00:03:02,775 --> 00:03:08,605
+by looking up a normal curve, we take 1.48.
+
+51
+00:03:08,605 --> 00:03:11,160
+We look up the area to the right.
+
+52
+00:03:11,160 --> 00:03:15,200
+It turns out that this is 7%,
+
+53
+00:03:15,200 --> 00:03:20,650
+and the p-value is simply double of that,
+
+54
+00:03:20,880 --> 00:03:24,195
+which is 14%.
+
+55
+00:03:24,195 --> 00:03:26,275
+And of course, this is quite large,
+
+56
+00:03:26,275 --> 00:03:29,845
+and so we cannot reject the null hypothesis.
+
+57
+00:03:29,845 --> 00:03:33,640
+So we can use the formula for the standard error of
+
+58
+00:03:33,640 --> 00:03:36,980
+a difference to also do a confidence interval.
+
+59
+00:03:36,980 --> 00:03:40,480
+So this would simply be the observed difference of
+
+60
+00:03:40,480 --> 00:03:44,505
+the percentages plus minus z times standard error.
+
+61
+00:03:44,505 --> 00:03:47,570
+And then, we can simply plug in the formula,
+
+62
+00:03:47,570 --> 00:03:54,520
+and what we get is -1% to 7%, in case z = 2,
+
+63
+00:03:54,520 --> 00:03:58,120
+that is, if we have a 95% confidence.
+
+64
+00:03:58,120 --> 00:04:03,440
+Again, this assumes that the two samples are drawn independently.
+
+65
+00:04:03,440 --> 00:04:06,440
+So it turns out that if we do
+
+66
+00:04:06,440 --> 00:04:10,840
+hypothesis testing and assume that the two proportions are equal,
+
+67
+00:04:10,840 --> 00:04:15,070
+then we can actually improve the estimate of our standard error somewhat,
+
+68
+00:04:15,070 --> 00:04:18,990
+and that's done by what's called pooling.
+
+69
+00:04:18,990 --> 00:04:26,940
+The idea is that we should simply combine our two samples to estimate this proportion p1,
+
+70
+00:04:26,940 --> 00:04:28,820
+which is the same as p2.
+
+71
+00:04:28,820 --> 00:04:32,060
+And the fact that these two proportions are the same allows
+
+72
+00:04:32,060 --> 00:04:35,320
+us to combine the samples. So let's do that.
+
+73
+00:04:35,320 --> 00:04:37,895
+We have 55% of 1,000,
+
+74
+00:04:37,895 --> 00:04:41,695
+which is 550 voters in the first sample.
+
+75
+00:04:41,695 --> 00:04:46,440
+In the same way, we get 870 in the second sample who approve.
+
+76
+00:04:46,440 --> 00:04:52,025
+So, in total, they have 1,420 approvals out of 2,500.
+
+77
+00:04:52,025 --> 00:04:56,490
+And then, our pooled estimate is simply the fraction of those who
+
+78
+00:04:56,490 --> 00:05:00,815
+approve out of the total sample size of the combined samples,
+
+79
+00:05:00,815 --> 00:05:03,170
+and that's 56.8%.
+
+80
+00:05:03,170 --> 00:05:05,580
+And then, we can compute the standard error of
+
+81
+00:05:05,580 --> 00:05:08,340
+the difference using the formula we had before,
+
+82
+00:05:08,340 --> 00:05:10,830
+but now what we do is we plug in
+
+83
+00:05:10,830 --> 00:05:15,190
+this new number instead of the two different numbers,
+
+84
+00:05:15,190 --> 00:05:19,080
+and what we get is 0.02022,
+
+85
+00:05:19,080 --> 00:05:22,575
+which is almost the same as we got before.
+
+86
+00:05:22,575 --> 00:05:26,890
+Now if we were to compare two means instead of two proportions,
+
+87
+00:05:26,890 --> 00:05:30,390
+then the whole thing works really just in the same way.
+
+88
+00:05:30,390 --> 00:05:36,325
+So, again, we get a formula for the standard error of the difference of two means,
+
+89
+00:05:36,325 --> 00:05:38,915
+and that looks just like before.
+
+90
+00:05:38,915 --> 00:05:43,364
+And remember, the standard error of an individual mean is
+
+91
+00:05:43,364 --> 00:05:48,675
+the population standard deviation divided by the square root sample size.
+
+92
+00:05:48,675 --> 00:05:52,880
+So, in this case, n1 is the sample size of the first sample.
+
+93
+00:05:52,880 --> 00:05:56,975
+And of course, we would estimate Sigma 1 by s1,
+
+94
+00:05:56,975 --> 00:06:00,720
+which is simply the sample standard deviation of the first sample.
+
+95
+00:06:00,720 --> 00:06:05,370
+Now, remember, if the sample size is not large and we have to estimate Sigma,
+
+96
+00:06:05,370 --> 00:06:08,830
+then we said we have to use a t-test instead of a z-test.
+
+97
+00:06:08,830 --> 00:06:11,090
+And the same thing applies here.
+
+98
+00:06:11,090 --> 00:06:14,815
+So if both sample sizes are not large,
+
+99
+00:06:14,815 --> 00:06:18,035
+then we need to find the p-value using a t-distribution,
+
+100
+00:06:18,035 --> 00:06:23,030
+and there's a complicated formula for that which you need to look up if you ever need it.
+
+101
+00:06:23,030 --> 00:06:27,065
+If you look up the two-sample z-test in textbooks,
+
+102
+00:06:27,065 --> 00:06:31,360
+then sometimes you see that there's some pooling going
+
+103
+00:06:31,360 --> 00:06:37,315
+on if one can assume that the two standard deviations are the same.
+
+104
+00:06:37,315 --> 00:06:40,690
+In that case, it is possible to estimate
+
+105
+00:06:40,690 --> 00:06:46,325
+the common standard deviation using the pooled estimate whose formula is given here.
+
+106
+00:06:46,325 --> 00:06:48,670
+However, it turns out that typically,
+
+107
+00:06:48,670 --> 00:06:51,025
+there's not much advantage of doing that.
+
+108
+00:06:51,025 --> 00:06:54,310
+Also, remember that this analysis rests on the assumption that
+
+109
+00:06:54,310 --> 00:06:58,970
+the two standard deviations are the same, and there may be questions about that.
+
+110
+00:06:58,970 --> 00:07:03,065
+And for these reasons, the pooled t-test is usually avoided.
+
+111
+00:07:03,065 --> 00:07:06,250
+Again, remember that all of these two-sample tests we looked
+
+112
+00:07:06,250 --> 00:07:09,595
+at require that the two samples are independent.
+
+113
+00:07:09,595 --> 00:07:12,580
+It turns out you can also use a two-sample test in
+
+114
+00:07:12,580 --> 00:07:16,470
+other special situations where the samples are actually dependent.
+
+115
+00:07:16,470 --> 00:07:19,510
+For example, if one wants to compare the treatment effect when
+
+116
+00:07:19,510 --> 00:07:22,815
+subjects are randomized into treatment and control groups.
+
+117
+00:07:22,815 --> 00:07:29,130
+This is a special topic which you need to look up in case you ever come across it.

@@ -1,0 +1,247 @@
+1
+00:00:00,000 --> 00:00:01,995
+Now, let's look at the same data,
+
+2
+00:00:01,995 --> 00:00:04,570
+but including Palm Beach County.
+
+3
+00:00:04,570 --> 00:00:08,700
+Palm Beach County is this one observation all the way up there.
+
+4
+00:00:08,700 --> 00:00:15,140
+It's called an outlier because its y-value is very far away from the regression line.
+
+5
+00:00:15,140 --> 00:00:19,860
+This is very clear by looking at the residual plot on the right-hand side.
+
+6
+00:00:19,860 --> 00:00:25,110
+Again, we see Palm Beach County being very far above the horizontal line.
+
+7
+00:00:25,110 --> 00:00:31,170
+Such outliers should be examined because they could represent an interesting phenomena.
+
+8
+00:00:31,170 --> 00:00:33,670
+They could also simply represent a typo,
+
+9
+00:00:33,670 --> 00:00:36,925
+in which case, you may simply decide to remove it.
+
+10
+00:00:36,925 --> 00:00:39,930
+This is another application of the residual plot
+
+11
+00:00:39,930 --> 00:00:43,410
+because it makes it easy to spot those outliers.
+
+12
+00:00:43,410 --> 00:00:48,295
+In fact, there was quite some controversy in the 2000 presidential election.
+
+13
+00:00:48,295 --> 00:00:54,515
+The reason was that only Palm Beach County used the so-called butterfly ballot.
+
+14
+00:00:54,515 --> 00:00:58,455
+And that ballot was suspected to confuse some voters
+
+15
+00:00:58,455 --> 00:01:02,265
+to vote for Buchanan instead of the Democratic candidate, Al Gore.
+
+16
+00:01:02,265 --> 00:01:09,280
+That may explain why Buchanan got such a large number of votes only in Palm Beach County.
+
+17
+00:01:09,280 --> 00:01:14,550
+Now, you can see why a regression is quite useful in all kinds of situations.
+
+18
+00:01:14,550 --> 00:01:18,700
+For example, you could use the residual here to
+
+19
+00:01:18,700 --> 00:01:23,185
+estimate how many votes Buchanan got in error.
+
+20
+00:01:23,185 --> 00:01:27,350
+So far, we only looked at y-values which are outlying.
+
+21
+00:01:27,350 --> 00:01:31,410
+An x-value, which is far from the mean of the x-values,
+
+22
+00:01:31,410 --> 00:01:34,040
+is said to have high leverage.
+
+23
+00:01:34,040 --> 00:01:38,080
+The reason why the word leverage is used is because
+
+24
+00:01:38,080 --> 00:01:42,710
+such a point has the potential to cause a big change in the regression line.
+
+25
+00:01:42,710 --> 00:01:45,625
+Let's look at this toy example plotted here.
+
+26
+00:01:45,625 --> 00:01:50,930
+There are four points and three of them follow a roughly linear pattern,
+
+27
+00:01:50,930 --> 00:01:55,170
+but the fourth one is quite a bit apart.
+
+28
+00:01:55,170 --> 00:02:00,225
+And moreover, it has a lot of leverage because it's far away in terms of x-values.
+
+29
+00:02:00,225 --> 00:02:04,350
+What would happen if we fit the regression without that point?
+
+30
+00:02:04,350 --> 00:02:09,495
+Here is the regression line that we get if we omit this point here.
+
+31
+00:02:09,495 --> 00:02:14,610
+We see that this one point has a big influence on the regression line.
+
+32
+00:02:14,610 --> 00:02:17,910
+Such a point is called an influential point.
+
+33
+00:02:17,910 --> 00:02:21,465
+Whether or not a point is influential can only be told
+
+34
+00:02:21,465 --> 00:02:25,235
+by refitting the regression line without using that point.
+
+35
+00:02:25,235 --> 00:02:26,960
+For such an analysis,
+
+36
+00:02:26,960 --> 00:02:30,000
+the residual plot turns out to be not very helpful.
+
+37
+00:02:30,000 --> 00:02:34,835
+The reason is that an influential point may have a residual which is quite small,
+
+38
+00:02:34,835 --> 00:02:37,385
+so it doesn't show up in the residual plot.
+
+39
+00:02:37,385 --> 00:02:42,205
+The reason why it's quite small is because the point is influential in the first place.
+
+40
+00:02:42,205 --> 00:02:44,815
+So, it pulls the regression line towards it.
+
+41
+00:02:44,815 --> 00:02:46,400
+In fact, in this example,
+
+42
+00:02:46,400 --> 00:02:49,450
+you see that the residual is quite small.
+
+43
+00:02:49,450 --> 00:02:54,055
+Here are some other issues that you should keep in mind when doing a regression.
+
+44
+00:02:54,055 --> 00:02:57,420
+Remember, the main purpose of regression is to predict.
+
+45
+00:02:57,420 --> 00:03:01,120
+Predictions should not be done at x-values that are
+
+46
+00:03:01,120 --> 00:03:05,395
+outside the range of the x-values that were used for the regression.
+
+47
+00:03:05,395 --> 00:03:08,530
+The reason for this is that oftentimes,
+
+48
+00:03:08,530 --> 00:03:12,345
+the linear relationship only holds for a certain range.
+
+49
+00:03:12,345 --> 00:03:15,010
+We have no reason to suspect that it
+
+50
+00:03:15,010 --> 00:03:19,195
+holds outside the range of the x-values which we look at.
+
+51
+00:03:19,195 --> 00:03:23,170
+Sometimes, the data that are given to you actually come in terms
+
+52
+00:03:23,170 --> 00:03:27,275
+of summaries such as average of some other data.
+
+53
+00:03:27,275 --> 00:03:31,820
+Those summaries are less variable than other observations.
+
+54
+00:03:31,820 --> 00:03:33,800
+And a consequence is that
+
+55
+00:03:33,800 --> 00:03:38,220
+correlations tend to overstate the strength of the relationship.
+
+56
+00:03:38,220 --> 00:03:43,740
+Finally, most regression analyses report a number which is called R-squared.
+
+57
+00:03:43,740 --> 00:03:47,485
+This is simply the square of the correlation coefficient.
+
+58
+00:03:47,485 --> 00:03:51,670
+The interpretation of R-squared is that it gives the fraction
+
+59
+00:03:51,670 --> 00:03:55,945
+of the variation in the y-values that is explained by the regression line.
+
+60
+00:03:55,945 --> 00:04:02,030
+So, 1 - r-squared is the leftover variation that's left in the residuals.
+
+61
+00:04:02,030 --> 00:04:05,560
+A higher R-squared means that the regression line does
+
+62
+00:04:05,560 --> 00:04:10,000
+a good job in explaining a lot of the variation in the y-values.

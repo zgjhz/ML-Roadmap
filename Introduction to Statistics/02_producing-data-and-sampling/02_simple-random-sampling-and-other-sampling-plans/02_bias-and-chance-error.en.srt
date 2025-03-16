@@ -1,0 +1,87 @@
+1
+00:00:00,000 --> 00:00:04,970
+One thing to keep in mind is that since the sample is drawn at random,
+
+2
+00:00:04,970 --> 00:00:09,905
+the estimate will be somewhat off from the two-population parameter.
+
+3
+00:00:09,905 --> 00:00:12,640
+This is called chance error.
+
+4
+00:00:12,640 --> 00:00:16,290
+Also, keep in mind that if we draw another sample,
+
+5
+00:00:16,290 --> 00:00:18,675
+we will get a somewhat different chance error.
+
+6
+00:00:18,675 --> 00:00:23,820
+So we can think of the estimate as being made up out of three parts.
+
+7
+00:00:23,820 --> 00:00:27,405
+It should be somewhere close to the parameter.
+
+8
+00:00:27,405 --> 00:00:31,510
+There may be a bias if our sampling is not done well.
+
+9
+00:00:31,510 --> 00:00:35,020
+And finally, there's a chance error which is unavoidable.
+
+10
+00:00:35,020 --> 00:00:37,845
+So while the chance error is unavoidable,
+
+11
+00:00:37,845 --> 00:00:42,870
+it turns out, we can make it small by taking a bigger sample size.
+
+12
+00:00:42,870 --> 00:00:47,550
+Moreover, we can compute how large the chance error will be.
+
+13
+00:00:47,550 --> 00:00:52,720
+So, it's totally in our control to choose the sample size
+
+14
+00:00:52,720 --> 00:00:58,120
+large enough such that the chance error is sufficiently small.
+
+15
+00:00:58,120 --> 00:01:01,200
+And we will see later how to do that.
+
+16
+00:01:01,200 --> 00:01:05,650
+Things are quite different for the bias which is also called systematic error.
+
+17
+00:01:05,650 --> 00:01:07,785
+If we increase the sample size,
+
+18
+00:01:07,785 --> 00:01:09,810
+the bias will not get smaller.
+
+19
+00:01:09,810 --> 00:01:13,745
+Rather, it would just repeat the error on a larger scale.
+
+20
+00:01:13,745 --> 00:01:17,985
+Also, we typically don't know how large the bias is.
+
+21
+00:01:17,985 --> 00:01:20,940
+So, having a bias is a real problem,
+
+22
+00:01:20,940 --> 00:01:27,000
+and that's the reason why we use chance in sampling in order to avoid a bias.

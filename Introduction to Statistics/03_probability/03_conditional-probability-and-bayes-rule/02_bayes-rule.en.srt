@@ -1,0 +1,183 @@
+1
+00:00:00,100 --> 00:00:05,910
+So, these type of computations are actually used for spam filters.
+
+2
+00:00:05,910 --> 00:00:11,160
+We already saw that the probability that the word money appears in an e-mail,
+
+3
+00:00:11,160 --> 00:00:14,555
+given that the e-mail is spam, is 8%.
+
+4
+00:00:14,555 --> 00:00:16,900
+But for a spam filter,
+
+5
+00:00:16,900 --> 00:00:20,000
+we need to know a different conditional probability.
+
+6
+00:00:20,000 --> 00:00:23,595
+We need to know the probability that the e-mail is spam,
+
+7
+00:00:23,595 --> 00:00:26,545
+given that money appears in the email.
+
+8
+00:00:26,545 --> 00:00:30,925
+Because after all, we want to classify an e-mail as spam,
+
+9
+00:00:30,925 --> 00:00:34,675
+if we think there's a high probability that it is spam.
+
+10
+00:00:34,675 --> 00:00:39,040
+So, we need that conditional probability, rather than the first one.
+
+11
+00:00:39,040 --> 00:00:42,680
+The formula for conditional probabilities says that,
+
+12
+00:00:42,680 --> 00:00:44,895
+"the probability of B given A,
+
+13
+00:00:44,895 --> 00:00:49,965
+is the probability of A and B, divided by the probability of A."
+
+14
+00:00:49,965 --> 00:00:53,305
+But A and B is the same as B and A.
+
+15
+00:00:53,305 --> 00:00:57,875
+So, I can simply switch the roles of A and B in the numerator,
+
+16
+00:00:57,875 --> 00:01:03,060
+and write probability of B and A, and then I can use
+
+17
+00:01:03,060 --> 00:01:08,575
+the same formula for conditional probability, with the roles of A and B reversed.
+
+18
+00:01:08,575 --> 00:01:11,330
+And what I get is this,
+
+19
+00:01:11,330 --> 00:01:13,510
+probability of A given B,
+
+20
+00:01:13,510 --> 00:01:18,650
+times probability of B divided by probability of A.
+
+21
+00:01:18,650 --> 00:01:23,250
+So, what this simple calculation does for us is,
+
+22
+00:01:23,250 --> 00:01:27,020
+it computes a probability of B given A,
+
+23
+00:01:27,020 --> 00:01:30,795
+in terms of a probability of A given B.
+
+24
+00:01:30,795 --> 00:01:35,590
+And that's exactly what we need for the above problem.
+
+25
+00:01:35,590 --> 00:01:39,870
+We want to know, the probability that e-mail is spam,
+
+26
+00:01:39,870 --> 00:01:42,690
+given that the word money appears in the email.
+
+27
+00:01:42,690 --> 00:01:46,030
+And applying that formula says that,
+
+28
+00:01:46,030 --> 00:01:49,555
+this equals the probability that the word money appears in the email,
+
+29
+00:01:49,555 --> 00:01:51,360
+given that the email is spam,
+
+30
+00:01:51,360 --> 00:01:54,205
+times the probability that the email is spam,
+
+31
+00:01:54,205 --> 00:01:57,885
+over the probability that money appears in the e-mail.
+
+32
+00:01:57,885 --> 00:02:05,570
+And we know all of these probabilities, and can plug in, and we find 67%.
+
+33
+00:02:05,570 --> 00:02:08,450
+So, this rule has a special name.
+
+34
+00:02:08,450 --> 00:02:11,140
+It's called, Bayes' rule.
+
+35
+00:02:11,140 --> 00:02:15,140
+This is the formula we derived above,
+
+36
+00:02:15,140 --> 00:02:18,310
+and sometimes it turns out that
+
+37
+00:02:18,310 --> 00:02:26,330
+the denominator probability of A is not directly given to us, and we have to compute it.
+
+38
+00:02:26,330 --> 00:02:32,985
+And we do that just as we computed the probability of money on the previous slide.
+
+39
+00:02:32,985 --> 00:02:34,685
+And if we do that,
+
+40
+00:02:34,685 --> 00:02:39,265
+we get the expanded version of Bayes' formula which looks like that.
+
+41
+00:02:39,265 --> 00:02:42,490
+So, the key to applying Bayes' rule is,
+
+42
+00:02:42,490 --> 00:02:45,765
+to always first try the simpler version,
+
+43
+00:02:45,765 --> 00:02:49,500
+and then if it turns out that we don't know the denominator,
+
+44
+00:02:49,500 --> 00:02:52,395
+then we try the more complicated version.
+
+45
+00:02:52,395 --> 00:02:56,775
+The key for Bayes' rule is it turns
+
+46
+00:02:56,775 --> 00:03:04,140
+conditional probabilities of A given B into probabilities of B given A.

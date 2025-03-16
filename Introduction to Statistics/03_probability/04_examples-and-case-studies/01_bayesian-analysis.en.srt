@@ -1,0 +1,271 @@
+1
+00:00:00,880 --> 00:00:06,730
+The previous example where we computed probabilities in order to classify
+
+2
+00:00:06,730 --> 00:00:12,810
+email as spam is a simple example of what's called a Bayesian analysis.
+
+3
+00:00:12,810 --> 00:00:16,925
+The idea is as follows. Before looking at the email,
+
+4
+00:00:16,925 --> 00:00:22,225
+we already know that about 20% of all email is spam.
+
+5
+00:00:22,225 --> 00:00:29,275
+So there's already a prior probability of 20% that the email is spam.
+
+6
+00:00:29,275 --> 00:00:32,700
+The idea now is to look at
+
+7
+00:00:32,700 --> 00:00:37,105
+the evidence inside the email, such as certain key words like money,
+
+8
+00:00:37,105 --> 00:00:44,130
+and to improve on that prior probability using that evidence we find inside the email.
+
+9
+00:00:44,130 --> 00:00:47,780
+So we did this using the Bayesian formula.
+
+10
+00:00:47,780 --> 00:00:57,285
+And the way to think about this is that the Bayes' rule allows us to improve or update
+
+11
+00:00:57,285 --> 00:01:01,670
+the prior probability into what's called a posterior
+
+12
+00:01:01,670 --> 00:01:07,710
+probability that incorporates the information that we found inside the email.
+
+13
+00:01:07,710 --> 00:01:12,115
+Here's another example where we will use Bayes' rule.
+
+14
+00:01:12,115 --> 00:01:16,590
+Suppose that 1% of the population has a certain disease,
+
+15
+00:01:16,590 --> 00:01:18,380
+and there's a test,
+
+16
+00:01:18,380 --> 00:01:21,585
+that tests for the presence of the disease.
+
+17
+00:01:21,585 --> 00:01:23,930
+If an infected person is tested,
+
+18
+00:01:23,930 --> 00:01:27,805
+then there's a 95% chance that the test is positive,
+
+19
+00:01:27,805 --> 00:01:30,130
+but if the person is not infected,
+
+20
+00:01:30,130 --> 00:01:35,485
+then there's still a 2% chance that a test gives an erroneous positive result.
+
+21
+00:01:35,485 --> 00:01:40,000
+That's called a false positive, because it's a positive result when in fact,
+
+22
+00:01:40,000 --> 00:01:41,790
+the person is not infected.
+
+23
+00:01:41,790 --> 00:01:44,565
+Given that a person tests positive,
+
+24
+00:01:44,565 --> 00:01:48,695
+what are now the chances that he has the disease?
+
+25
+00:01:48,695 --> 00:01:52,735
+So, let's look what probabilities we have.
+
+26
+00:01:52,735 --> 00:01:56,500
+First, there's the 1%, that refers
+
+27
+00:01:56,500 --> 00:02:00,850
+to the probability that a certain person has the disease.
+
+28
+00:02:00,850 --> 00:02:07,875
+So we can write this down as the probability that the disease is present as 1%.
+
+29
+00:02:07,875 --> 00:02:16,100
+Then we have the 95% chance that a test is positive if the person is infected.
+
+30
+00:02:16,100 --> 00:02:18,790
+That's a condition of probability,
+
+31
+00:02:18,790 --> 00:02:24,870
+the probability of a positive test given that the disease is present.
+
+32
+00:02:24,870 --> 00:02:28,715
+Finally, there's the 2%.
+
+33
+00:02:28,715 --> 00:02:31,770
+That refers to the probability of
+
+34
+00:02:31,770 --> 00:02:35,835
+a positive outcome given that the disease is not present.
+
+35
+00:02:35,835 --> 00:02:37,420
+What do we want to know?
+
+36
+00:02:37,420 --> 00:02:40,540
+Well, we want to know the probability that
+
+37
+00:02:40,540 --> 00:02:44,615
+a disease is present given that the test is positive.
+
+38
+00:02:44,615 --> 00:02:51,280
+So now, you see we are looking for a conditional probability when what we
+
+39
+00:02:51,280 --> 00:02:53,880
+have is a conditional probability with
+
+40
+00:02:53,880 --> 00:02:58,380
+the roles of positive outcome and disease flipped around.
+
+41
+00:02:58,380 --> 00:03:02,240
+So, that immediately tells you that you want to use Bayes' rule,
+
+42
+00:03:02,240 --> 00:03:06,765
+because Bayes' rule allows you to flip these two things around.
+
+43
+00:03:06,765 --> 00:03:10,105
+When you plug in, this is what you get.
+
+44
+00:03:10,105 --> 00:03:15,425
+So let's see whether we can get an answer from there right away.
+
+45
+00:03:15,425 --> 00:03:19,950
+We know the probability of a positive test given that the disease
+
+46
+00:03:19,950 --> 00:03:24,510
+is present and we know the probability of the disease being present,
+
+47
+00:03:24,510 --> 00:03:29,085
+but we do not know the probability of a positive test.
+
+48
+00:03:29,085 --> 00:03:35,180
+So this is the case where we want to use the expanded version of Bayes' rule.
+
+49
+00:03:35,180 --> 00:03:37,915
+Now, we can simply plug in,
+
+50
+00:03:37,915 --> 00:03:40,365
+everything that's written there we know.
+
+51
+00:03:40,365 --> 00:03:44,100
+For example, the probability of not having
+
+52
+00:03:44,100 --> 00:03:49,170
+a disease is simply 99% by the complement rule.
+
+53
+00:03:49,170 --> 00:03:55,110
+If you plug in, what you get is 32.4%.
+
+54
+00:03:55,110 --> 00:03:58,080
+This is surprisingly low.
+
+55
+00:03:58,080 --> 00:04:00,420
+After all, there is a positive test.
+
+56
+00:04:00,420 --> 00:04:07,105
+The test seems to be quite good, 95% of the time when the disease is present,
+
+57
+00:04:07,105 --> 00:04:12,915
+the test finds it, and only 2% of the time, when the disease is not present, will the test
+
+58
+00:04:12,915 --> 00:04:16,950
+give an erroneous result.
+
+59
+00:04:16,950 --> 00:04:18,620
+So how come then there's only a 32% chance
+
+60
+00:04:18,620 --> 00:04:23,140
+that the disease is there, if we have a positive test?
+
+61
+00:04:23,140 --> 00:04:27,195
+The reason is, that most of the population
+
+62
+00:04:27,195 --> 00:04:29,210
+does not have the disease.
+
+63
+00:04:29,210 --> 00:04:34,145
+Only 1% of the population has the disease, and the test finds most of those.
+
+64
+00:04:34,145 --> 00:04:40,170
+But there's also a 2% chance of finding the disease for a non-infected person.
+
+65
+00:04:40,170 --> 00:04:42,570
+And since there are so many people who
+
+66
+00:04:42,570 --> 00:04:45,080
+are not infected, that number is
+
+67
+00:04:45,080 --> 00:04:49,605
+quite big, and that's why there's only a 32% chance the
+
+68
+00:04:49,605 --> 00:04:53,990
+disease is present among those tested positive.

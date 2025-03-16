@@ -1,0 +1,15 @@
+Categorical data come up when observations are grouped into categories
+and organized into tables. We will look at three important statistical
+analyses for categorical data. Tests for goodness of fit, homogeneity, and
+independence. This module is about categorical data. To see
+what categorical data are, let's look at this big tragedy from 1912, when the Titanic sank and more than 1,500 of the 2,229 people on board died. The question we can have is,
+whether the chance of survival depended on the ticket class. It
+turns out very detailed data are available about the Titanic disaster. Here's a table that shows the number of survivors and
+people who died for each ticket class, as well as for
+the crew. This is a typical example for categorical data. The data
+are given as counts for a fixed number of categories. Typically, such data are obtained by grouping. In
+this case, the data are tabulated in what's called a 2 x 4 table. That's because there are two rows
+and four columns. Such a table is also called a contingency table, because it shows the survival counts
+for each category of ticket class. That means, contingent on the ticket class. We will look at three problems that involve categorical data. They all use the chi-squared test.
+These problems are testing goodness of fit, testing homogeneity and
+testing independence.

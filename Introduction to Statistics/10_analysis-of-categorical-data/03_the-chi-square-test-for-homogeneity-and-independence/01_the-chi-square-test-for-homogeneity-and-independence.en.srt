@@ -1,0 +1,387 @@
+1
+00:00:00,000 --> 00:00:04,495
+Here's a different question about colors and M&Ms.
+
+2
+00:00:04,495 --> 00:00:08,895
+Is the color distribution the same for milk chocolate M&Ms,
+
+3
+00:00:08,895 --> 00:00:12,035
+peanut M&Ms, and caramel M&Ms?
+
+4
+00:00:12,035 --> 00:00:13,865
+So in this case,
+
+5
+00:00:13,865 --> 00:00:17,310
+we would have to compare several populations.
+
+6
+00:00:17,310 --> 00:00:20,815
+That is called a test of homogeneity.
+
+7
+00:00:20,815 --> 00:00:23,440
+The null distribution is that
+
+8
+00:00:23,440 --> 00:00:27,490
+the color distribution is the same for all of the populations,
+
+9
+00:00:27,490 --> 00:00:30,570
+which in this case, are milk, peanut, and caramel.
+
+10
+00:00:30,570 --> 00:00:34,720
+The chi-square test of homogeneity assumes that the samples are drawn
+
+11
+00:00:34,720 --> 00:00:40,195
+independently for each population, and also independently across the populations.
+
+12
+00:00:40,195 --> 00:00:43,365
+To see how the mechanics of the test work,
+
+13
+00:00:43,365 --> 00:00:47,620
+let's look again at the survival data for the Titanic.
+
+14
+00:00:47,640 --> 00:00:53,295
+The first thing to note is that we're not sampling from a population.
+
+15
+00:00:53,295 --> 00:00:57,475
+The data we have are not a random sample of the people on board,
+
+16
+00:00:57,475 --> 00:01:01,580
+rather the data represent the whole population.
+
+17
+00:01:01,580 --> 00:01:06,140
+So, this is not the usual setup where we sample from
+
+18
+00:01:06,140 --> 00:01:13,410
+a population, but it may still meet the assumption that we draw independently.
+
+19
+00:01:13,410 --> 00:01:20,270
+The way to think about this is that the chance process resulting in survival or death,
+
+20
+00:01:20,270 --> 00:01:23,450
+is the result of a sequence of random events that
+
+21
+00:01:23,450 --> 00:01:26,630
+occurs when people try to find their way out of the ship,
+
+22
+00:01:26,630 --> 00:01:29,915
+get into a lifeboat, or have to jump into the water,
+
+23
+00:01:29,915 --> 00:01:34,160
+and whether they are being rescued out of the water in time.
+
+24
+00:01:34,160 --> 00:01:40,740
+So, we can think about the 325 observations on first-class passengers as
+
+25
+00:01:40,740 --> 00:01:43,250
+325 independent draws from
+
+26
+00:01:43,250 --> 00:01:47,575
+a probability histogram that gives a certain chance for survival.
+
+27
+00:01:47,575 --> 00:01:50,990
+Likewise, the 285 observations about
+
+28
+00:01:50,990 --> 00:01:53,270
+second-class passengers are drawn from
+
+29
+00:01:53,270 --> 00:01:56,475
+a probability histogram for second-class passengers,
+
+30
+00:01:56,475 --> 00:01:58,170
+which may be different.
+
+31
+00:01:58,170 --> 00:02:01,460
+Now, the null hypothesis says that
+
+32
+00:02:01,460 --> 00:02:06,480
+the probability of survival is the same for all four probability histograms.
+
+33
+00:02:06,480 --> 00:02:10,520
+And that's the null hypothesis we're going to test.
+
+34
+00:02:10,520 --> 00:02:15,735
+The chi-square test in this situation is quite similar to the one before.
+
+35
+00:02:15,735 --> 00:02:20,550
+That means we compare the observed counts to expected counts.
+
+36
+00:02:20,550 --> 00:02:23,725
+We already have a table of observed counts.
+
+37
+00:02:23,725 --> 00:02:27,205
+So next, we have to find the table of expected counts.
+
+38
+00:02:27,205 --> 00:02:32,790
+The way this is done is that realizing that under the null hypothesis,
+
+39
+00:02:32,790 --> 00:02:37,475
+the probability of survival is the same for all four populations.
+
+40
+00:02:37,475 --> 00:02:43,440
+That means we can estimate the probability by simply pooling all the data.
+
+41
+00:02:43,440 --> 00:02:50,405
+In total, there were 713 survivors among the 2,229 people on board.
+
+42
+00:02:50,405 --> 00:02:58,295
+So, we estimate the probability of survival as 713 over 2,229, which is 32%.
+
+43
+00:02:58,295 --> 00:03:02,770
+Then the expected number of surviving first-class passengers is
+
+44
+00:03:02,770 --> 00:03:09,295
+that 32% times the number of first-class passengers, and that comes out to be 104.
+
+45
+00:03:09,295 --> 00:03:11,440
+We repeat this calculation for
+
+46
+00:03:11,440 --> 00:03:17,025
+the other seven categories and that gives us and our table of expected values.
+
+47
+00:03:17,025 --> 00:03:21,010
+Then we compute the chi-square statistic just as before.
+
+48
+00:03:21,010 --> 00:03:25,855
+That is, we look at the difference between observed and expected, square it,
+
+49
+00:03:25,855 --> 00:03:30,550
+divide it by expected, and sum over all eight cells.
+
+50
+00:03:30,550 --> 00:03:35,580
+In that case, the chi-square statistic gives us 192.2.
+
+51
+00:03:35,580 --> 00:03:38,370
+Again, we have to compare this number to
+
+52
+00:03:38,370 --> 00:03:43,185
+a chi-square distribution but the degrees of freedom in this case, it's different.
+
+53
+00:03:43,185 --> 00:03:47,910
+The degrees of freedom is given by the number of columns - 1,
+
+54
+00:03:47,910 --> 00:03:50,620
+times the number of rows - 1.
+
+55
+00:03:50,620 --> 00:03:53,260
+So, we had four ticket classes,
+
+56
+00:03:53,260 --> 00:03:54,770
+so we had four columns.
+
+57
+00:03:54,770 --> 00:03:57,460
+So, 4 - (-3),
+
+58
+00:03:57,460 --> 00:04:00,370
+and then we had two rows,
+
+59
+00:04:00,370 --> 00:04:01,760
+2 - 1 = 1,
+
+60
+00:04:01,760 --> 00:04:06,240
+so the degrees of freedom is the product of 3 and 1 which is 3.
+
+61
+00:04:06,240 --> 00:04:10,770
+So then we have to compare the chi-square value of 192.2,
+
+62
+00:04:10,770 --> 00:04:14,305
+against a chi-square distribution with three degrees of freedom.
+
+63
+00:04:14,305 --> 00:04:15,520
+If you look at the picture,
+
+64
+00:04:15,520 --> 00:04:20,620
+you see that this 192 is all the way out there and
+
+65
+00:04:20,620 --> 00:04:26,310
+there's essentially no area to the right so the p-value is 0%,
+
+66
+00:04:26,310 --> 00:04:30,470
+and that is very strong evidence against the null hypothesis.
+
+67
+00:04:30,470 --> 00:04:36,935
+So the conclusion would be that the chances of survival depended on the ticket class.
+
+68
+00:04:36,935 --> 00:04:43,190
+Finally, the third application of the chi-square test is testing independence.
+
+69
+00:04:43,190 --> 00:04:46,580
+As an example, we may ask whether gender being
+
+70
+00:04:46,580 --> 00:04:49,795
+male or female is related to voting preference.
+
+71
+00:04:49,795 --> 00:04:52,315
+That means voting liberal or conservative.
+
+72
+00:04:52,315 --> 00:04:55,470
+In this case, we have two categorical variables.
+
+73
+00:04:55,470 --> 00:04:58,850
+One is gender and the other is voting preference.
+
+74
+00:04:58,850 --> 00:05:03,415
+The null hypothesis is that the two variables are independent.
+
+75
+00:05:03,415 --> 00:05:08,070
+The alternative hypothesis is that there is some kind of association.
+
+76
+00:05:08,070 --> 00:05:13,175
+Again, the chi-square test can be used to test this null hypothesis.
+
+77
+00:05:13,175 --> 00:05:18,865
+We sample data from the population by sampling people at random,
+
+78
+00:05:18,865 --> 00:05:23,035
+we record the outcomes for the two categorical variables,
+
+79
+00:05:23,035 --> 00:05:26,970
+and that gives us columns in a two-by-two table.
+
+80
+00:05:26,970 --> 00:05:30,580
+It turns out that the chi-square statistic and p-value are
+
+81
+00:05:30,580 --> 00:05:34,290
+computed exactly as in the case of testing homogeneity.
+
+82
+00:05:34,290 --> 00:05:38,845
+That means we also used the same way of computing the degrees of freedom.
+
+83
+00:05:38,845 --> 00:05:41,830
+Since the chi-square test works the same way
+
+84
+00:05:41,830 --> 00:05:45,070
+both for testing independence and testing homogeneity,
+
+85
+00:05:45,070 --> 00:05:47,185
+it's easy to mix those up.
+
+86
+00:05:47,185 --> 00:05:52,480
+Here's a table that compares what's different between these two cases.
+
+87
+00:05:52,480 --> 00:05:55,755
+The first difference is in the sampling.
+
+88
+00:05:55,755 --> 00:05:58,870
+The chi-square test of homogeneity measures
+
+89
+00:05:58,870 --> 00:06:01,240
+a single categorical variable on
+
+90
+00:06:01,240 --> 00:06:05,245
+several samples that were obtained from several populations.
+
+91
+00:06:05,245 --> 00:06:08,619
+In contrast, for the chi-square test of independence,
+
+92
+00:06:08,619 --> 00:06:14,510
+we have only one sample, but we measure two categorical variables on the sample.
+
+93
+00:06:14,600 --> 00:06:18,750
+Also, the research questions are different.
+
+94
+00:06:18,750 --> 00:06:24,225
+The chi-square test of homogeneity tests whether the different groups are homogeneous,
+
+95
+00:06:24,225 --> 00:06:28,715
+which means that they have the same distribution of the categorical variable.
+
+96
+00:06:28,715 --> 00:06:31,180
+In contrast, the chi-square test of
+
+97
+00:06:31,180 --> 00:06:37,200
+independence checks whether the two categorical variables are independent.

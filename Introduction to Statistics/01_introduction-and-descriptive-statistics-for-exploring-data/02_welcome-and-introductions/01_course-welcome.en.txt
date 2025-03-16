@@ -1,0 +1,30 @@
+The amount of information and data that are becoming available
+to us is growing exponentially. As the amount of available data grows,
+so is our need to understand it. Statistics is the science of learning
+from data. This course will help you to develop the skills you need to analyze
+data and to communicate your findings. There won't be many
+formulas in the course. Rather, we will develop the key
+ideas of statistical thinking that are essential for learning from data. When you take this course, it is helpful
+if you have access to a spreadsheet, a software package, or website that
+provides basic statistical functions, such as areas under the normal curve. But proficiency in
+a programming language is not necessary to master the contents and
+to complete the course. We will discuss the main tools for
+descriptive statistics which are essential for exploring data, with an emphasis
+on visualizing information. We will explain the important ideas about
+sampling and conducting experiments. Then we will look over some
+important rules of probability and discuss normal approximation and
+the central limit theorem. We will show you the important concepts
+and pitfalls of regression and how to do inference with confidence
+intervals and tests of hypotheses. You will learn the key ideas about
+computer-intensive inference with the Monte Carlo method and
+the Bootstrap. We will show you how to
+analyze categorical data and discuss one-way analysis of variance. Finally, we will look at reproducibility,
+data snooping and the multiple testing fallacy and
+how to account for multiple comparisons. These issues have become particularly
+important in the era of big data. Broadly, there are three main reasons
+why statistical literacy is essential in data science. First, it provides the skills to assess
+whether the data are sufficient to answer the questions at hand. Second, it establishes a rigorous
+framework for quantifying uncertainty. And finally, it provides techniques for effectively communicating
+the findings of your analyses. This course equips you with important
+tools in all of these areas. It is the statistical foundation on which
+the recent exciting advances in machine learning are built. I hope you will enjoy the course.

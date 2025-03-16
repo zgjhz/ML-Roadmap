@@ -1,0 +1,99 @@
+1
+00:00:00,000 --> 00:00:02,805
+The technical term, distribution,
+
+2
+00:00:02,805 --> 00:00:05,120
+comes up in many different ways.
+
+3
+00:00:05,120 --> 00:00:08,740
+It's helpful to step back and see what's happening here.
+
+4
+00:00:08,740 --> 00:00:12,055
+When we toss the coin 100 times,
+
+5
+00:00:12,055 --> 00:00:16,700
+we simulate the data by drawing from the probability histogram.
+
+6
+00:00:16,700 --> 00:00:20,240
+That probability histogram says we can get
+
+7
+00:00:20,240 --> 00:00:25,250
+heads with probability a half and tails with probability a half.
+
+8
+00:00:25,250 --> 00:00:30,110
+So remember that the probability histogram is a theoretical construct.
+
+9
+00:00:30,110 --> 00:00:35,180
+It simply tells us what the chances are for simulating.
+
+10
+00:00:35,180 --> 00:00:38,400
+After we have simulated 100 tosses,
+
+11
+00:00:38,400 --> 00:00:40,135
+we have actual data.
+
+12
+00:00:40,135 --> 00:00:47,090
+For example, we could end up with 47 heads and 53 tails.
+
+13
+00:00:47,090 --> 00:00:52,745
+Then we can make a histogram of those data, and the histogram looks like this one.
+
+14
+00:00:52,745 --> 00:00:55,390
+So you see that this histogram looks quite
+
+15
+00:00:55,390 --> 00:00:58,515
+similar to the probability histogram in the first step,
+
+16
+00:00:58,515 --> 00:01:04,920
+but it's a little bit different because the 100 tosses involve a chance process.
+
+17
+00:01:04,920 --> 00:01:08,225
+Finally, if we are interested in a statistic,
+
+18
+00:01:08,225 --> 00:01:12,090
+such as the number of tails in 100 tosses,
+
+19
+00:01:12,090 --> 00:01:14,295
+then we get a third histogram,
+
+20
+00:01:14,295 --> 00:01:18,605
+which gives the sampling distribution of that statistic.
+
+21
+00:01:18,605 --> 00:01:22,330
+In this case, it's a binomial distribution,
+
+22
+00:01:22,330 --> 00:01:26,165
+and you'll see that this histogram is quite different from the first two.
+
+23
+00:01:26,165 --> 00:01:28,815
+Later on when we do statistical inference,
+
+24
+00:01:28,815 --> 00:01:31,375
+it's easy to mix up these histograms.
+
+25
+00:01:31,375 --> 00:01:36,000
+So it's really important to carefully think through what's going on there.

@@ -1,0 +1,163 @@
+1
+00:00:00,000 --> 00:00:04,480
+Traditional drug discovery is typically led by biologists.
+
+2
+00:00:04,480 --> 00:00:09,250
+Right? And so, in a program like liver cancer that would, most typically,
+
+3
+00:00:09,250 --> 00:00:13,445
+entail someone who has spent their entire life studying the disease,
+
+4
+00:00:13,445 --> 00:00:16,560
+and maybe they come up with some piece of biology or
+
+5
+00:00:16,560 --> 00:00:20,080
+some mechanism that has the potential to be modulated,
+
+6
+00:00:20,080 --> 00:00:21,915
+right, to help people with that disease.
+
+7
+00:00:21,915 --> 00:00:24,705
+That type of research,
+
+8
+00:00:24,705 --> 00:00:27,660
+can take decades, a lot of basic science,
+
+9
+00:00:27,660 --> 00:00:29,390
+a lot of cognitive thinking.
+
+10
+00:00:29,390 --> 00:00:32,210
+We replace a lot of that work with data science.
+
+11
+00:00:32,210 --> 00:00:33,550
+We collect tons of data,
+
+12
+00:00:33,550 --> 00:00:38,200
+more data than any human could possibly ingest and interpret on their own,
+
+13
+00:00:38,200 --> 00:00:41,370
+process that information and essentially come up
+
+14
+00:00:41,370 --> 00:00:44,580
+with the same types of biological theories that you could apply.
+
+15
+00:00:44,580 --> 00:00:47,110
+But all this happens in the course of a few minutes,
+
+16
+00:00:47,110 --> 00:00:48,995
+rather than the course of a few decades.
+
+17
+00:00:48,995 --> 00:00:55,525
+The challenges we have at work have very little to do with technology choices,
+
+18
+00:00:55,525 --> 00:01:02,100
+and generating potential new drugs that have promise.
+
+19
+00:01:02,100 --> 00:01:06,240
+More of our challenge sare on, it's an industry that has a lot of tradition behind it,
+
+20
+00:01:06,240 --> 00:01:09,075
+of having that classic, lab coated
+
+21
+00:01:09,075 --> 00:01:11,190
+scientists doing that work.
+
+22
+00:01:11,190 --> 00:01:14,540
+And most of our work is helping to educate people that
+
+23
+00:01:14,540 --> 00:01:17,840
+data science can actually make this difference, right?
+
+24
+00:01:17,840 --> 00:01:21,650
+You don't need some prestigious professor who's been at it for 20 years,
+
+25
+00:01:21,650 --> 00:01:24,285
+that kind of software can do the same thing, if not better.
+
+26
+00:01:24,285 --> 00:01:30,380
+Like that concept, for people in this industry is a very tough one for them to deal with,
+
+27
+00:01:30,380 --> 00:01:33,710
+and even just in the medical profession as a whole, there's been,
+
+28
+00:01:33,710 --> 00:01:37,835
+I think a lot of talk about what is the role of the clinician, right?
+
+29
+00:01:37,835 --> 00:01:40,925
+What's the role of your doctor moving forward?
+
+30
+00:01:40,925 --> 00:01:43,270
+And does that become one where they're doing
+
+31
+00:01:43,270 --> 00:01:46,070
+less on decision support and software is doing that,
+
+32
+00:01:46,070 --> 00:01:49,210
+and it's more about sort of that personal care perspective.
+
+33
+00:01:49,210 --> 00:01:51,770
+Medical doctors don't like that.
+
+34
+00:01:51,770 --> 00:01:57,660
+They don't like that, and so, a lot of the work that we have to do is more on education,
+
+35
+00:01:57,660 --> 00:01:59,135
+and getting people comfortable,
+
+36
+00:01:59,135 --> 00:02:01,320
+and sitting down with prestigious scientists and
+
+37
+00:02:01,320 --> 00:02:04,070
+telling them something that's a little out of their comfort zone.
+
+38
+00:02:04,070 --> 00:02:05,940
+That's most of my challenges.
+
+39
+00:02:05,940 --> 00:02:07,050
+Strangely enough,
+
+40
+00:02:07,050 --> 00:02:08,285
+it's not writing code.
+
+41
+00:02:08,285 --> 00:02:11,000
+It's not solving technical issues in that regard.

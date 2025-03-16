@@ -1,0 +1,319 @@
+1
+00:00:00,000 --> 00:00:01,880
+When the sample size is small,
+
+2
+00:00:01,880 --> 00:00:05,615
+then we need to apply a small modification to the z-test.
+
+3
+00:00:05,615 --> 00:00:07,755
+Let's look at this example.
+
+4
+00:00:07,755 --> 00:00:10,740
+The health guideline for lead in drinking water
+
+5
+00:00:10,740 --> 00:00:14,720
+is a concentration of not more than 15 parts per billion.
+
+6
+00:00:14,720 --> 00:00:17,770
+Now, suppose we have five independent samples from
+
+7
+00:00:17,770 --> 00:00:22,225
+a reservoir and they average to 15.6 parts per billion.
+
+8
+00:00:22,225 --> 00:00:26,655
+So that's above the threshold of 15 parts per billion,
+
+9
+00:00:26,655 --> 00:00:29,225
+but it could be due to measurement error.
+
+10
+00:00:29,225 --> 00:00:30,940
+So the question is,
+
+11
+00:00:30,940 --> 00:00:33,820
+is this sufficient evidence to conclude that
+
+12
+00:00:33,820 --> 00:00:39,165
+the concentration mu in the reservoir is above the standard of 15 parts per billion?
+
+13
+00:00:39,165 --> 00:00:44,380
+So the first thing here is to think how our measurements come about.
+
+14
+00:00:44,380 --> 00:00:47,705
+Remember the model we had for measurements.
+
+15
+00:00:47,705 --> 00:00:52,185
+Measurement is the true value mu plus some chance error.
+
+16
+00:00:52,185 --> 00:00:57,240
+And that chance error explains why it's possible to get an average of
+
+17
+00:00:57,240 --> 00:01:04,615
+15.6 even though the true concentration in the reservoir mu might actually be 15 or below.
+
+18
+00:01:04,615 --> 00:01:10,680
+So, a null hypothesis would be that the true concentration mu is 15 parts per billion,
+
+19
+00:01:10,680 --> 00:01:14,005
+and the alternative would be that it is larger than 15.
+
+20
+00:01:14,005 --> 00:01:19,260
+So by the way, why are we looking at a null where the mu is exactly 15?
+
+21
+00:01:19,260 --> 00:01:23,145
+The reason is that this is kind of a worst case scenario.
+
+22
+00:01:23,145 --> 00:01:26,955
+The p-value we get in that case is larger
+
+23
+00:01:26,955 --> 00:01:31,020
+than the p-value we would get for smaller null hypotheses.
+
+24
+00:01:31,020 --> 00:01:33,280
+And so, if we can reject in this case,
+
+25
+00:01:33,280 --> 00:01:35,265
+we can also reject in others.
+
+26
+00:01:35,265 --> 00:01:38,580
+So, let's try a z-test for this case.
+
+27
+00:01:38,580 --> 00:01:41,690
+The z-statistic looks at the observed,
+
+28
+00:01:41,690 --> 00:01:44,140
+and in this case, we're looking at averages.
+
+29
+00:01:44,140 --> 00:01:46,340
+So we have observed average minus
+
+30
+00:01:46,340 --> 00:01:49,950
+expected average over the standard error of the average.
+
+31
+00:01:49,950 --> 00:01:53,475
+So we know the observed average is 15.6.
+
+32
+00:01:53,475 --> 00:01:55,950
+We know the expected average,
+
+33
+00:01:55,950 --> 00:02:00,535
+that's simply the value under the null hypothesis, is 15.
+
+34
+00:02:00,535 --> 00:02:03,310
+And the only thing we need to figure out is,
+
+35
+00:02:03,310 --> 00:02:05,725
+what's the standard error of the average?
+
+36
+00:02:05,725 --> 00:02:09,305
+We do have a formula for the standard error of the average.
+
+37
+00:02:09,305 --> 00:02:13,880
+It's simply the standard deviation sigma divided by square root sample size.
+
+38
+00:02:13,880 --> 00:02:16,590
+But now the problem is that we do not
+
+39
+00:02:16,590 --> 00:02:19,825
+know the standard deviation sigma of the measurement error.
+
+40
+00:02:19,825 --> 00:02:23,330
+As usual, we would simply estimate sigma by s,
+
+41
+00:02:23,330 --> 00:02:26,330
+which is the sample standard deviation of the measurements.
+
+42
+00:02:26,330 --> 00:02:29,035
+Here's where the complication comes in.
+
+43
+00:02:29,035 --> 00:02:31,455
+For small sample sizes,
+
+44
+00:02:31,455 --> 00:02:33,630
+let's say smaller than 20,
+
+45
+00:02:33,630 --> 00:02:35,630
+if we have to estimate sigma,
+
+46
+00:02:35,630 --> 00:02:37,360
+then the normal curve is not
+
+47
+00:02:37,360 --> 00:02:41,270
+a good enough approximation to the distribution of the z-statistic.
+
+48
+00:02:41,270 --> 00:02:47,945
+What happens is that the uncertainty in estimating sigma throws off the approximation.
+
+49
+00:02:47,945 --> 00:02:52,770
+In that case, we have to use a slightly different approximation which
+
+50
+00:02:52,770 --> 00:02:57,505
+is called student's t-distribution with n - 1 degrees of freedom.
+
+51
+00:02:57,505 --> 00:03:01,880
+Here's a graph that shows several student curves.
+
+52
+00:03:01,880 --> 00:03:04,950
+The black curve with mu equals
+
+53
+00:03:04,950 --> 00:03:09,180
+infinity actually corresponds to the standard normal curve.
+
+54
+00:03:09,180 --> 00:03:14,155
+So, what you can see is that the t-curves are somewhat lower in the middle,
+
+55
+00:03:14,155 --> 00:03:18,060
+but the tails of the t-curves are higher up.
+
+56
+00:03:18,060 --> 00:03:21,575
+These fatter tails simply reflect
+
+57
+00:03:21,575 --> 00:03:25,825
+the additional uncertainty that comes in from estimating sigma.
+
+58
+00:03:25,825 --> 00:03:28,590
+If the sample size is large enough,
+
+59
+00:03:28,590 --> 00:03:31,770
+then this additional uncertainty is not relevant,
+
+60
+00:03:31,770 --> 00:03:35,675
+and therefore, we can simply use the standard normal curve.
+
+61
+00:03:35,675 --> 00:03:38,890
+By the way, there's an interesting story as to why
+
+62
+00:03:38,890 --> 00:03:41,875
+this whole thing is called students' distribution.
+
+63
+00:03:41,875 --> 00:03:46,110
+It was actually derived by a beer brewer with the name Gosset,
+
+64
+00:03:46,110 --> 00:03:49,245
+and he was working for the British Guinness Brewery.
+
+65
+00:03:49,245 --> 00:03:53,610
+But the brewery did not allow its employees to make their work public,
+
+66
+00:03:53,610 --> 00:03:57,865
+so he published these results under the pseudonym Student.
+
+67
+00:03:57,865 --> 00:03:59,900
+When using the t-test,
+
+68
+00:03:59,900 --> 00:04:01,970
+keep in mind that your estimate, s,
+
+69
+00:04:01,970 --> 00:04:06,420
+for the sample standard deviation has n - 1 in the denominator,
+
+70
+00:04:06,420 --> 00:04:10,790
+not n. That's really important for the t-test.
+
+71
+00:04:10,790 --> 00:04:14,670
+The way you should think about the t-test is as a special case
+
+72
+00:04:14,670 --> 00:04:19,460
+of the z-test that becomes necessary when the sample size is small.
+
+73
+00:04:19,460 --> 00:04:23,530
+In that case, it's also better to replace
+
+74
+00:04:23,530 --> 00:04:27,840
+the usual normal confidence intervals by a t-interval.
+
+75
+00:04:27,840 --> 00:04:31,030
+That is, instead of using a cut of z,
+
+76
+00:04:31,030 --> 00:04:36,100
+we would use the appropriate cut of t with n - 1 degrees of freedom.
+
+77
+00:04:36,100 --> 00:04:39,985
+The name degrees of freedom is simply a technical term,
+
+78
+00:04:39,985 --> 00:04:43,275
+that means, for every sample size n,
+
+79
+00:04:43,275 --> 00:04:45,250
+there is a student curve.
+
+80
+00:04:45,250 --> 00:04:50,050
+And the one we are going to use is the one with n - 1 degrees of freedom.

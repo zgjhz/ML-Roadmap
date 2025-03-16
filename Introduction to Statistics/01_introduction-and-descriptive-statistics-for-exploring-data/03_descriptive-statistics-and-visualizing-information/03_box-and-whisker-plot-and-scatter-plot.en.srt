@@ -1,0 +1,191 @@
+1
+00:00:00,000 --> 00:00:03,600
+I'm sure you've seen a bar graph and a histogram before.
+
+2
+00:00:03,600 --> 00:00:05,565
+The next one may be new.
+
+3
+00:00:05,565 --> 00:00:07,175
+It's called the boxplot,
+
+4
+00:00:07,175 --> 00:00:10,365
+sometimes it's also called the box-and-whisker plot.
+
+5
+00:00:10,365 --> 00:00:16,250
+The idea is that it visualizes five key numbers of the data.
+
+6
+00:00:16,250 --> 00:00:20,475
+In this example, we look at fuel consumption of 32 cars,
+
+7
+00:00:20,475 --> 00:00:22,530
+it's given in miles per gallon.
+
+8
+00:00:22,530 --> 00:00:25,950
+The lower whisker which is the number here,
+
+9
+00:00:25,950 --> 00:00:29,160
+shows the smallest number in the data.
+
+10
+00:00:29,160 --> 00:00:32,495
+So, we see it's roughly 10 miles per gallon.
+
+11
+00:00:32,495 --> 00:00:36,060
+The upper whisker here shows the largest number
+
+12
+00:00:36,060 --> 00:00:39,980
+in the data which may be around 35 miles per gallon.
+
+13
+00:00:39,980 --> 00:00:42,830
+And then there are three more numbers;
+
+14
+00:00:42,830 --> 00:00:44,950
+we have the median,
+
+15
+00:00:44,950 --> 00:00:49,640
+that's the number where half of the data are smaller and half are larger,
+
+16
+00:00:49,640 --> 00:00:53,205
+so this might be around 19 miles per gallon,
+
+17
+00:00:53,205 --> 00:00:59,475
+and there's the first quartile, which is this number here, around 15 miles per gallon.
+
+18
+00:00:59,475 --> 00:01:04,780
+That's the number where a quarter of the data are smaller and three-quarters are larger.
+
+19
+00:01:04,780 --> 00:01:09,530
+And finally, there's the third quartile, which is this number which
+
+20
+00:01:09,530 --> 00:01:11,480
+gives you the point where three quarters of
+
+21
+00:01:11,480 --> 00:01:15,165
+the data are smaller and one quarter are larger.
+
+22
+00:01:15,165 --> 00:01:19,120
+The boxplot has less information than a histogram
+
+23
+00:01:19,120 --> 00:01:23,185
+because it only shows five numbers of the data.
+
+24
+00:01:23,185 --> 00:01:27,080
+But in turn it takes up less space, and so one can use it to
+
+25
+00:01:27,080 --> 00:01:31,160
+compare several datasets by putting them into the same graphic.
+
+26
+00:01:31,160 --> 00:01:36,060
+The display below shows the same data that we had on the previous slide.
+
+27
+00:01:36,060 --> 00:01:38,240
+But now the data are divided up into
+
+28
+00:01:38,240 --> 00:01:42,425
+three groups depending on the number of cylinders of each car.
+
+29
+00:01:42,425 --> 00:01:45,305
+Each group gets its own box plot.
+
+30
+00:01:45,305 --> 00:01:49,870
+By putting all three boxplots in one graphic, we see that
+
+31
+00:01:49,870 --> 00:01:54,660
+the miles per gallon are larger for cars that have fewer cylinders.
+
+32
+00:01:54,660 --> 00:01:58,630
+A graphic like this is difficult to make with histograms.
+
+33
+00:01:58,630 --> 00:02:01,640
+Also, keep in mind that the histogram depends on
+
+34
+00:02:01,640 --> 00:02:05,175
+the choice of the intervals that we select for the blocks.
+
+35
+00:02:05,175 --> 00:02:08,680
+We don't have to deal with that when we use boxplots.
+
+36
+00:02:08,680 --> 00:02:13,395
+This graphic is an example of the principle of small multiples.
+
+37
+00:02:13,395 --> 00:02:15,795
+We will talk about this later.
+
+38
+00:02:15,795 --> 00:02:21,785
+Finally, let's look at data that consists of not just one number but two,
+
+39
+00:02:21,785 --> 00:02:24,865
+that is the data come as pairs.
+
+40
+00:02:24,865 --> 00:02:31,225
+Those data are typically plotted in a coordinate system which is called a scatter plot.
+
+41
+00:02:31,225 --> 00:02:38,005
+The example here shows the years of education and the salaries for a number of people.
+
+42
+00:02:38,005 --> 00:02:41,725
+For example, this person may have
+
+43
+00:02:41,725 --> 00:02:47,910
+about 12 years of education and an income of roughly $15,000.
+
+44
+00:02:47,910 --> 00:02:53,885
+The scatter plot is very useful to visualize the relationship between two variables.
+
+45
+00:02:53,885 --> 00:02:58,500
+For example we see that as education increases,
+
+46
+00:02:58,500 --> 00:03:00,625
+income tends to go up.
+
+47
+00:03:00,625 --> 00:03:03,370
+And moreover, we see that for many years of
+
+48
+00:03:03,370 --> 00:03:08,370
+education, there seems to be a steep increase in income.

@@ -1,0 +1,263 @@
+1
+00:00:00,600 --> 00:00:04,715
+Probabilities are always between 0 and 1.
+
+2
+00:00:04,715 --> 00:00:11,695
+The key for computing probabilities is to apply a few rules repeatedly.
+
+3
+00:00:11,695 --> 00:00:18,560
+We already saw that the probability that a newborn is a girl is 48.8% so,
+
+4
+00:00:18,560 --> 00:00:21,020
+what's the probability that a newborn is a boy?
+
+5
+00:00:21,020 --> 00:00:23,480
+Well, that's the opposite so,
+
+6
+00:00:23,480 --> 00:00:26,410
+it's 1 - 48.8%,
+
+7
+00:00:26,410 --> 00:00:28,970
+which is 51.2%.
+
+8
+00:00:28,970 --> 00:00:32,375
+And that's already our first rule.
+
+9
+00:00:32,375 --> 00:00:34,775
+To write down rules,
+
+10
+00:00:34,775 --> 00:00:38,250
+it's convenient to abbreviate events such as,
+
+11
+00:00:38,250 --> 00:00:41,620
+newborn is a girl with capital letters, such as A.
+
+12
+00:00:41,620 --> 00:00:44,880
+So our first rule which is called the complement rule,
+
+13
+00:00:44,880 --> 00:00:51,445
+says that the probability that A does not occur is 1 minus the probability of A.
+
+14
+00:00:51,445 --> 00:00:53,830
+This is called the complement rule
+
+15
+00:00:53,830 --> 00:00:58,365
+because A does not occur is also called the complement of A.
+
+16
+00:00:58,365 --> 00:01:02,365
+Now let's look at a different chance experiment, namely, rolling a die.
+
+17
+00:01:02,365 --> 00:01:07,085
+A die has six sides and each of them is equally likely.
+
+18
+00:01:07,085 --> 00:01:11,895
+So each side has probability 1/6 of coming up.
+
+19
+00:01:11,895 --> 00:01:13,925
+This is our second rule.
+
+20
+00:01:13,925 --> 00:01:16,970
+It's called the rule for equally likely outcomes.
+
+21
+00:01:16,970 --> 00:01:21,155
+If there are N possible outcomes and they are equally likely,
+
+22
+00:01:21,155 --> 00:01:26,390
+then the probability of an event A is the number of outcomes in A,
+
+23
+00:01:26,390 --> 00:01:30,450
+divided by N. In the next two rules,
+
+24
+00:01:30,450 --> 00:01:33,110
+we learn how to compute probabilities of
+
+25
+00:01:33,110 --> 00:01:37,115
+multiple events as those of the individual events.
+
+26
+00:01:37,115 --> 00:01:38,750
+For the first one,
+
+27
+00:01:38,750 --> 00:01:40,280
+we need a small definition.
+
+28
+00:01:40,280 --> 00:01:46,175
+A and B are called mutually exclusive if they cannot occur at the same time.
+
+29
+00:01:46,175 --> 00:01:48,585
+Let's look at an example.
+
+30
+00:01:48,585 --> 00:01:51,090
+Suppose we roll a die twice.
+
+31
+00:01:51,090 --> 00:01:53,525
+Let's call the event A,
+
+32
+00:01:53,525 --> 00:01:57,570
+to be the event where we see one spot on the first roll,
+
+33
+00:01:57,570 --> 00:02:01,495
+B is the event where we see six spots on the first roll,
+
+34
+00:02:01,495 --> 00:02:05,555
+and C is the event where we see one spot on the second roll.
+
+35
+00:02:05,555 --> 00:02:08,220
+Then A and B are mutually exclusive,
+
+36
+00:02:08,220 --> 00:02:11,560
+because if we have one spot on the first roll,
+
+37
+00:02:11,560 --> 00:02:14,765
+then we cannot have six spots on the first roll.
+
+38
+00:02:14,765 --> 00:02:19,510
+But A and C are not mutually exclusive because if you have one spot on the first roll,
+
+39
+00:02:19,510 --> 00:02:21,985
+then we can also have one spot on the second roll.
+
+40
+00:02:21,985 --> 00:02:24,510
+So here is our third rule,
+
+41
+00:02:24,510 --> 00:02:26,090
+it's called the addition rule.
+
+42
+00:02:26,090 --> 00:02:29,620
+If the events A and B are mutually exclusive,
+
+43
+00:02:29,620 --> 00:02:33,690
+then the probability of A or B happening is
+
+44
+00:02:33,690 --> 00:02:38,670
+simply the sum of the probabilities of A and B.
+
+45
+00:02:38,670 --> 00:02:42,880
+Our last rule involves two events being independent.
+
+46
+00:02:42,880 --> 00:02:44,860
+That means that knowing that one occurs does
+
+47
+00:02:44,860 --> 00:02:50,345
+not change the probability that the other occurs. In the above example,
+
+48
+00:02:50,345 --> 00:02:56,150
+B and C are independent, because B concerns the first roll,
+
+49
+00:02:56,150 --> 00:03:00,720
+and C concerns the second roll, and the outcome of the second roll
+
+50
+00:03:00,720 --> 00:03:06,805
+doesn't depend on the outcome of the first roll. But the events A and B are not independent,
+
+51
+00:03:06,805 --> 00:03:10,270
+because if you have a 1 on the first roll, then we cannot have a 6 
+
+52
+00:03:10,270 --> 00:03:13,410
+on the first roll. So the outcome of A
+
+53
+00:03:13,410 --> 00:03:16,990
+will affect the outcome of B.
+
+54
+00:03:16,990 --> 00:03:20,475
+So the last rule is the multiplication rule.
+
+55
+00:03:20,475 --> 00:03:23,300
+It says if A and B are independent,
+
+56
+00:03:23,300 --> 00:03:28,505
+then the probability of A and B happening is simply
+
+57
+00:03:28,505 --> 00:03:32,650
+the product of the probability of A and B.
+
+58
+00:03:32,650 --> 00:03:35,965
+So if we look at these two rules, we see
+
+59
+00:03:35,965 --> 00:03:38,840
+that the addition rule has an or,
+
+60
+00:03:38,840 --> 00:03:43,420
+and the multiplication rule has an and.
+
+61
+00:03:43,420 --> 00:03:45,785
+And then in the addition rule, 
+
+62
+00:03:45,785 --> 00:03:50,325
+we add, whereas in the multiplication rule, we multiply.
+
+63
+00:03:50,325 --> 00:03:54,220
+And likewise, the assumptions are different. For the addition rule,
+
+64
+00:03:54,220 --> 00:03:57,455
+the events have to be mutually exclusive, and in the multiplication rule,
+
+65
+00:03:57,455 --> 00:04:00,580
+they have to be independent.
+
+66
+00:04:00,580 --> 00:04:04,745
+This is what one has to keep in mind to keep these two rules apart.

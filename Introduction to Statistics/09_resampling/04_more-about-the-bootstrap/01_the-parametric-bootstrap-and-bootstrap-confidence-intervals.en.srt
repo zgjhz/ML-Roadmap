@@ -1,0 +1,211 @@
+1
+00:00:00,330 --> 00:00:04,330
+Drawing a bootstrap sample by sampling with
+
+2
+00:00:04,330 --> 00:00:09,065
+replacement from the data is called nonparametric bootstrap.
+
+3
+00:00:09,065 --> 00:00:12,035
+Sometimes, we know more about the data.
+
+4
+00:00:12,035 --> 00:00:16,130
+For example, we may know that the data follow a normal distribution,
+
+5
+00:00:16,130 --> 00:00:19,115
+but we don't know the mean on the standard deviation.
+
+6
+00:00:19,115 --> 00:00:22,665
+In that case, we may want to use that information.
+
+7
+00:00:22,665 --> 00:00:25,160
+Of course, the obvious thing to do there is to
+
+8
+00:00:25,160 --> 00:00:28,505
+simply estimate the unknown mean and standard deviation,
+
+9
+00:00:28,505 --> 00:00:31,910
+and then simply sample from the normal distribution,
+
+10
+00:00:31,910 --> 00:00:34,160
+with that mean and standard deviation.
+
+11
+00:00:34,160 --> 00:00:37,495
+That's called parametric bootstrap.
+
+12
+00:00:37,495 --> 00:00:42,465
+This type of sampling works if the data are independent,
+
+13
+00:00:42,465 --> 00:00:47,195
+that is, X1 to Xn are really generated independently.
+
+14
+00:00:47,195 --> 00:00:50,195
+But oftentimes, there's dependence in the data.
+
+15
+00:00:50,195 --> 00:00:53,540
+For example, the data are observed over time.
+
+16
+00:00:53,540 --> 00:00:57,020
+There are also bootstrap methods for dealing with that,
+
+17
+00:00:57,020 --> 00:01:01,515
+but that's a somewhat specialized thing which we don't discuss here.
+
+18
+00:01:01,515 --> 00:01:06,605
+Remember, the simple formula for an approximate confidence interval.
+
+19
+00:01:06,605 --> 00:01:12,570
+We take theta hat and then we go a multiple z times the standard error in each direction.
+
+20
+00:01:12,570 --> 00:01:17,270
+So, if we have a 1 - alpha for example,
+
+21
+00:01:17,270 --> 00:01:18,440
+if alpha is 5%,
+
+22
+00:01:18,440 --> 00:01:20,980
+we get a 95% confidence interval.
+
+23
+00:01:20,980 --> 00:01:24,530
+Then we would look Z alpha half,
+
+24
+00:01:24,530 --> 00:01:30,950
+so we would look at a normal curve and alpha half is 2.5%.
+
+25
+00:01:30,950 --> 00:01:40,830
+So, we would look at z, 0.025,
+
+26
+00:01:40,830 --> 00:01:43,470
+and we would simply plug this into
+
+27
+00:01:43,470 --> 00:01:47,730
+the formula and get an approximate 95% confidence interval.
+
+28
+00:01:47,730 --> 00:01:54,510
+We just saw how to estimate the standard error, in case there's no formula for it.
+
+29
+00:01:54,510 --> 00:01:58,590
+But remember, the confidence interval is really based on
+
+30
+00:01:58,590 --> 00:02:03,310
+the assumption that the sampling distribution of theta hat is roughly normal.
+
+31
+00:02:03,310 --> 00:02:08,325
+That's the reason why we use the multiplier Z from the normal curve.
+
+32
+00:02:08,325 --> 00:02:12,940
+What happens if theta hat is not approximately normal?
+
+33
+00:02:12,940 --> 00:02:18,075
+Well, it turns out we can use the bootstrap in a more ambitious way.
+
+34
+00:02:18,075 --> 00:02:19,570
+In fact, we can estimate
+
+35
+00:02:19,570 --> 00:02:24,335
+the whole sampling distribution of theta hat, not just the standard error.
+
+36
+00:02:24,335 --> 00:02:27,750
+The idea is that the sampling distribution of
+
+37
+00:02:27,750 --> 00:02:32,120
+theta hat should be close to that of the bootstrap copies.
+
+38
+00:02:32,120 --> 00:02:36,630
+And the sampling distribution to the bootstrap copies I can get
+
+39
+00:02:36,630 --> 00:02:42,780
+simply by generating many bootstrap copies and making a histogram of those.
+
+40
+00:02:42,800 --> 00:02:46,885
+This histogram may be quite far from normal.
+
+41
+00:02:46,885 --> 00:02:50,420
+For example, it might look skewed like this.
+
+42
+00:02:50,640 --> 00:02:56,995
+But I can simply find a 95% confidence interval by looking up
+
+43
+00:02:56,995 --> 00:03:03,955
+95% in the middle and looking at the appropriate cutoff points at each end.
+
+44
+00:03:03,955 --> 00:03:07,555
+This is called the bootstrap percentile interval.
+
+45
+00:03:07,555 --> 00:03:10,915
+You simply look up the right percentiles on
+
+46
+00:03:10,915 --> 00:03:15,590
+each end so you have 1 - alpha in the middle.
+
+47
+00:03:16,050 --> 00:03:21,730
+An alternative way to do that is not to bootstrap the distribution of
+
+48
+00:03:21,730 --> 00:03:26,710
+theta hat, but to bootstrap the distribution of theta hat - theta.
+
+49
+00:03:26,710 --> 00:03:28,540
+Why would one do that?
+
+50
+00:03:28,540 --> 00:03:33,595
+The hope is that this is less sensitive to the particular value of theta,
+
+51
+00:03:33,595 --> 00:03:38,125
+and therefore it may produce a more accurate confidence interval.
+
+52
+00:03:38,125 --> 00:03:40,960
+The resulting confidence interval is called
+
+53
+00:03:40,960 --> 00:03:44,860
+bootstrap pivotal interval, and the formula is given there.

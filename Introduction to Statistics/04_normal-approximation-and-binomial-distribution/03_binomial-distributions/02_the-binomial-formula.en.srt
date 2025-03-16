@@ -1,0 +1,199 @@
+1
+00:00:00,000 --> 00:00:04,145
+Now we can use the binomial coefficient to compute
+
+2
+00:00:04,145 --> 00:00:07,950
+the probability of k successes in n experiments.
+
+3
+00:00:07,950 --> 00:00:09,645
+So here's the answer.
+
+4
+00:00:09,645 --> 00:00:14,440
+This binomial coefficient we already saw, it counts the number of
+
+5
+00:00:14,440 --> 00:00:21,135
+ways to arrange k successes in n experiments.
+
+6
+00:00:21,135 --> 00:00:28,025
+And then what we have is this term p to the power k,
+
+7
+00:00:28,025 --> 00:00:35,590
+times 1 - p to the power n - k and that is simply the probability of
+
+8
+00:00:35,590 --> 00:00:44,775
+having a particular pattern of k successes and n - k failures.
+
+9
+00:00:44,775 --> 00:00:48,985
+And that is because if you want to have k successes,
+
+10
+00:00:48,985 --> 00:00:52,575
+it's p to the power k, because they're independent,
+
+11
+00:00:52,575 --> 00:00:58,735
+and each failure has probability 1 - p. And since we have n - k of them,
+
+12
+00:00:58,735 --> 00:01:05,025
+we raise it to the power n - k. This formula is called the binomial probability.
+
+13
+00:01:05,025 --> 00:01:09,095
+So let's do an example about binomial probabilities.
+
+14
+00:01:09,095 --> 00:01:12,265
+Suppose you play an online game 10 times.
+
+15
+00:01:12,265 --> 00:01:14,985
+Each time there are three possible outcomes.
+
+16
+00:01:14,985 --> 00:01:18,415
+You can win a big prize with probability 10%,
+
+17
+00:01:18,415 --> 00:01:21,745
+you can win a small prize with probably 20%,
+
+18
+00:01:21,745 --> 00:01:25,000
+and you win nothing with probability 70%.
+
+19
+00:01:25,000 --> 00:01:30,650
+The question is, what is the probability to win two small prizes?
+
+20
+00:01:30,650 --> 00:01:33,620
+Now it would seem that this is actually not
+
+21
+00:01:33,620 --> 00:01:38,455
+the binomial setting, because after all, we have three possible outcomes.
+
+22
+00:01:38,455 --> 00:01:42,210
+But if you look at the question, you see you are asked to
+
+23
+00:01:42,210 --> 00:01:46,130
+compute the probability of two small prizes.
+
+24
+00:01:46,130 --> 00:01:49,330
+It doesn't talk at all about big prizes.
+
+25
+00:01:49,330 --> 00:01:54,015
+So this is, after all, an example of the binomial setting where
+
+26
+00:01:54,015 --> 00:01:58,715
+success means you win a small prize,
+
+27
+00:01:58,715 --> 00:02:03,840
+and failure means anything else, that is,
+
+28
+00:02:03,840 --> 00:02:13,110
+you win a big prize or you win nothing.
+
+29
+00:02:13,650 --> 00:02:17,370
+So in the binomial setting,
+
+30
+00:02:17,370 --> 00:02:24,730
+our probability becomes the probability of having 2 successes in 10 experiments.
+
+31
+00:02:24,730 --> 00:02:30,990
+And for that we can use the binomial formula, we have n is 10,
+
+32
+00:02:30,990 --> 00:02:32,935
+so there's 10 factorial.
+
+33
+00:02:32,935 --> 00:02:34,770
+Then k is 2,
+
+34
+00:02:34,770 --> 00:02:36,920
+so there's 2 factorial,
+
+35
+00:02:36,920 --> 00:02:40,060
+and 10 - 2 is 8,
+
+36
+00:02:40,060 --> 00:02:42,585
+so there's 8 factorial.
+
+37
+00:02:42,585 --> 00:02:47,485
+Then the probability of success is 0.2.
+
+38
+00:02:47,485 --> 00:02:52,395
+And that has to be raised to 2 because we want to have two successes.
+
+39
+00:02:52,395 --> 00:02:57,680
+The probability of failure is 1 - 0.2,
+
+40
+00:02:57,680 --> 00:03:04,135
+and that has to be raised to the power 8 because 8 is 10 - 2.
+
+41
+00:03:04,135 --> 00:03:13,315
+So now we write 10 factorial as 10 times 9, times 8 factorial.
+
+42
+00:03:13,315 --> 00:03:15,910
+Remember 8 factorial means 8
+
+43
+00:03:15,910 --> 00:03:19,225
+times 7 times 6, and so on, so we can write it that way.
+
+44
+00:03:19,225 --> 00:03:24,920
+2 factorial is simply 2 and I leave the 8 factorial there.
+
+45
+00:03:24,920 --> 00:03:31,935
+Then we keep the 0.2 to the power 2, times 0.8 to the power 8.
+
+46
+00:03:31,935 --> 00:03:37,345
+And now you see you can cancel the 8 factorial and you are left with
+
+47
+00:03:37,345 --> 00:03:43,315
+45 times 0.2 to the power 2,
+
+48
+00:03:43,315 --> 00:03:46,685
+times 0.8 to the power 8.
+
+49
+00:03:46,685 --> 00:03:49,050
+And if you plug this in your calculator,
+
+50
+00:03:49,050 --> 00:03:52,850
+you'll see this is 30.2%.

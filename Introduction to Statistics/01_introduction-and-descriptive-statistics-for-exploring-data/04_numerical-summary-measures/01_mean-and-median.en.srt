@@ -1,0 +1,275 @@
+1
+00:00:00,000 --> 00:00:03,450
+So, let's talk about numerical summary measures.
+
+2
+00:00:03,450 --> 00:00:07,220
+If we want to summarize data using just one number,
+
+3
+00:00:07,220 --> 00:00:10,470
+then, we use the mean or the median.
+
+4
+00:00:10,470 --> 00:00:14,000
+So, everybody knows the mean which is simply the average.
+
+5
+00:00:14,000 --> 00:00:19,475
+The median is the number where half the data are larger and half are smaller.
+
+6
+00:00:19,475 --> 00:00:22,305
+So, it is in some way, a midpoint.
+
+7
+00:00:22,305 --> 00:00:26,355
+Let's look at that histogram which shows
+
+8
+00:00:26,355 --> 00:00:31,205
+annual household incomes in the United States in 2010.
+
+9
+00:00:31,205 --> 00:00:34,000
+Remember that in the histogram,
+
+10
+00:00:34,000 --> 00:00:36,680
+area corresponds to percentage.
+
+11
+00:00:36,680 --> 00:00:42,900
+So, we can find the median by looking at the point where half of the area is below,
+
+12
+00:00:42,900 --> 00:00:45,240
+and half of the area is above.
+
+13
+00:00:45,240 --> 00:00:51,555
+So, here it is marked that the median is at about $50,000.
+
+14
+00:00:51,555 --> 00:00:57,740
+And we can see that roughly half the area of the histogram is below $50,000,
+
+15
+00:00:57,740 --> 00:01:02,525
+and half the area of the histogram is above $50,000.
+
+16
+00:01:02,525 --> 00:01:06,960
+So, now we know that both the mean and the median summarize the data,
+
+17
+00:01:06,960 --> 00:01:09,120
+and the question is which one should we use?
+
+18
+00:01:09,120 --> 00:01:12,940
+It turns out that if the histogram is symmetric,
+
+19
+00:01:12,940 --> 00:01:15,615
+then the mean and the median are actually the same.
+
+20
+00:01:15,615 --> 00:01:22,450
+This histogram shows 100 of the first measurements that were made of the speed of light.
+
+21
+00:01:22,450 --> 00:01:26,820
+The numbers on the horizontal axis show the speed measured
+
+22
+00:01:26,820 --> 00:01:32,075
+after subtracting of 299,000 kilometers per second.
+
+23
+00:01:32,075 --> 00:01:38,350
+We see that this histogram is roughly symmetric around this axis.
+
+24
+00:01:38,350 --> 00:01:42,400
+Other data that result in symmetric histograms would be,
+
+25
+00:01:42,400 --> 00:01:45,780
+for example, heights and weights of people.
+
+26
+00:01:45,780 --> 00:01:50,065
+But when we look at the histogram of annual household incomes,
+
+27
+00:01:50,065 --> 00:01:53,480
+we see that the histogram is far from symmetric.
+
+28
+00:01:55,530 --> 00:02:00,250
+A histogram like this where the right side is much
+
+29
+00:02:00,250 --> 00:02:05,535
+longer than the left side is called skewed to the right.
+
+30
+00:02:05,535 --> 00:02:10,650
+In that case, the mean can be much larger than the median.
+
+31
+00:02:10,650 --> 00:02:14,180
+In fact, for the annual household incomes,
+
+32
+00:02:14,180 --> 00:02:18,095
+the mean household income is about $67,000.
+
+33
+00:02:18,095 --> 00:02:22,095
+Whereas, we saw that the median is $50,000.
+
+34
+00:02:22,095 --> 00:02:24,815
+For such a skewed histogram,
+
+35
+00:02:24,815 --> 00:02:27,400
+it is better to use the median.
+
+36
+00:02:27,400 --> 00:02:30,410
+Let's look at this hypothetical example,
+
+37
+00:02:30,410 --> 00:02:35,395
+where we look at 10 homes and we know that the median sales price is $1 million.
+
+38
+00:02:35,395 --> 00:02:40,310
+Then, we know that five homes sold for $1 million or more,
+
+39
+00:02:40,310 --> 00:02:43,470
+and five homes sold for less than $1 million.
+
+40
+00:02:43,470 --> 00:02:48,090
+On the other hand, if we are told that the average sales price is $1 million,
+
+41
+00:02:48,090 --> 00:02:50,800
+then, it's not really clear what that means.
+
+42
+00:02:50,800 --> 00:02:53,360
+If the average is $1 million, then,
+
+43
+00:02:53,360 --> 00:03:00,360
+we know that the sum of the 10 sales prices is $10 million.
+
+44
+00:03:00,960 --> 00:03:08,540
+Now, let's assume that one house sold for $8 million.
+
+45
+00:03:08,540 --> 00:03:14,600
+Then, we know that the total sales prices for the other nine houses must be $2 million.
+
+46
+00:03:14,600 --> 00:03:19,120
+The average sales price of
+
+47
+00:03:19,120 --> 00:03:25,785
+the other 9 homes is those $2 million divided by 9,
+
+48
+00:03:25,785 --> 00:03:28,900
+and that's about $200,000.
+
+49
+00:03:30,000 --> 00:03:34,420
+So, if we think that the average sales price of
+
+50
+00:03:34,420 --> 00:03:38,890
+$1 million means that most houses sold for roughly $1 million,
+
+51
+00:03:38,890 --> 00:03:42,330
+then we are very wrong in this case.
+
+52
+00:03:43,580 --> 00:03:49,960
+So, the lesson here is that if the histogram is very skewed,
+
+53
+00:03:49,960 --> 00:03:53,340
+as is the case for incomes and house prices,
+
+54
+00:03:53,340 --> 00:03:56,695
+then, knowing the average doesn't really tell you much.
+
+55
+00:03:56,695 --> 00:04:00,770
+It's much better to use the median in those cases.
+
+56
+00:04:02,070 --> 00:04:07,140
+Let's go back to the histogram of annual household incomes.
+
+57
+00:04:07,140 --> 00:04:16,015
+It says that the top 10% reported an income of $135,000,
+
+58
+00:04:16,015 --> 00:04:22,975
+that means that 90% of households had incomes of less than 135,000,
+
+59
+00:04:22,975 --> 00:04:27,465
+and 10% had incomes above $135,000.
+
+60
+00:04:27,465 --> 00:04:31,590
+This point is called a 90th percentile.
+
+61
+00:04:31,960 --> 00:04:40,900
+Furthermore, it says that the top 25% had household incomes above $85,000.
+
+62
+00:04:40,900 --> 00:04:49,740
+This would be the 75th percentile because 75% of households have incomes below that.
+
+63
+00:04:49,740 --> 00:04:54,105
+The 75th percentile is also called the third quartile,
+
+64
+00:04:54,105 --> 00:04:59,700
+that comes from the fact that if one divides the histogram in four equal parts,
+
+65
+00:04:59,700 --> 00:05:02,685
+then one gets the 25th percentile,
+
+66
+00:05:02,685 --> 00:05:06,830
+the 50th percentile, and the 75th percentile.
+
+67
+00:05:06,960 --> 00:05:11,790
+So, the 50th percentile is then the second quartile,
+
+68
+00:05:11,790 --> 00:05:16,330
+and we already learned another name for that which is the median,
+
+69
+00:05:16,440 --> 00:05:21,680
+and the 25th percentile is the first quartile.

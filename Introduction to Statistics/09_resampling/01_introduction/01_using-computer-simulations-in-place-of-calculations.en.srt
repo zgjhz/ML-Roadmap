@@ -1,0 +1,109 @@
+1
+00:00:00,820 --> 00:00:04,570
+Computer power has revolutionized
+statistical inference.
+
+2
+00:00:04,570 --> 00:00:09,450
+In this module, we look at the two main
+concepts that are behind this revolution,
+
+3
+00:00:09,450 --> 00:00:12,230
+the Monte Carlo method and the bootstrap.
+
+4
+00:00:12,230 --> 00:00:15,430
+We will discuss the main principles
+behind these methods and
+
+5
+00:00:15,430 --> 00:00:19,030
+then see how to apply them in
+various important contexts,
+
+6
+00:00:19,030 --> 00:00:22,280
+such as in regression and for
+constructing confidence intervals.
+
+7
+00:00:23,490 --> 00:00:27,710
+Remember that very simple formula for the
+confidence interval for a population mean.
+
+8
+00:00:28,820 --> 00:00:33,930
+We simply take the sample mean
+plus minus z times standard error.
+
+9
+00:00:33,930 --> 00:00:38,920
+The reason why we used z
+was because the sample mean
+
+10
+00:00:38,920 --> 00:00:41,600
+approximately follows the normal curve.
+
+11
+00:00:41,600 --> 00:00:45,270
+Now what happens if we're interested
+in a different estimator,
+
+12
+00:00:45,270 --> 00:00:50,140
+let's call it theta hat, for
+some parameter, theta, of the population.
+
+13
+00:00:50,140 --> 00:00:55,020
+And the normal approximation is
+not valid for this estimator.
+
+14
+00:00:55,020 --> 00:00:58,230
+In that case, such a simple formula
+is not applicable anymore, and
+
+15
+00:00:58,230 --> 00:00:59,560
+we have to do something else.
+
+16
+00:01:01,150 --> 00:01:05,200
+Likewise the simple formula for
+the standard error of the mean,
+
+17
+00:01:05,200 --> 00:01:09,000
+which was based on the square root law,
+may not work anymore.
+
+18
+00:01:09,000 --> 00:01:11,770
+So then what's the standard
+error in that case?
+
+19
+00:01:11,770 --> 00:01:14,720
+It turns out that in such situations,
+
+20
+00:01:14,720 --> 00:01:18,660
+simulations can be used to
+estimate those quantities.
+
+21
+00:01:18,660 --> 00:01:24,070
+In fact, it may turn out that simulations
+sometimes result in better estimates.
+
+22
+00:01:24,070 --> 00:01:28,520
+That what we would have gotten,
+if we would be able to use the formula for
+
+23
+00:01:28,520 --> 00:01:29,580
+the normal approximation.

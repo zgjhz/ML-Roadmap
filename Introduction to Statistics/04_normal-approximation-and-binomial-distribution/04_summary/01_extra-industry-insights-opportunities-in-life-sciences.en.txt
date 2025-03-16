@@ -1,0 +1,16 @@
+In life sciences in general, data
+science is being applied across the spectrum, right? So we're working in
+the earliest stages of drug discovery. But there's certainly work that data
+science can do to help optimize clinical trials. So part of having an effective drug
+therapy is knowing in advance whether or not that medication would work for
+you, and maybe you've had this experience, right? You go to your doctor, you're not feeling
+well, you're given a prescription, and then the doctor says, and
+if this doesn't work, right, come back in a couple weeks and
+we'll try something different. And so part of what's going on there is
+that your genetic makeup as an individual, and sort of you as a biological entity, you might react differently to
+a medication than someone else. And so, some of the other work
+that data science can help with, is some of those companion
+diagnostics, right, to figure out which treatments would
+be most effective with which people. This is not work that we do as a company,
+but these are all opportunities where artificial intelligence, data science
+helps make people healthier as a whole.

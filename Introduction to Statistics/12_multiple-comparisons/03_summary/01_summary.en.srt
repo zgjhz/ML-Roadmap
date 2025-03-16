@@ -1,0 +1,71 @@
+1
+00:00:00,000 --> 00:00:02,600
+We have reached the end of the course.
+
+2
+00:00:02,600 --> 00:00:07,310
+We have discussed the key ideas for learning from data and assessing uncertainty.
+
+3
+00:00:07,310 --> 00:00:09,785
+We looked at the important concepts that are behind
+
+4
+00:00:09,785 --> 00:00:12,690
+almost every statistical inference, such as
+
+5
+00:00:12,690 --> 00:00:15,665
+the square root law and the basic rules of probability.
+
+6
+00:00:15,665 --> 00:00:20,045
+We also saw how modern computer-intensive procedures such as the bootstrap
+
+7
+00:00:20,045 --> 00:00:22,175
+can be a big help for inference.
+
+8
+00:00:22,175 --> 00:00:25,190
+We discussed the main statistical procedures that come
+
+9
+00:00:25,190 --> 00:00:28,040
+up in analyzing data such as regression,
+
+10
+00:00:28,040 --> 00:00:31,325
+testing, and the analysis of categorical data.
+
+11
+00:00:31,325 --> 00:00:36,830
+We also discussed how to effectively communicate information by visualizing data.
+
+12
+00:00:36,830 --> 00:00:39,950
+Even advanced methods in machine learning use
+
+13
+00:00:39,950 --> 00:00:43,670
+these basic ideas in one way or another, and chances are,
+
+14
+00:00:43,670 --> 00:00:48,330
+that when you look under the hood of new methodology that you encounter in the future,
+
+15
+00:00:48,330 --> 00:00:52,775
+you will recognize a number of ideas that we discussed in this course.
+
+16
+00:00:52,775 --> 00:00:55,190
+You now have the background to take the machine
+
+17
+00:00:55,190 --> 00:00:58,120
+learning course, or an advanced statistics course.
+
+18
+00:00:58,120 --> 00:01:01,410
+I wish you the best with your future learning.

@@ -1,0 +1,75 @@
+1
+00:00:00,630 --> 00:00:05,240
+Let's look again at the previous
+example of tossing a coin 100 times.
+
+2
+00:00:05,240 --> 00:00:08,010
+If we are interested in
+the number of tails,
+
+3
+00:00:08,010 --> 00:00:10,160
+there are the following possible outcomes.
+
+4
+00:00:10,160 --> 00:00:13,882
+We could get 0 tails or
+1, or 2, up to 100.
+
+5
+00:00:13,882 --> 00:00:16,621
+Now how likely is each of these outcomes?
+
+6
+00:00:16,621 --> 00:00:21,361
+We know that this is the binomial
+distribution with n = 100, and
+
+7
+00:00:21,361 --> 00:00:22,393
+p = 0.5.
+
+8
+00:00:22,393 --> 00:00:27,398
+Because if we call a coin landing
+tails a success, then the number
+
+9
+00:00:27,398 --> 00:00:33,090
+of tails is simply the number
+of successes in 100 experiments.
+
+10
+00:00:33,090 --> 00:00:38,580
+So if we are interested in the statistic
+that counts the number of tails,
+
+11
+00:00:38,580 --> 00:00:41,180
+then this statistic is a random variable
+
+12
+00:00:41,180 --> 00:00:45,890
+whose probability histogram is
+given by the binomial distribution.
+
+13
+00:00:45,890 --> 00:00:49,940
+This is called the sampling
+distribution of the statistic.
+
+14
+00:00:49,940 --> 00:00:54,530
+The reason why we use a sampling
+distribution is because it provides more
+
+15
+00:00:54,530 --> 00:00:58,660
+detailed information about the chance
+properties of the statistic than
+
+16
+00:00:58,660 --> 00:01:03,050
+the summary numbers given by the expected
+value and the standard error alone.

@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:05,350
+Data science to me is more of, it's a tool in the toolbox, okay?
+
+2
+00:00:05,350 --> 00:00:07,840
+And so, as a carpenter,
+
+3
+00:00:07,840 --> 00:00:10,060
+you can build framing for houses,
+
+4
+00:00:10,060 --> 00:00:12,100
+you can build wooden fences,
+
+5
+00:00:12,100 --> 00:00:14,040
+you can make wonderful custom cabinetry,
+
+6
+00:00:14,040 --> 00:00:15,705
+you can make children's toys.
+
+7
+00:00:15,705 --> 00:00:18,040
+But all of that comes out of sort of having
+
+8
+00:00:18,040 --> 00:00:20,765
+that basic knowledge of how to use those woodworking tools.
+
+9
+00:00:20,765 --> 00:00:25,640
+But there's obviously a lot of mastery that goes into those different disciplines.
+
+10
+00:00:25,640 --> 00:00:30,160
+And so for us, it's more than just the knowledge of how to use these tools and
+
+11
+00:00:30,160 --> 00:00:34,815
+how to explore datasets and make meaningful predictions or pull insights from them,
+
+12
+00:00:34,815 --> 00:00:39,400
+but rather that has to be connected to medicine and biology,
+
+13
+00:00:39,400 --> 00:00:42,410
+and sort of this interpretive aspect of what we're doing.
+
+14
+00:00:42,410 --> 00:00:47,645
+And so when we look for people that we bring into our company from a science perspective,
+
+15
+00:00:47,645 --> 00:00:50,610
+not only do they have to have that meaningful understanding of
+
+16
+00:00:50,610 --> 00:00:54,195
+computer science and sort of how to use these toolsets,
+
+17
+00:00:54,195 --> 00:00:57,920
+but also, what are even the questions we want to ask of that data?
+
+18
+00:00:57,920 --> 00:01:00,330
+How are we going to construct these systems to sort of go
+
+19
+00:01:00,330 --> 00:01:03,990
+after solving these very complex biological problems?
+
+20
+00:01:03,990 --> 00:01:09,000
+We're looking for that capability in the mind of a single person.

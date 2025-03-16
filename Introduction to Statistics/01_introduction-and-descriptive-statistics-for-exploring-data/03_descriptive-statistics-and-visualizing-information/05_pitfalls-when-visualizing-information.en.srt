@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:04,360
+Modern software provides a lot of freedom to design one's own graphics.
+
+2
+00:00:04,360 --> 00:00:08,540
+There is a temptation to produce graphics that is flashy,
+
+3
+00:00:08,540 --> 00:00:12,855
+but often times that results actually in a poor outcome.
+
+4
+00:00:12,855 --> 00:00:18,435
+This is a graphic that shows annual donations to three universities.
+
+5
+00:00:18,435 --> 00:00:21,990
+Keep in mind that we are really comparing three numbers here.
+
+6
+00:00:21,990 --> 00:00:26,605
+There is a number for Harvard which is 683 million,
+
+7
+00:00:26,605 --> 00:00:28,590
+a number for Stanford which is
+
+8
+00:00:28,590 --> 00:00:34,785
+469 million, and a number for Columbia which is 359 million.
+
+9
+00:00:34,785 --> 00:00:39,265
+The graphic looks really interesting because it has three-dimensional bars,
+
+10
+00:00:39,265 --> 00:00:41,910
+but it is actually quite difficult to read.
+
+11
+00:00:41,910 --> 00:00:47,765
+One reason for that is because we are looking at three-dimensional blocks.
+
+12
+00:00:47,765 --> 00:00:50,230
+So we are thinking we have to visualize
+
+13
+00:00:50,230 --> 00:00:53,520
+volume when in fact we are just comparing heights,
+
+14
+00:00:53,520 --> 00:00:56,020
+but comparing heights is itself quite
+
+15
+00:00:56,020 --> 00:01:00,005
+difficult because you are seeing a perspective plot here.
+
+16
+00:01:00,005 --> 00:01:06,625
+The base of the three blocks is at different heights due to the perspective plot.
+
+17
+00:01:06,625 --> 00:01:09,560
+Now to help you see what's going on,
+
+18
+00:01:09,560 --> 00:01:13,485
+there are grid-lines in the background which
+
+19
+00:01:13,485 --> 00:01:18,405
+allow you to refer the height of the block to the corresponding number.
+
+20
+00:01:18,405 --> 00:01:20,434
+But as a consequence,
+
+21
+00:01:20,434 --> 00:01:25,530
+it is really quite difficult to compare these three numbers.
+
+22
+00:01:25,530 --> 00:01:29,685
+It would have been much better to put these three numbers in a dot plot,
+
+23
+00:01:29,685 --> 00:01:32,665
+which makes it much easier to compare them.
+
+24
+00:01:32,665 --> 00:01:34,960
+As another fun example,
+
+25
+00:01:34,960 --> 00:01:38,970
+look at the Gettysburg PowerPoint presentation by Peter Norvig,
+
+26
+00:01:38,970 --> 00:01:42,360
+Peter envisions what may have happened had
+
+27
+00:01:42,360 --> 00:01:47,600
+Abe Lincoln fallen into the trap of using flashy graphics.

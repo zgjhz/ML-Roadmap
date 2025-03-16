@@ -1,0 +1,199 @@
+1
+00:00:00,000 --> 00:00:04,070
+Yeah, I think for new people that come into the field,
+
+2
+00:00:04,070 --> 00:00:10,675
+you'll quickly realize that there are massive amounts of tools that you can use,
+
+3
+00:00:10,675 --> 00:00:13,725
+whether that's choices in database technologies,
+
+4
+00:00:13,725 --> 00:00:16,260
+language to process that
+
+5
+00:00:16,260 --> 00:00:20,125
+those database systems with different machine learning algorithms.
+
+6
+00:00:20,125 --> 00:00:23,510
+And so, that can be very overwhelming,
+
+7
+00:00:23,510 --> 00:00:25,620
+just to sort of examine all of
+
+8
+00:00:25,620 --> 00:00:29,180
+the possibilities of what you could use from a language perspective,
+
+9
+00:00:29,180 --> 00:00:31,230
+tools perspective, et cetera.
+
+10
+00:00:31,230 --> 00:00:34,980
+My advice would be, start small,
+
+11
+00:00:34,980 --> 00:00:40,215
+gain expertise in a particular tool or in that area, and then expand.
+
+12
+00:00:40,215 --> 00:00:42,280
+I think that there's a reason why
+
+13
+00:00:42,280 --> 00:00:44,430
+so many different languages have been built over
+
+14
+00:00:44,430 --> 00:00:46,915
+the years in so many different database technologies.
+
+15
+00:00:46,915 --> 00:00:49,540
+They all solved very different problems.
+
+16
+00:00:49,540 --> 00:00:53,540
+And as you become more and more of an expert in understanding these tools,
+
+17
+00:00:53,540 --> 00:00:55,400
+when you go to solve a problem,
+
+18
+00:00:55,400 --> 00:00:57,270
+you can pull out the right tools from
+
+19
+00:00:57,270 --> 00:01:00,670
+the tool box and piece them together to get the best solution.
+
+20
+00:01:00,670 --> 00:01:03,320
+And so, that breadth of understanding, again,
+
+21
+00:01:03,320 --> 00:01:05,385
+it can be very overwhelming at times,
+
+22
+00:01:05,385 --> 00:01:07,055
+but I wouldn't let that scare you.
+
+23
+00:01:07,055 --> 00:01:12,425
+I would actually encourage you to try to explore as many of those things as you can.
+
+24
+00:01:12,425 --> 00:01:17,190
+Data for me, and data science is a way to sort of understand our world,
+
+25
+00:01:17,190 --> 00:01:19,750
+and it can be applied to so many different things.
+
+26
+00:01:19,750 --> 00:01:22,935
+And so, if you have a passion as an educator,
+
+27
+00:01:22,935 --> 00:01:25,880
+or a passion as someone who's interested in sports,
+
+28
+00:01:25,880 --> 00:01:28,320
+or cooking, or in my case, medicine.
+
+29
+00:01:28,320 --> 00:01:32,675
+There is work to do in data science in all those fields and many more.
+
+30
+00:01:32,675 --> 00:01:38,940
+What's very important in choosing a career is to have some passion behind it.
+
+31
+00:01:38,940 --> 00:01:41,500
+If you have a passion for women's basketball,
+
+32
+00:01:41,500 --> 00:01:44,880
+and you have a passion for data science in that field,
+
+33
+00:01:44,880 --> 00:01:48,740
+you will be a hero, right, because you're going to be able to come in.
+
+34
+00:01:48,740 --> 00:01:51,840
+And whether that's doing the meta-tagging, or looking
+
+35
+00:01:51,840 --> 00:01:55,430
+at statistical information of other sports teams in the past,
+
+36
+00:01:55,430 --> 00:01:58,470
+you can bring that analysis to bear and help that
+
+37
+00:01:58,470 --> 00:02:01,480
+sports team perform better or train better,
+
+38
+00:02:01,480 --> 00:02:05,860
+be better prepared for that next game in ways that other people can't, right?
+
+39
+00:02:05,860 --> 00:02:09,830
+I think part of what's hard for us to sort of understand as humans
+
+40
+00:02:09,830 --> 00:02:14,180
+is there is some very serious limits to what our brain can do.
+
+41
+00:02:14,180 --> 00:02:15,690
+It can be so easily fooled, right,
+
+42
+00:02:15,690 --> 00:02:17,540
+like we believe we can win the lottery.
+
+43
+00:02:17,540 --> 00:02:21,790
+We believe we're going to die in an airplane when the most likely thing to do,
+
+44
+00:02:21,790 --> 00:02:23,990
+of course, is to die in an automobile accident.
+
+45
+00:02:23,990 --> 00:02:26,325
+No one gets scared jumping into their car.
+
+46
+00:02:26,325 --> 00:02:29,270
+And so, that capability to go
+
+47
+00:02:29,270 --> 00:02:33,440
+beyond what humans can think about on their own, to process data,
+
+48
+00:02:33,440 --> 00:02:35,520
+and bring new insights to whether,
+
+49
+00:02:35,520 --> 00:02:39,805
+it's a basketball game or any other discipline is a very powerful thing,
+
+50
+00:02:39,805 --> 00:02:44,000
+and that can be applied to nearly any endeavor that humans engage in.

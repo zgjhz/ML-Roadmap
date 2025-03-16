@@ -1,0 +1,419 @@
+1
+00:00:00,000 --> 00:00:03,360
+This module looks at confidence intervals.
+
+2
+00:00:03,360 --> 00:00:06,450
+We'll discuss the interpretation and how to construct
+
+3
+00:00:06,450 --> 00:00:09,535
+confidence intervals in some standard situations.
+
+4
+00:00:09,535 --> 00:00:13,100
+It's important to have a solid grasp on these concepts because
+
+5
+00:00:13,100 --> 00:00:17,435
+most statistic analyses provide some kind of confidence interval.
+
+6
+00:00:17,435 --> 00:00:21,760
+Let's look again at the US Presidential approval ratings.
+
+7
+00:00:21,760 --> 00:00:25,340
+There are about 140 million likely voters.
+
+8
+00:00:25,340 --> 00:00:28,280
+And let's suppose for a minute that 60% of
+
+9
+00:00:28,280 --> 00:00:31,910
+them approve of the way the president is handling his job.
+
+10
+00:00:31,910 --> 00:00:33,480
+Now we do a poll.
+
+11
+00:00:33,480 --> 00:00:36,020
+Let's say, we poll 1,000 of them.
+
+12
+00:00:36,020 --> 00:00:42,040
+The approval percentage we get in the poll should be somewhat similar to 60%,
+
+13
+00:00:42,040 --> 00:00:44,100
+but it will be off a little bit.
+
+14
+00:00:44,100 --> 00:00:45,930
+How much will it be off?
+
+15
+00:00:45,930 --> 00:00:47,430
+Well, we already know that
+
+16
+00:00:47,430 --> 00:00:52,315
+the sample percentage is likely off by about one standard error.
+
+17
+00:00:52,315 --> 00:00:57,750
+Oftentimes, one would like to have a statement that is somewhat more precise.
+
+18
+00:00:57,750 --> 00:01:00,905
+This is done by a confidence interval.
+
+19
+00:01:00,905 --> 00:01:04,680
+We already know that according to the central limit theorem,
+
+20
+00:01:04,680 --> 00:01:11,620
+the sample percentage follows the normal curve with expected value equal to mu equal
+
+21
+00:01:11,620 --> 00:01:16,720
+the population percentage and standard error equal to
+
+22
+00:01:16,720 --> 00:01:22,645
+the population standard deviation sigma divided by square root sample size.
+
+23
+00:01:22,645 --> 00:01:27,770
+In this case, sigma turns out to be 0.49.
+
+24
+00:01:27,790 --> 00:01:34,595
+To compute that, recall that we are looking at the case where we are counting things.
+
+25
+00:01:34,595 --> 00:01:38,575
+Namely, we are counting voters who approve of the president.
+
+26
+00:01:38,575 --> 00:01:42,250
+So, we introduce labels where each voter who
+
+27
+00:01:42,250 --> 00:01:46,175
+approves gets a 1 and every other voter gets a 0.
+
+28
+00:01:46,175 --> 00:01:48,480
+And there are 140 million voters.
+
+29
+00:01:48,480 --> 00:01:51,525
+So, we end up with 140 million labels.
+
+30
+00:01:51,525 --> 00:01:56,410
+And from that, we can compute the standard deviation sigma as 0.48.
+
+31
+00:01:56,410 --> 00:02:02,535
+So, what this means is that there is a population percentage mu,
+
+32
+00:02:02,535 --> 00:02:04,760
+which is 60%.
+
+33
+00:02:04,760 --> 00:02:08,230
+And then, if we sample 1,000 voters,
+
+34
+00:02:08,230 --> 00:02:11,800
+the sample percentage will follow the normal curve.
+
+35
+00:02:11,800 --> 00:02:14,285
+And the empirical rule says,
+
+36
+00:02:14,285 --> 00:02:17,110
+if we go two standard errors each way,
+
+37
+00:02:17,110 --> 00:02:19,685
+then there's a 95% chance
+
+38
+00:02:19,685 --> 00:02:23,595
+that the sample percentage will be somewhere in that range.
+
+39
+00:02:23,595 --> 00:02:27,990
+So, we know that there's a 95% chance that
+
+40
+00:02:27,990 --> 00:02:29,360
+the sample percentage is
+
+41
+00:02:29,360 --> 00:02:34,375
+no more than two standard errors away from the population percentage mu.
+
+42
+00:02:34,375 --> 00:02:37,660
+But saying that the sample percentage is
+
+43
+00:02:37,660 --> 00:02:42,500
+no more than two standard errors away from the population percentage mu is the
+
+44
+00:02:42,500 --> 00:02:44,365
+same as saying that
+
+45
+00:02:44,365 --> 00:02:46,590
+the population percentage mu is
+
+46
+00:02:46,590 --> 00:02:50,360
+no more than two standard errors away from the sample percentage.
+
+47
+00:02:50,360 --> 00:02:52,445
+What this means is,
+
+48
+00:02:52,445 --> 00:02:55,350
+we can take our sample percentage, for example,
+
+49
+00:02:55,350 --> 00:02:57,505
+it may turn out to be 58%,
+
+50
+00:02:57,505 --> 00:03:00,865
+and then we go two standard errors in each direction.
+
+51
+00:03:00,865 --> 00:03:06,245
+And that gives us a range of plausible values for the population percentage.
+
+52
+00:03:06,245 --> 00:03:08,945
+Remember, when we do a poll,
+
+53
+00:03:08,945 --> 00:03:11,455
+we do not know the population percentage.
+
+54
+00:03:11,455 --> 00:03:16,025
+The whole idea is to take a sample and get a sample percentage.
+
+55
+00:03:16,025 --> 00:03:20,810
+And hopefully, the population percentage will be close to the sample percentage.
+
+56
+00:03:20,810 --> 00:03:22,500
+So, what we do is,
+
+57
+00:03:22,500 --> 00:03:25,190
+we take the sample percentage of 58%,
+
+58
+00:03:25,190 --> 00:03:27,725
+go two standard errors in each direction,
+
+59
+00:03:27,725 --> 00:03:32,875
+which takes us to 54.8% and 61.2%.
+
+60
+00:03:32,875 --> 00:03:36,195
+And the interval between these two numbers is called
+
+61
+00:03:36,195 --> 00:03:41,610
+a 95% confidence interval for the unknown population percentage.
+
+62
+00:03:41,610 --> 00:03:45,205
+So, why is this called a confidence interval?
+
+63
+00:03:45,205 --> 00:03:47,705
+Where does the name confidence come from?
+
+64
+00:03:47,705 --> 00:03:50,700
+And why don't we simply say probability?
+
+65
+00:03:50,700 --> 00:03:54,355
+Well, the population percentage mu is a fixed number.
+
+66
+00:03:54,355 --> 00:03:59,790
+And that number is either inside the interval or outside the interval.
+
+67
+00:03:59,790 --> 00:04:02,950
+So once we write down the confidence interval,
+
+68
+00:04:02,950 --> 00:04:05,055
+there are no more chances involved.
+
+69
+00:04:05,055 --> 00:04:08,230
+And for that reason, we talk about confidence.
+
+70
+00:04:08,230 --> 00:04:12,595
+The randomness in this procedure comes really through the sampling.
+
+71
+00:04:12,595 --> 00:04:15,240
+If we sampled another 1,000 voters,
+
+72
+00:04:15,240 --> 00:04:17,805
+we will get a slightly different interval.
+
+73
+00:04:17,805 --> 00:04:23,020
+So, the interpretation of a 95% confidence interval is,
+
+74
+00:04:23,020 --> 00:04:28,550
+that if we do many polls and for each poll we do a confidence interval,
+
+75
+00:04:28,550 --> 00:04:33,340
+then 95% of these intervals trap the population percentage and therefore,
+
+76
+00:04:33,340 --> 00:04:34,965
+5% percent will miss it.
+
+77
+00:04:34,965 --> 00:04:37,620
+The number 95% is called the
+
+78
+00:04:37,620 --> 00:04:41,680
+confidence level that comes with a confidence interval.
+
+79
+00:04:41,770 --> 00:04:45,775
+Here's a picture that explains the situation.
+
+80
+00:04:45,775 --> 00:04:49,170
+There are some population percentage mu.
+
+81
+00:04:49,170 --> 00:04:51,960
+Let's say it's 60%.
+
+82
+00:04:52,310 --> 00:04:55,875
+And then we take a sample of size 1,000,
+
+83
+00:04:55,875 --> 00:04:57,770
+and we compute a confidence interval.
+
+84
+00:04:57,770 --> 00:05:00,380
+For example, that confidence interval might be from
+
+85
+00:05:00,380 --> 00:05:04,570
+55% down here to 65% up here.
+
+86
+00:05:04,570 --> 00:05:06,640
+And you see, in this case,
+
+87
+00:05:06,640 --> 00:05:10,535
+the confidence interval traps the population percentage mu.
+
+88
+00:05:10,535 --> 00:05:13,910
+Then, next week, Gallup might do another poll,
+
+89
+00:05:13,910 --> 00:05:16,775
+and it comes up with another confidence interval.
+
+90
+00:05:16,775 --> 00:05:20,130
+And that might run from here to there.
+
+91
+00:05:21,020 --> 00:05:25,290
+And somebody else might do a third confidence interval,
+
+92
+00:05:25,290 --> 00:05:27,555
+and it may be from here to here.
+
+93
+00:05:27,555 --> 00:05:32,225
+And another poll may result in a confidence interval from here to here.
+
+94
+00:05:32,225 --> 00:05:36,130
+And now you see, this one misses the population percentage.
+
+95
+00:05:36,130 --> 00:05:40,630
+So, among this large number of 95% confidence intervals,
+
+96
+00:05:40,630 --> 00:05:43,780
+most cover the population percentage,
+
+97
+00:05:43,780 --> 00:05:48,945
+but some don't, like this one will not and this one will not.
+
+98
+00:05:48,945 --> 00:05:54,425
+The way a confidence interval is reported is oftentimes something like,
+
+99
+00:05:54,425 --> 00:05:58,380
+"I'm 95% confident that the President's approval rating is
+
+100
+00:05:58,380 --> 00:06:02,825
+between 54.8% and 61.2%."
+
+101
+00:06:02,825 --> 00:06:07,610
+And the interpretation of this is that 95% of the time,
+
+102
+00:06:07,610 --> 00:06:09,665
+I'm correct when making such a statement,
+
+103
+00:06:09,665 --> 00:06:12,260
+and 5% of the time, I may be wrong.
+
+104
+00:06:12,260 --> 00:06:15,300
+So, keep in mind that the randomness is in
+
+105
+00:06:15,300 --> 00:06:19,060
+the sampling and not in the population percentage.

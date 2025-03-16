@@ -1,0 +1,355 @@
+1
+00:00:00,000 --> 00:00:02,245
+Now, let's do a prediction.
+
+2
+00:00:02,245 --> 00:00:05,385
+Regression says that if we are given x,
+
+3
+00:00:05,385 --> 00:00:08,175
+then, we use the regression line to predict y.
+
+4
+00:00:08,175 --> 00:00:10,470
+That means, we compute the regression line,
+
+5
+00:00:10,470 --> 00:00:14,480
+plug in x, and see what predictor y hat we get.
+
+6
+00:00:14,480 --> 00:00:18,010
+As noted before, in order to compute a regression line,
+
+7
+00:00:18,010 --> 00:00:22,990
+all we need to have are the five summary numbers of these statistics.
+
+8
+00:00:22,990 --> 00:00:27,340
+Computing the regression line can be done very quickly in software.
+
+9
+00:00:27,340 --> 00:00:32,905
+For example, the command lm in the computer language R will do that for you.
+
+10
+00:00:32,905 --> 00:00:36,985
+But it turns out you can actually do it rather quickly by hand.
+
+11
+00:00:36,985 --> 00:00:38,645
+Let's look at an example.
+
+12
+00:00:38,645 --> 00:00:42,685
+Let's say the average midterm score was 49.5,
+
+13
+00:00:42,685 --> 00:00:45,755
+the average final score was 69.1,
+
+14
+00:00:45,755 --> 00:00:48,340
+the standard deviation on the midterm was 10.2,
+
+15
+00:00:48,340 --> 00:00:50,955
+the standard deviation on the final 11.8,
+
+16
+00:00:50,955 --> 00:00:54,290
+and the correlation coefficient r was 0.67.
+
+17
+00:00:54,290 --> 00:00:58,210
+Now, suppose somebody tells you a student scored 41 on the midterm,
+
+18
+00:00:58,210 --> 00:01:01,540
+and you have to predict the final exam score of that student.
+
+19
+00:01:01,540 --> 00:01:06,370
+Remember, if we wouldn't have that information about the midterm score, then,
+
+20
+00:01:06,370 --> 00:01:12,480
+the best predictor for the final would simply be the average of 69.1.
+
+21
+00:01:12,480 --> 00:01:17,510
+But regression gives us a tool to come up with a better predictor by
+
+22
+00:01:17,510 --> 00:01:23,105
+incorporating the additional information that the student scored 41 on the midterm.
+
+23
+00:01:23,105 --> 00:01:27,335
+Here's how we can do that regression by hand very quickly.
+
+24
+00:01:27,335 --> 00:01:33,630
+First, note that 41 is 8.5 below the average.
+
+25
+00:01:33,630 --> 00:01:39,810
+Here, average refers to the average of the midterm scores which is 49.5.
+
+26
+00:01:39,810 --> 00:01:44,945
+Now, we standardize this, 8.5 below average means
+
+27
+00:01:44,945 --> 00:01:50,569
+0.83 standard deviations below average.
+
+28
+00:01:50,569 --> 00:01:54,405
+Looking at the formula for the slope of the regression line,
+
+29
+00:01:54,405 --> 00:02:03,530
+we predict the final exam score to be only r times 0.83 standard deviation below average.
+
+30
+00:02:07,580 --> 00:02:11,115
+So, now, we can simply plug in the numbers.
+
+31
+00:02:11,115 --> 00:02:14,860
+We take the average for the final exam, we
+
+32
+00:02:14,860 --> 00:02:17,755
+subtract off because we are below average.
+
+33
+00:02:17,755 --> 00:02:23,840
+So, we have to subtract off r which is 0.67 times
+
+34
+00:02:23,840 --> 00:02:30,520
+0.83 times the standard deviation for the final exam scores,
+
+35
+00:02:30,520 --> 00:02:36,260
+which is 11.8, and we arrive at 62.5.
+
+36
+00:02:37,200 --> 00:02:42,315
+This will be our prediction that we get from regression.
+
+37
+00:02:42,315 --> 00:02:45,290
+Now, let's turn the prediction around.
+
+38
+00:02:45,290 --> 00:02:49,755
+Suppose I told you that a student scored 89 on the final,
+
+39
+00:02:49,755 --> 00:02:54,025
+and your task is to predict the midterm score of that student.
+
+40
+00:02:54,025 --> 00:02:56,575
+Here's one important thing about regression.
+
+41
+00:02:56,575 --> 00:02:58,575
+When you predict x from y,
+
+42
+00:02:58,575 --> 00:03:03,865
+it is a mistake to use the regression line you got from predicting y on x,
+
+43
+00:03:03,865 --> 00:03:05,835
+and simply solve for x.
+
+44
+00:03:05,835 --> 00:03:09,210
+It's somewhat tempting, but it's the wrong thing to do.
+
+45
+00:03:09,210 --> 00:03:13,385
+The reason why it's wrong is because there are two regression lines.
+
+46
+00:03:13,385 --> 00:03:16,680
+There's one regression line for predicting y on x,
+
+47
+00:03:16,680 --> 00:03:20,225
+and there's a different regression line for predicting x on y.
+
+48
+00:03:20,225 --> 00:03:23,655
+These two lines will typically be very different.
+
+49
+00:03:23,655 --> 00:03:27,330
+To avoid the confusion between these two lines,
+
+50
+00:03:27,330 --> 00:03:33,390
+it's always best to predict on the x axis, and whatever you want to protect on the y axis,
+
+51
+00:03:33,390 --> 00:03:36,275
+and then you simply do what we did before.
+
+52
+00:03:36,275 --> 00:03:38,264
+So, in this case,
+
+53
+00:03:38,264 --> 00:03:45,085
+that would mean we look at an x axis which corresponds to the final exam score,
+
+54
+00:03:45,085 --> 00:03:48,980
+and a y axis which shows us the midterm scores.
+
+55
+00:03:48,980 --> 00:03:53,665
+That's because the final exam score is the thing we base our regression on,
+
+56
+00:03:53,665 --> 00:03:56,650
+that is, the final exam score is the predictor.
+
+57
+00:03:56,650 --> 00:04:02,455
+So, we know the average of the final exam scores was 69.1,
+
+58
+00:04:02,455 --> 00:04:07,190
+the average on the midterms was 49.5,
+
+59
+00:04:07,190 --> 00:04:12,660
+and the information we are given is that the final exam score is 89.
+
+60
+00:04:12,660 --> 00:04:14,920
+So, it's above average.
+
+61
+00:04:14,920 --> 00:04:19,485
+We know that the regression line goes through the points
+
+62
+00:04:19,485 --> 00:04:24,570
+that are the average on the horizontal axis and the average on the vertical axis,
+
+63
+00:04:24,570 --> 00:04:27,500
+and it slopes upward because r is positive.
+
+64
+00:04:27,500 --> 00:04:30,185
+So, the regression line looks somewhat like this.
+
+65
+00:04:30,185 --> 00:04:34,570
+Since we base our regression on a final exam score of 89,
+
+66
+00:04:34,570 --> 00:04:39,175
+we expect to end up somewhere above average for midterm.
+
+67
+00:04:39,175 --> 00:04:44,420
+Exactly, how much above average is this calculation which we just did before?
+
+68
+00:04:44,420 --> 00:04:52,015
+So, we say that 89 is 9.9 above average.
+
+69
+00:04:52,015 --> 00:04:54,100
+So, if we standardize,
+
+70
+00:04:54,100 --> 00:05:02,500
+we get 9.9 divided by the standard deviation of 11.8,
+
+71
+00:05:02,500 --> 00:05:09,590
+equals 0.84 standard deviations above average.
+
+72
+00:05:10,960 --> 00:05:15,755
+Therefore, our prediction for the midterm,
+
+73
+00:05:15,755 --> 00:05:18,315
+will be also above average,
+
+74
+00:05:18,315 --> 00:05:22,430
+and it will be not 0.84 standard deviation above
+
+75
+00:05:22,430 --> 00:05:29,540
+average, but r times 0.84 standard deviations above average.
+
+76
+00:05:30,200 --> 00:05:32,820
+And now, you can just plug in.
+
+77
+00:05:32,820 --> 00:05:37,435
+We take the average for the midterms which is 49.5.
+
+78
+00:05:37,435 --> 00:05:39,180
+Since we are above average,
+
+79
+00:05:39,180 --> 00:05:50,015
+we add r which is 0.67 times 0.84 times the standard deviation which is 10.2,
+
+80
+00:05:50,015 --> 00:05:54,620
+and that gives us 55.2.
+
+81
+00:05:54,620 --> 00:05:57,570
+This will be our prediction for the midterm score.
+
+82
+00:05:57,570 --> 00:05:58,875
+Now, keep in mind,
+
+83
+00:05:58,875 --> 00:06:01,530
+if r were negative, then,
+
+84
+00:06:01,530 --> 00:06:03,710
+the line would slope downward,
+
+85
+00:06:03,710 --> 00:06:06,545
+and then, we would end up below average.
+
+86
+00:06:06,545 --> 00:06:09,649
+So, whether we predict above or below average,
+
+87
+00:06:09,649 --> 00:06:14,105
+depends on whether the correlation coefficient is positive or negative,
+
+88
+00:06:14,105 --> 00:06:20,110
+and it also depends on whether we start out above average here or below average there,
+
+89
+00:06:20,110 --> 00:06:25,270
+and it's best to make a picture and see which side you have to end up.

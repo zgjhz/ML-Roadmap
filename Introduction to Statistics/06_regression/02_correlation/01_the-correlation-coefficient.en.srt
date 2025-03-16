@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:01,850
+Before we can do regression,
+
+2
+00:00:01,850 --> 00:00:04,890
+we need to know about the correlation coefficient.
+
+3
+00:00:04,890 --> 00:00:08,940
+Remember that the scatterplot is very useful in
+
+4
+00:00:08,940 --> 00:00:13,310
+visualizing the relationship between two quantitative variables.
+
+5
+00:00:13,310 --> 00:00:16,115
+For example, in the left scatterplot,
+
+6
+00:00:16,115 --> 00:00:18,820
+which shows education and income,
+
+7
+00:00:18,820 --> 00:00:24,485
+we see that there seems to be an upward direction of the scatterplot.
+
+8
+00:00:24,485 --> 00:00:27,650
+That is also true for the scatterplot that
+
+9
+00:00:27,650 --> 00:00:31,645
+shows the heights of the fathers and their sons on the right.
+
+10
+00:00:31,645 --> 00:00:36,175
+However, these two relationships are somewhat different.
+
+11
+00:00:36,175 --> 00:00:40,190
+If we look at the relationship of income on education,
+
+12
+00:00:40,190 --> 00:00:44,910
+we see that there seems to be kind of an upward sloping curve,
+
+13
+00:00:44,910 --> 00:00:47,130
+which the scatter follows.
+
+14
+00:00:47,130 --> 00:00:50,695
+On the other hand, if we look at the heights,
+
+15
+00:00:50,695 --> 00:00:54,490
+we see that a scatter roughly follows a line.
+
+16
+00:00:54,490 --> 00:00:57,350
+Finally, the last thing we can get out of
+
+17
+00:00:57,350 --> 00:01:00,710
+a scatterplot is the strength of the relationship.
+
+18
+00:01:00,710 --> 00:01:04,785
+That means, how closely do the points follow the form?
+
+19
+00:01:04,785 --> 00:01:07,270
+In the example of the heights,
+
+20
+00:01:07,270 --> 00:01:10,785
+we see the scatter is quite wide around the line,
+
+21
+00:01:10,785 --> 00:01:13,690
+whereas in the example of the incomes,
+
+22
+00:01:13,690 --> 00:01:16,615
+it's more closely around the curve.
+
+23
+00:01:16,615 --> 00:01:20,730
+In the case where the scatter clusters around a line,
+
+24
+00:01:20,730 --> 00:01:26,240
+it's very useful to summarize that clustering with a correlation coefficient
+
+25
+00:01:26,240 --> 00:01:32,810
+r. It's not worth to remember the formula for r, but let's look at what's going on there.
+
+26
+00:01:32,810 --> 00:01:35,320
+You see that we are looking at
+
+27
+00:01:35,320 --> 00:01:41,670
+the standardized values of the x's, and the standardized values of the y's.
+
+28
+00:01:41,670 --> 00:01:46,950
+And then we multiply them together and take the average of all the observations.
+
+29
+00:01:46,950 --> 00:01:50,280
+Now, you see that this product here is
+
+30
+00:01:50,280 --> 00:01:55,440
+positive if both x is above x-bar and y is above y-bar,
+
+31
+00:01:55,440 --> 00:02:00,605
+and it could also be positive if x is below x-bar and y is also below y-bar.
+
+32
+00:02:00,605 --> 00:02:04,430
+So, this contribution will be positive if
+
+33
+00:02:04,430 --> 00:02:09,200
+both x and y vary in the same direction from the averages,
+
+34
+00:02:09,200 --> 00:02:13,440
+and it will be negative if they vary in opposite directions.
+
+35
+00:02:13,440 --> 00:02:18,935
+So the idea of the correlation coefficient is that the correlation coefficient should be
+
+36
+00:02:18,935 --> 00:02:25,000
+positive if the scatter slopes upward, and it's negative if it slopes downward.

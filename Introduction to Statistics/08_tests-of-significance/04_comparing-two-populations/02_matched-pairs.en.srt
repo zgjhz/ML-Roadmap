@@ -1,0 +1,407 @@
+1
+00:00:00,000 --> 00:00:01,920
+Now, let's look at these questions.
+
+2
+00:00:01,920 --> 00:00:05,055
+Do husbands tend to be older than their wives?
+
+3
+00:00:05,055 --> 00:00:07,020
+Well, we can collect some data,
+
+4
+00:00:07,020 --> 00:00:10,200
+and here are the ages of five couples.
+
+5
+00:00:10,200 --> 00:00:12,000
+What you see is well,
+
+6
+00:00:12,000 --> 00:00:15,495
+there's a husband of age 43,
+
+7
+00:00:15,495 --> 00:00:17,490
+whose wife is 41.
+
+8
+00:00:17,490 --> 00:00:19,910
+So, there's a two-year age difference.
+
+9
+00:00:19,910 --> 00:00:23,420
+And then we have a couple where the husband is 71,
+
+10
+00:00:23,420 --> 00:00:25,070
+and the wife is 70.
+
+11
+00:00:25,070 --> 00:00:27,960
+Then we have 32 and 31.
+
+12
+00:00:27,960 --> 00:00:33,150
+68 and 66, and 27 and 26.
+
+13
+00:00:33,150 --> 00:00:36,800
+So, it looks like the husband is always a little bit older than his wife.
+
+14
+00:00:36,800 --> 00:00:40,920
+So, how would we analyze those data?
+
+15
+00:00:41,420 --> 00:00:43,890
+Clearly, we have two samples.
+
+16
+00:00:43,890 --> 00:00:46,760
+There's the sample of the husbands' ages,
+
+17
+00:00:46,760 --> 00:00:49,595
+and then there's a sample of the wives' ages.
+
+18
+00:00:49,595 --> 00:00:52,815
+But of course the problem is that in this case,
+
+19
+00:00:52,815 --> 00:00:54,825
+the two samples are not independent.
+
+20
+00:00:54,825 --> 00:00:58,170
+The reason they are not independent is that while
+
+21
+00:00:58,170 --> 00:01:01,470
+the husband's age is typically a bit larger than the wife's age,
+
+22
+00:01:01,470 --> 00:01:03,420
+they tend to be closer together.
+
+23
+00:01:03,420 --> 00:01:07,805
+For example, here the couple is both in their 70s,
+
+24
+00:01:07,805 --> 00:01:10,680
+and then there's another couple in their 20s.
+
+25
+00:01:10,680 --> 00:01:15,060
+So, this similarity in age makes the two samples dependent.
+
+26
+00:01:15,060 --> 00:01:17,580
+So, there's one major assumption of
+
+27
+00:01:17,580 --> 00:01:20,850
+having two independent samples that is not met in that case.
+
+28
+00:01:20,850 --> 00:01:24,614
+But even if we could use the two-sample z-test,
+
+29
+00:01:24,614 --> 00:01:27,165
+it would probably be not significant.
+
+30
+00:01:27,165 --> 00:01:32,205
+And the reason is that the age differences are quite small,
+
+31
+00:01:32,205 --> 00:01:36,435
+but the variation within each group is quite big.
+
+32
+00:01:36,435 --> 00:01:40,170
+For example, husbands' age are 43, 71, 32.
+
+33
+00:01:40,170 --> 00:01:42,410
+So, there's quite some fluctuation in there.
+
+34
+00:01:42,410 --> 00:01:45,915
+And what the two-sample z-test does is,
+
+35
+00:01:45,915 --> 00:01:51,490
+it compares the differences to the fluctuations within each population.
+
+36
+00:01:51,490 --> 00:01:54,030
+And in this case, the differences are small
+
+37
+00:01:54,030 --> 00:01:57,475
+compared to the fluctuations within each population.
+
+38
+00:01:57,475 --> 00:02:02,050
+It turns out there's a very simple solution for these types of data.
+
+39
+00:02:02,050 --> 00:02:03,810
+Since we have paired data,
+
+40
+00:02:03,810 --> 00:02:11,030
+we can simply analyze the differences obtained from each pair with a simple t-test.
+
+41
+00:02:11,030 --> 00:02:15,080
+So, again let's start out with specifying our null hypothesis,
+
+42
+00:02:15,080 --> 00:02:19,760
+which would be that the difference in population means is 0.
+
+43
+00:02:19,760 --> 00:02:25,745
+Then the t-test would look at the average of the differences,
+
+44
+00:02:25,745 --> 00:02:27,900
+subtract off the expected value,
+
+45
+00:02:27,900 --> 00:02:30,630
+which is 0 under the null hypothesis,
+
+46
+00:02:30,630 --> 00:02:34,500
+and divide by the standard error of the average.
+
+47
+00:02:34,500 --> 00:02:39,950
+Now, the formula for the standard error of the average is
+
+48
+00:02:39,950 --> 00:02:43,040
+the standard deviation in the population
+
+49
+00:02:43,040 --> 00:02:46,280
+of the differences divided by square root sample size.
+
+50
+00:02:46,280 --> 00:02:49,325
+And again, we would simply estimate sigma by
+
+51
+00:02:49,325 --> 00:02:53,665
+the sample standard deviation of the differences, which is 0.55.
+
+52
+00:02:53,665 --> 00:02:59,745
+Plugging this in, we find that our t-statistic is 5.69.
+
+53
+00:02:59,745 --> 00:03:04,395
+Now, we look up the t-table on some software,
+
+54
+00:03:04,395 --> 00:03:06,470
+and what we have to do is,
+
+55
+00:03:06,470 --> 00:03:14,200
+we have to find the area to the right in the t-table from 5.69 on,
+
+56
+00:03:14,200 --> 00:03:21,210
+and again, this curve is student t-distribution with four degrees of freedom,
+
+57
+00:03:21,210 --> 00:03:23,700
+which is one less than the sample size,
+
+58
+00:03:23,700 --> 00:03:29,055
+and we would look that up and find the area there is 0.2%.
+
+59
+00:03:29,055 --> 00:03:31,905
+So, the p-value in this case,
+
+60
+00:03:31,905 --> 00:03:34,260
+is double that which is 0.4%
+
+61
+00:03:34,260 --> 00:03:38,490
+and clearly this is strong evidence to reject the null.
+
+62
+00:03:38,490 --> 00:03:43,380
+So, it turns out that the paired t-test is very powerful in that situation.
+
+63
+00:03:43,380 --> 00:03:45,795
+Again, remember that we do not need
+
+64
+00:03:45,795 --> 00:03:48,765
+an assumption of independence between the two samples,
+
+65
+00:03:48,765 --> 00:03:50,760
+rather what happens here is that
+
+66
+00:03:50,760 --> 00:03:54,570
+the independence assumptions is in the sampling of the pairs.
+
+67
+00:03:54,570 --> 00:03:58,920
+Now, what would happen if we didn't know the age difference,
+
+68
+00:03:58,920 --> 00:04:02,520
+but only if the husband was older than his wife or not?
+
+69
+00:04:02,520 --> 00:04:05,910
+In that case, we can still assess the evidence.
+
+70
+00:04:05,910 --> 00:04:09,340
+We would have to write the null hypothesis a little bit different.
+
+71
+00:04:09,340 --> 00:04:13,335
+We would say half the husbands in the population are older than their wives.
+
+72
+00:04:13,335 --> 00:04:17,670
+And the reason why we write it down that way is because
+
+73
+00:04:17,670 --> 00:04:22,140
+we are now only interested whether the husband is older or not,
+
+74
+00:04:22,140 --> 00:04:27,030
+and we specify the proportion of husbands who are older which is half.
+
+75
+00:04:27,030 --> 00:04:31,890
+So, that hints that we are looking at 0/1 labels because we are counting
+
+76
+00:04:31,890 --> 00:04:34,655
+how many husbands are older than their wives.
+
+77
+00:04:34,655 --> 00:04:37,560
+And then we can just use a simple z-test.
+
+78
+00:04:37,560 --> 00:04:40,650
+Remember, this is really the same thing that we looked
+
+79
+00:04:40,650 --> 00:04:44,310
+at when we tested whether a coin is fair.
+
+80
+00:04:44,310 --> 00:04:48,765
+So, the z-statistic is simply the sum of the 1s,
+
+81
+00:04:48,765 --> 00:04:50,890
+minus the expected values,
+
+82
+00:04:50,890 --> 00:04:52,540
+and so we have n trials,
+
+83
+00:04:52,540 --> 00:04:55,740
+and each has a chance of a half of coming up 1,
+
+84
+00:04:55,740 --> 00:04:58,275
+divided by the standard error of the sum.
+
+85
+00:04:58,275 --> 00:05:03,280
+So, in this case, a label 1 would mean that a husband is older than the wife,
+
+86
+00:05:03,280 --> 00:05:06,165
+and a label 0 would be the other way around.
+
+87
+00:05:06,165 --> 00:05:08,915
+So, the z-statistic is 2.24,
+
+88
+00:05:08,915 --> 00:05:13,070
+and now we can draw a normal curve,
+
+89
+00:05:13,070 --> 00:05:16,810
+and we have to look up the area to the right of 2.24,
+
+90
+00:05:16,810 --> 00:05:23,470
+and that area is 1.25%.
+
+91
+00:05:23,520 --> 00:05:26,160
+And the p-value is double that.
+
+92
+00:05:26,160 --> 00:05:27,600
+So, it's still significant,
+
+93
+00:05:27,600 --> 00:05:31,200
+but not quite as significant as the one before.
+
+94
+00:05:31,200 --> 00:05:35,095
+The reason why it's not as significant is because
+
+95
+00:05:35,095 --> 00:05:38,860
+we don't use the information that's contained in the age difference.
+
+96
+00:05:38,860 --> 00:05:43,040
+We only use the information whether the husband is older or not.
+
+97
+00:05:43,040 --> 00:05:45,260
+This test is very famous.
+
+98
+00:05:45,260 --> 00:05:47,135
+It's called a sign test.
+
+99
+00:05:47,135 --> 00:05:52,570
+The way to think about it is the coin tossing example we looked earlier.
+
+100
+00:05:52,570 --> 00:05:56,330
+The coin tossing analogy makes it very easy to
+
+101
+00:05:56,330 --> 00:06:00,800
+interpret the sign test even for people who are not experts in statistics.
+
+102
+00:06:00,800 --> 00:06:05,370
+And that's one of the main reasons why it's so popular.

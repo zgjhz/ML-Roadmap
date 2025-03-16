@@ -1,0 +1,367 @@
+1
+00:00:00,000 --> 00:00:03,165
+There are two ways to summarize data.
+
+2
+00:00:03,165 --> 00:00:10,170
+One can either use numerical summaries or one can summarize the data using pictures.
+
+3
+00:00:10,170 --> 00:00:15,050
+For communicating information, it's usually best to use a graphical summary,
+
+4
+00:00:15,050 --> 00:00:20,440
+and that's because people prefer to look at pictures rather than at numbers.
+
+5
+00:00:20,440 --> 00:00:23,910
+Now there are many ways to visualize data.
+
+6
+00:00:23,910 --> 00:00:26,640
+Which one to choose will depend on
+
+7
+00:00:26,640 --> 00:00:29,860
+the nature of the data and the goal of the visualization.
+
+8
+00:00:29,860 --> 00:00:32,760
+And we will look at some examples now.
+
+9
+00:00:32,760 --> 00:00:36,735
+First, let's look at a case where the data are qualitative.
+
+10
+00:00:36,735 --> 00:00:41,635
+That is, the data are not numbers but categories such as colors.
+
+11
+00:00:41,635 --> 00:00:46,555
+In that case, we would use a pie chart or a dot plot.
+
+12
+00:00:46,555 --> 00:00:49,480
+On the left, there's a pie chart that shows
+
+13
+00:00:49,480 --> 00:00:54,390
+the geographic origin of students at a university on the west coast.
+
+14
+00:00:54,390 --> 00:00:57,840
+The idea is that each slice of the pie
+
+15
+00:00:57,840 --> 00:01:01,820
+is sliced according to the corresponding percentage.
+
+16
+00:01:01,820 --> 00:01:05,820
+The right side shows the dot plot of the same data.
+
+17
+00:01:05,820 --> 00:01:11,605
+The idea is that each horizontal line corresponds to one category.
+
+18
+00:01:11,605 --> 00:01:15,490
+The position of the dot corresponds to the percentage.
+
+19
+00:01:15,490 --> 00:01:19,695
+For example, if we look at Oregon,
+
+20
+00:01:19,695 --> 00:01:24,190
+this dot corresponds roughly to 20 percent.
+
+21
+00:01:24,190 --> 00:01:29,495
+Each of the two displays has some advantages and disadvantages.
+
+22
+00:01:29,495 --> 00:01:33,755
+For example, if we want to compare two categories,
+
+23
+00:01:33,755 --> 00:01:36,640
+it's easier to do that in the dot plot.
+
+24
+00:01:36,640 --> 00:01:39,980
+If we look at the proportion of
+
+25
+00:01:39,980 --> 00:01:45,875
+international students and the proportion of students from other US states,
+
+26
+00:01:45,875 --> 00:01:49,350
+then it's very difficult to see which one is bigger,
+
+27
+00:01:49,350 --> 00:01:53,945
+whereas it's very easy to see that in the dot plot
+
+28
+00:01:53,945 --> 00:02:00,575
+because it's much easier to judge the position on a horizontal line.
+
+29
+00:02:00,575 --> 00:02:02,795
+On the other hand,
+
+30
+00:02:02,795 --> 00:02:10,300
+the pie chart makes it easier to see what percentage of the total a category represents.
+
+31
+00:02:10,300 --> 00:02:13,145
+For example, if we look at Oregon,
+
+32
+00:02:13,145 --> 00:02:18,795
+then we see that this is roughly a little bit less than a quarter of the total pie.
+
+33
+00:02:18,795 --> 00:02:22,900
+And this would be hard to see in the dot plot because we first
+
+34
+00:02:22,900 --> 00:02:27,255
+would have to look down on the horizontal axis to see what's going on.
+
+35
+00:02:27,255 --> 00:02:30,900
+Now, when the data themselves are quantitative, that is,
+
+36
+00:02:30,900 --> 00:02:36,765
+they are numbers, then the convention is to put the data on the number line.
+
+37
+00:02:36,765 --> 00:02:40,630
+The reason for this is that the ordering in
+
+38
+00:02:40,630 --> 00:02:44,470
+the distance between the numbers conveys important information.
+
+39
+00:02:44,470 --> 00:02:48,590
+The standard graph for displaying such data is the bar graph.
+
+40
+00:02:48,590 --> 00:02:51,865
+It's essentially a dot plot put on its side.
+
+41
+00:02:51,865 --> 00:02:55,650
+In this example, it shows the number of
+
+42
+00:02:55,650 --> 00:03:00,150
+assignments that were completed by 22 students in a class.
+
+43
+00:03:00,150 --> 00:03:03,915
+The histogram is very similar to a bar graph,
+
+44
+00:03:03,915 --> 00:03:07,380
+but it allows to use blocks which have different width.
+
+45
+00:03:07,380 --> 00:03:13,065
+For example, this histogram shows the ages of a number of people.
+
+46
+00:03:13,065 --> 00:03:19,005
+The key point here is that the areas of the blocks are proportional to frequency.
+
+47
+00:03:19,005 --> 00:03:23,580
+This means that the total area corresponds to 100 percent.
+
+48
+00:03:23,580 --> 00:03:26,835
+For example, if were interested in figuring out
+
+49
+00:03:26,835 --> 00:03:31,525
+what percentage of people fall in the age group from 60-80,
+
+50
+00:03:31,525 --> 00:03:35,730
+then we are interested in the area of this block.
+
+51
+00:03:35,730 --> 00:03:38,170
+Now, just looking at that picture,
+
+52
+00:03:38,170 --> 00:03:44,530
+we see that this area is probably around one-seventh of the total area.
+
+53
+00:03:44,530 --> 00:03:47,440
+And so, we can conclude that roughly 20 percent of
+
+54
+00:03:47,440 --> 00:03:51,220
+the people fall into the range from 60-80.
+
+55
+00:03:51,220 --> 00:03:56,665
+So the percentage falling into a block can be figured out without using a vertical scale,
+
+56
+00:03:56,665 --> 00:04:01,230
+just using the fact that the total area has to be 100 percent.
+
+57
+00:04:01,230 --> 00:04:05,260
+Now, sometimes, it is useful to have a vertical scale.
+
+58
+00:04:05,260 --> 00:04:07,080
+It's also called the density scale.
+
+59
+00:04:07,080 --> 00:04:11,745
+And the reason for that is simply that the area of the block corresponds to a percentage,
+
+60
+00:04:11,745 --> 00:04:16,010
+and the area is computed by width times height.
+
+61
+00:04:16,010 --> 00:04:18,650
+And since the width is given in years,
+
+62
+00:04:18,650 --> 00:04:24,675
+the unit for the height needs to be percent per year in order for the units to work out.
+
+63
+00:04:24,675 --> 00:04:29,445
+There are two kinds of information one can get out of a histogram.
+
+64
+00:04:29,445 --> 00:04:33,085
+The first one is what's called density,
+
+65
+00:04:33,085 --> 00:04:35,570
+which essentially means crowding.
+
+66
+00:04:35,570 --> 00:04:38,815
+The height of the bar tells how many subjects there
+
+67
+00:04:38,815 --> 00:04:42,120
+are for one unit on the horizontal scale.
+
+68
+00:04:42,120 --> 00:04:47,255
+For example, if we look at the highest point in the histogram,
+
+69
+00:04:47,255 --> 00:04:50,400
+which is around here,
+
+70
+00:04:50,400 --> 00:04:54,895
+this corresponds to people of age 19.
+
+71
+00:04:54,895 --> 00:04:57,610
+And looking at the vertical axis,
+
+72
+00:04:57,610 --> 00:05:02,580
+we see that there are about four percent of all people in that age.
+
+73
+00:05:02,580 --> 00:05:07,100
+In contrast, if we look at the block between 60 and 80,
+
+74
+00:05:07,100 --> 00:05:12,500
+we see that the height of the block is maybe 0.007.
+
+75
+00:05:12,500 --> 00:05:19,320
+That means about 0.7 percent of
+
+76
+00:05:19,320 --> 00:05:27,950
+the subjects fall under each one year group in that age range.
+
+77
+00:05:27,950 --> 00:05:31,555
+The second piece of
+
+78
+00:05:31,555 --> 00:05:41,150
+information one can get from the histogram is to compute percentages.
+
+79
+00:05:41,150 --> 00:05:46,025
+Remember the rule which says the area corresponds to a percentage.
+
+80
+00:05:46,025 --> 00:05:50,200
+And the area of a block is given by height times width.
+
+81
+00:05:50,200 --> 00:05:54,160
+So, for example, if we want to figure out
+
+82
+00:05:54,160 --> 00:05:59,385
+what percentage of people fall in the age range between 60 and 80,
+
+83
+00:05:59,385 --> 00:06:03,100
+then the computation that we would make is,
+
+84
+00:06:03,100 --> 00:06:05,805
+we would look at the width of the box,
+
+85
+00:06:05,805 --> 00:06:07,875
+which is 20 years,
+
+86
+00:06:07,875 --> 00:06:10,410
+multiplied by the height,
+
+87
+00:06:10,410 --> 00:06:13,495
+which is 0.7 percent per year.
+
+88
+00:06:13,495 --> 00:06:20,085
+And we would find that they are 14 percent of subjects falling in that range.
+
+89
+00:06:20,085 --> 00:06:22,500
+As we've seen before,
+
+90
+00:06:22,500 --> 00:06:25,135
+there is another way to figure this one out.
+
+91
+00:06:25,135 --> 00:06:31,515
+We can eyeball that this area comprises roughly one-seventh of the total area.
+
+92
+00:06:31,515 --> 00:06:36,710
+So, roughly one-seventh of the subjects fall in that range.

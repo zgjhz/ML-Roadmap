@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:03,790
+The purpose of a statistical analysis is
+
+2
+00:00:03,790 --> 00:00:07,725
+typically to compare the observed data to some kind of reference.
+
+3
+00:00:07,725 --> 00:00:12,800
+Therefore, it's very useful to provide context in graphical displays.
+
+4
+00:00:12,800 --> 00:00:15,820
+There's a nice explanation of this in the book
+
+5
+00:00:15,820 --> 00:00:20,260
+'The Visual Display of Quantitative Information' by Edward Tufte.
+
+6
+00:00:20,260 --> 00:00:27,300
+One way to provide context in the graphic is by using the principle of small multiples.
+
+7
+00:00:27,300 --> 00:00:32,055
+We've already seen that the boxplot is very useful for this.
+
+8
+00:00:32,055 --> 00:00:35,650
+This graphic shows the temperatures that were
+
+9
+00:00:35,650 --> 00:00:39,365
+recorded at a weather station over 50 years.
+
+10
+00:00:39,365 --> 00:00:43,020
+It shows a boxplot for each month.
+
+11
+00:00:43,020 --> 00:00:47,405
+For example, this is the boxplot for January.
+
+12
+00:00:47,405 --> 00:00:52,310
+So it contains the data for the 50 recordings of January.
+
+13
+00:00:52,310 --> 00:00:57,990
+This display allows to compare how the temperatures vary throughout the year.
+
+14
+00:00:57,990 --> 00:01:02,390
+The reason why the principle of small multiples works well is because
+
+15
+00:01:02,390 --> 00:01:08,755
+the human brain is very good at decoding the information in these pictures.
+
+16
+00:01:08,755 --> 00:01:14,125
+Here's another example showing small multiples.
+
+17
+00:01:14,125 --> 00:01:22,180
+It shows the monthly unemployment rates for each state from January 1976 to April 2009.
+
+18
+00:01:22,180 --> 00:01:24,855
+Each plot is a time series plot.
+
+19
+00:01:24,855 --> 00:01:27,120
+That means on the horizontal axis,
+
+20
+00:01:27,120 --> 00:01:32,310
+we have time from 1976-2009,
+
+21
+00:01:32,310 --> 00:01:34,595
+and under vertical axis,
+
+22
+00:01:34,595 --> 00:01:36,365
+we have the unemployment rate.
+
+23
+00:01:36,365 --> 00:01:41,715
+The line that's given in each graph shows how the unemployment rate changes over time.
+
+24
+00:01:41,715 --> 00:01:44,825
+Moreover, there is an orange band which shows
+
+25
+00:01:44,825 --> 00:01:49,050
+a normal unemployment rate of between 4 and 6 percent.
+
+26
+00:01:49,050 --> 00:01:52,090
+By looking at these small multiples,
+
+27
+00:01:52,090 --> 00:01:55,620
+one sees immediately that there's a sharp increase in
+
+28
+00:01:55,620 --> 00:01:57,600
+the unemployment rate during
+
+29
+00:01:57,600 --> 00:02:02,880
+the financial crisis in states such as California and Michigan,
+
+30
+00:02:02,880 --> 00:02:10,720
+whereas things are not so bad in states such as Montana or South Dakota.

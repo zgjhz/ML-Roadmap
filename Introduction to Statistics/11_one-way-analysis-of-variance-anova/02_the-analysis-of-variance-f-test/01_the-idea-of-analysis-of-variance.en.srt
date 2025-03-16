@@ -1,0 +1,251 @@
+1
+00:00:00,000 --> 00:00:02,850
+To explain the idea behind ANOVA,
+
+2
+00:00:02,850 --> 00:00:06,995
+let's consider two hypothetical outcomes to our experiment.
+
+3
+00:00:06,995 --> 00:00:08,835
+In the left display,
+
+4
+00:00:08,835 --> 00:00:11,700
+we have a situation where the differences between
+
+5
+00:00:11,700 --> 00:00:16,795
+the sample means are large, relative to the variability within the groups.
+
+6
+00:00:16,795 --> 00:00:21,700
+That means the difference between the first and the second mean is this,
+
+7
+00:00:21,700 --> 00:00:24,700
+between the second and the third is this,
+
+8
+00:00:24,700 --> 00:00:28,710
+and between the first and the third is this one.
+
+9
+00:00:28,710 --> 00:00:33,810
+And these differences are large, compared to the variability within each group.
+
+10
+00:00:33,810 --> 00:00:37,755
+For example, the variability in the third group is roughly this one.
+
+11
+00:00:37,755 --> 00:00:40,330
+The variability in the second group is that one,
+
+12
+00:00:40,330 --> 00:00:43,435
+and the variability in the first group is this one.
+
+13
+00:00:43,435 --> 00:00:48,885
+So, this suggests that there's evidence that the means in the three groups are different.
+
+14
+00:00:48,885 --> 00:00:52,640
+In contrast, as the situation on the right displays,
+
+15
+00:00:52,640 --> 00:00:56,600
+we see that the difference in the means is quite
+
+16
+00:00:56,600 --> 00:01:00,720
+small compared to the variability within each group.
+
+17
+00:01:00,720 --> 00:01:06,940
+This suggests that the differences in the mean may simply be due to sampling variability.
+
+18
+00:01:06,940 --> 00:01:10,910
+So, the idea here is to compare the sample variance
+
+19
+00:01:10,910 --> 00:01:15,385
+of the means to the sample variance within the groups.
+
+20
+00:01:15,385 --> 00:01:20,720
+Remember, the sample variance is simply the square of the sample standard deviation.
+
+21
+00:01:20,720 --> 00:01:25,925
+This is why this whole methodology is called Analysis of Variance.
+
+22
+00:01:25,925 --> 00:01:30,465
+However, things are not so easy that we can simply look at the box plots.
+
+23
+00:01:30,465 --> 00:01:33,820
+The reason is, that because of the square root law,
+
+24
+00:01:33,820 --> 00:01:36,175
+the chance variability in the sample mean
+
+25
+00:01:36,175 --> 00:01:39,170
+is smaller than the chance variability of the data.
+
+26
+00:01:39,170 --> 00:01:43,410
+So, we have to do some kind of computation to assess the situation.
+
+27
+00:01:43,410 --> 00:01:45,205
+If we have K groups,
+
+28
+00:01:45,205 --> 00:01:47,630
+we write down the data as follows.
+
+29
+00:01:47,630 --> 00:01:51,735
+The observations of the first group go into to the first column,
+
+30
+00:01:51,735 --> 00:01:54,780
+and each observation has two indices.
+
+31
+00:01:54,780 --> 00:01:58,315
+The first index simply counts the observations,
+
+32
+00:01:58,315 --> 00:02:02,675
+and that's from 1 up to some number n1.
+
+33
+00:02:02,675 --> 00:02:05,235
+And the second index simply means we are in group 1.
+
+34
+00:02:05,235 --> 00:02:10,010
+We do the same thing for group 2, so there are n2 observations
+
+35
+00:02:10,010 --> 00:02:15,240
+in the second group, all the way up to group k, where there are nk observations.
+
+36
+00:02:15,240 --> 00:02:17,990
+So in particular, this means that it doesn't have to be
+
+37
+00:02:17,990 --> 00:02:20,915
+the same number of observations in each group.
+
+38
+00:02:20,915 --> 00:02:24,085
+In total, there are capital N observations,
+
+39
+00:02:24,085 --> 00:02:26,580
+which is simply the sum of the little n's.
+
+40
+00:02:26,580 --> 00:02:31,500
+Finally, y bar sub j is simply the mean of
+
+41
+00:02:31,500 --> 00:02:36,785
+the jth group and y bar bar is the overall mean,
+
+42
+00:02:36,785 --> 00:02:38,850
+which is also called the grand mean.
+
+43
+00:02:38,850 --> 00:02:43,095
+The analysis of variance computes two important quantities.
+
+44
+00:02:43,095 --> 00:02:46,500
+The first one is called the treatment sum of squares.
+
+45
+00:02:46,500 --> 00:02:51,920
+There, we look simply at the difference of the jth group mean to the overall mean,
+
+46
+00:02:51,920 --> 00:02:56,775
+we square the difference, and then we sum up over all rows and columns.
+
+47
+00:02:56,775 --> 00:03:00,115
+This term has k - 1 degrees of freedom.
+
+48
+00:03:00,115 --> 00:03:03,685
+If we divide the term by its degrees of freedom,
+
+49
+00:03:03,685 --> 00:03:07,590
+we get what's called the treatment mean square, MST.
+
+50
+00:03:07,590 --> 00:03:13,375
+The treatment mean square is essentially the sample variance of the treatment means,
+
+51
+00:03:13,375 --> 00:03:18,205
+so it measures the variability of the treatment means y bar j.
+
+52
+00:03:18,205 --> 00:03:20,645
+The other quantity we are interested in,
+
+53
+00:03:20,645 --> 00:03:22,915
+is the error sum of squares.
+
+54
+00:03:22,915 --> 00:03:26,430
+For that, we look at the squared difference of
+
+55
+00:03:26,430 --> 00:03:30,670
+each observation and its corresponding group mean,
+
+56
+00:03:30,670 --> 00:03:33,980
+and then again we sum over all rows and columns.
+
+57
+00:03:33,980 --> 00:03:37,170
+This term has n - k degrees of freedom.
+
+58
+00:03:37,170 --> 00:03:42,985
+Again, dividing by the degrees of freedom gives what's called the error mean square,
+
+59
+00:03:42,985 --> 00:03:46,365
+and that measures the variability within the groups.
+
+60
+00:03:46,365 --> 00:03:48,030
+So, these two terms,
+
+61
+00:03:48,030 --> 00:03:53,340
+the treatment mean square and the error mean square make formal the idea we had on
+
+62
+00:03:53,340 --> 00:03:56,520
+the previous slide, where we look at the variability between
+
+63
+00:03:56,520 --> 00:04:00,330
+the treatment means and the variability within the groups.

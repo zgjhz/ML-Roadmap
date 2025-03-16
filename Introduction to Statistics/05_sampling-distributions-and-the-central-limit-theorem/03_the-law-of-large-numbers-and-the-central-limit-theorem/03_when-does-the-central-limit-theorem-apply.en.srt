@@ -1,0 +1,67 @@
+1
+00:00:00,000 --> 00:00:05,700
+Let's summarize the main requirements for the central limit theorem to apply.
+
+2
+00:00:05,700 --> 00:00:09,190
+First, we need to sample with replacement or we need to
+
+3
+00:00:09,190 --> 00:00:13,140
+simulate independent random variables from the same distribution.
+
+4
+00:00:13,140 --> 00:00:15,050
+It turns out there are actually also
+
+5
+00:00:15,050 --> 00:00:18,315
+central limit theorems for sampling without replacement.
+
+6
+00:00:18,315 --> 00:00:19,820
+And in any case,
+
+7
+00:00:19,820 --> 00:00:24,155
+we know that if the sample size is much smaller than the population size,
+
+8
+00:00:24,155 --> 00:00:28,215
+then sampling without replacement is about the same as sampling with replacement.
+
+9
+00:00:28,215 --> 00:00:30,100
+And so, everything works out.
+
+10
+00:00:30,100 --> 00:00:35,720
+The second important requirement is that the statistic we are looking at must be a sum.
+
+11
+00:00:35,720 --> 00:00:41,300
+And remember that averages and percentages are essentially sums after multiplying.
+
+12
+00:00:41,300 --> 00:00:44,915
+Finally, the sample size has to be large enough.
+
+13
+00:00:44,915 --> 00:00:50,375
+The rule of thumb is that the more skewed the underlying population histogram is,
+
+14
+00:00:50,375 --> 00:00:56,810
+the larger the required sample size n. It turns out that if there's no strong skewness,
+
+15
+00:00:56,810 --> 00:01:00,815
+then a sample size of at least 15 will be sufficient.
+
+16
+00:01:00,815 --> 00:01:02,545
+For a stronger skewness,
+
+17
+00:01:02,545 --> 00:01:06,000
+we might need a sample size of at least 40.

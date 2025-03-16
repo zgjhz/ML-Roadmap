@@ -1,0 +1,88 @@
+1
+00:00:00,242 --> 00:00:04,957
+Let's look at another example to see
+what normal approximation can do for us.
+
+2
+00:00:04,957 --> 00:00:11,505
+Recall that the 30th percentile is the
+point where 30% of the data fall below.
+
+3
+00:00:11,505 --> 00:00:16,530
+So if I draw a standard normal curve,
+
+4
+00:00:16,530 --> 00:00:23,177
+then the 30th percentile
+would be the z value,
+
+5
+00:00:23,177 --> 00:00:28,212
+where 30% of the data fall below.
+
+6
+00:00:28,212 --> 00:00:31,609
+Using a table of software,
+
+7
+00:00:31,609 --> 00:00:36,492
+one can find that that z is -0.52.
+
+8
+00:00:36,492 --> 00:00:41,443
+Now, we have to figure out how to
+go from that z value to the 30th
+
+9
+00:00:41,443 --> 00:00:43,659
+percentile of the heights.
+
+10
+00:00:43,659 --> 00:00:47,385
+That means simply doing
+the standardization backwards.
+
+11
+00:00:49,988 --> 00:00:55,908
+Remember that the z value is height minus
+mean divided by standard deviation.
+
+12
+00:00:55,908 --> 00:00:59,486
+Now we know what z is, and
+we already know what the mean and
+
+13
+00:00:59,486 --> 00:01:01,284
+the standard deviation is.
+
+14
+00:01:01,284 --> 00:01:08,598
+So we can simply solve for height,
+all we have to do is plug in the numbers.
+
+15
+00:01:08,598 --> 00:01:12,267
+Now there is a second way
+of doing this problem.
+
+16
+00:01:12,267 --> 00:01:18,084
+Remember z tells you how many standard
+deviations you are above or below average.
+
+17
+00:01:18,084 --> 00:01:26,815
+So z = -0.52 means that the height is
+0.52 standard deviations below average.
+
+18
+00:01:29,474 --> 00:01:35,777
+So the height would be the average,
+0.52 standard deviations,
+
+19
+00:01:35,777 --> 00:01:41,224
+and then plugging in the numbers,
+we get 67.4 inches.

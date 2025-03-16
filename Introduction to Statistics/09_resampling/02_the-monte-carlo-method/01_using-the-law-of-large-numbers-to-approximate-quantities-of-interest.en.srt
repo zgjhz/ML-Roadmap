@@ -1,0 +1,227 @@
+1
+00:00:00,000 --> 00:00:07,085
+Let's look at a simple example to see what the famous Monte Carlo Method does.
+
+2
+00:00:07,085 --> 00:00:11,980
+What's the average height of all people living in the United States?
+
+3
+00:00:11,980 --> 00:00:15,150
+Well, this is impossible to determine exactly
+
+4
+00:00:15,150 --> 00:00:20,125
+because we would have to measure the heights of all people in the United States.
+
+5
+00:00:20,125 --> 00:00:25,140
+But we've already seen that we can actually estimate that average quite well.
+
+6
+00:00:25,140 --> 00:00:30,720
+All we do is simply take a sample of size 100 and
+
+7
+00:00:30,720 --> 00:00:33,000
+then we use the average height of
+
+8
+00:00:33,000 --> 00:00:37,305
+that sample as an estimate of the average height of all the people.
+
+9
+00:00:37,305 --> 00:00:44,145
+Remember, we talk about a parameter like theta when we talk about the population.
+
+10
+00:00:44,145 --> 00:00:49,145
+So in this case, theta would be the average height of the population.
+
+11
+00:00:49,145 --> 00:00:55,845
+We estimate that parameter theta with a statistic which we call theta hat,
+
+12
+00:00:55,845 --> 00:00:59,715
+and that statistic is based on a sample.
+
+13
+00:00:59,715 --> 00:01:05,190
+In this case, our statistic would be simply the average of the sample.
+
+14
+00:01:05,190 --> 00:01:09,300
+We already know that the sample mean tends to be close to
+
+15
+00:01:09,300 --> 00:01:14,130
+the population mean even for moderate sample sizes such as 100,
+
+16
+00:01:14,130 --> 00:01:17,105
+and that's because of the law of large numbers.
+
+17
+00:01:17,105 --> 00:01:21,630
+This is a simple example of the Monte Carlo method.
+
+18
+00:01:21,630 --> 00:01:24,210
+Sometimes it's simply called simulation.
+
+19
+00:01:24,210 --> 00:01:26,370
+What that method does is,
+
+20
+00:01:26,370 --> 00:01:30,600
+it approximates a fixed quantity theta by the average
+
+21
+00:01:30,600 --> 00:01:34,950
+of independent random variables that have expected value equal to theta.
+
+22
+00:01:34,950 --> 00:01:37,270
+Then, by the law of large numbers,
+
+23
+00:01:37,270 --> 00:01:40,050
+the approximation error can be made as small
+
+24
+00:01:40,050 --> 00:01:43,170
+as you wish by using a large enough sample size.
+
+25
+00:01:43,170 --> 00:01:45,840
+It turns out that the Monte Carlo method can
+
+26
+00:01:45,840 --> 00:01:49,060
+also be used for more complicated quantities.
+
+27
+00:01:49,060 --> 00:01:55,345
+One quantity which is important in statistics is the standard error of a statistic.
+
+28
+00:01:55,345 --> 00:01:58,675
+Remember that the standard error tells you roughly
+
+29
+00:01:58,675 --> 00:02:02,520
+how far off the statistic will be from its expected value.
+
+30
+00:02:02,520 --> 00:02:06,300
+There's a formal definition of the standard error which is given there.
+
+31
+00:02:06,300 --> 00:02:09,190
+It's simply the square root of
+
+32
+00:02:09,190 --> 00:02:14,475
+the variance when we think about theta hat as a random variable.
+
+33
+00:02:14,475 --> 00:02:20,405
+So how would the Monte Carlo method work to estimate the standard error in this case?
+
+34
+00:02:20,405 --> 00:02:23,715
+In the first step, we would get many,
+
+35
+00:02:23,715 --> 00:02:28,090
+let's say 1,000 samples of 100 observations each.
+
+36
+00:02:28,090 --> 00:02:32,110
+Remember we take 100 observations each because
+
+37
+00:02:32,110 --> 00:02:39,700
+the standard error of Theta hat is based on 100 observations.
+
+38
+00:02:39,700 --> 00:02:44,840
+Next we compute theta hat for each of these 1,000 samples,
+
+39
+00:02:44,840 --> 00:02:47,650
+and that gives us 1,000 copies of
+
+40
+00:02:47,650 --> 00:02:53,210
+these estimates which we call theta hat 1 up to theta hat 1,000.
+
+41
+00:02:53,210 --> 00:02:59,240
+Finally, we simply compute the standard deviation of these 1,000 estimates.
+
+42
+00:02:59,240 --> 00:03:04,790
+The formula you see there is simply the formula for the standard deviation.
+
+43
+00:03:04,790 --> 00:03:12,290
+The average of these estimates is simply theta hat bar,
+
+44
+00:03:12,290 --> 00:03:15,370
+remember that the bar notation denotes averages.
+
+45
+00:03:15,370 --> 00:03:19,810
+I didn't want to put two superscripts on there to make it not too confusing,
+
+46
+00:03:19,810 --> 00:03:23,005
+so I wrote down the average of the theta hats.
+
+47
+00:03:23,005 --> 00:03:27,790
+So note this is not an average of independent random variables
+
+48
+00:03:27,790 --> 00:03:33,220
+because the average of the theta hats is part of each of these terms,
+
+49
+00:03:33,220 --> 00:03:35,640
+and so, that makes the whole thing dependent,
+
+50
+00:03:35,640 --> 00:03:38,735
+but the Monte Carlo method still works.
+
+51
+00:03:38,735 --> 00:03:45,925
+It turns out that this quantity is roughly equal to the standard error.
+
+52
+00:03:45,925 --> 00:03:51,520
+So while this example looks a bit more complicated than the previous one,
+
+53
+00:03:51,520 --> 00:03:53,770
+what's really going on here is,
+
+54
+00:03:53,770 --> 00:03:57,075
+that it's simply an application of the law of large numbers.
+
+55
+00:03:57,075 --> 00:04:00,580
+But the caveat is that this method will only
+
+56
+00:04:00,580 --> 00:04:05,275
+work if we can draw many samples of size 100.
+
+57
+00:04:05,275 --> 00:04:11,870
+In other words, simulation works if I can sample as much as I wish.

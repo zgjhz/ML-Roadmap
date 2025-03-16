@@ -1,0 +1,215 @@
+1
+00:00:00,000 --> 00:00:03,230
+To explain conditional probability,
+
+2
+00:00:03,230 --> 00:00:05,420
+let's look at spam e-mail.
+
+3
+00:00:05,420 --> 00:00:12,910
+Spam e-mail contains certain words with a higher frequency than non-spam e-mail,
+
+4
+00:00:12,910 --> 00:00:14,695
+which is also called ham e-mail.
+
+5
+00:00:14,695 --> 00:00:16,675
+For example, the word money,
+
+6
+00:00:16,675 --> 00:00:21,805
+and that's because one reason people send spam e-mail is to get your money.
+
+7
+00:00:21,805 --> 00:00:28,750
+The probability that the word money appears in spam e-mail is 8%.
+
+8
+00:00:28,750 --> 00:00:34,565
+And the way we write this is probability of money appears in e-mail.
+
+9
+00:00:34,565 --> 00:00:38,780
+Given, which is denoted by a vertical line.
+
+10
+00:00:38,780 --> 00:00:42,710
+Given that the e-mail is spam, is 8%.
+
+11
+00:00:42,710 --> 00:00:46,155
+And the probability that money appears in an e-mail,
+
+12
+00:00:46,155 --> 00:00:50,550
+given that the e-mail is ham is only 1%.
+
+13
+00:00:50,550 --> 00:00:56,315
+The conditional probability of B given A is now defined as
+
+14
+00:00:56,315 --> 00:00:59,825
+the probability of B given A is the probability of
+
+15
+00:00:59,825 --> 00:01:03,920
+A and B divided by the probability of A.
+
+16
+00:01:03,920 --> 00:01:10,260
+And rearranging that already gives us what's called the general multiplication rule.
+
+17
+00:01:10,260 --> 00:01:18,835
+The probability of A and B is the probability of A times the probability of B given A.
+
+18
+00:01:18,835 --> 00:01:22,800
+So, remember the multiplication rule we had earlier.
+
+19
+00:01:22,800 --> 00:01:24,595
+In the special case,
+
+20
+00:01:24,595 --> 00:01:27,344
+where the events A and B are independent,
+
+21
+00:01:27,344 --> 00:01:34,665
+the probability of A and B is simply the probability of A times the probability of B.
+
+22
+00:01:34,665 --> 00:01:38,920
+So, you see in the special case of independence,
+
+23
+00:01:38,920 --> 00:01:45,340
+the conditional probability of B given A is the same as the probability of B,
+
+24
+00:01:45,340 --> 00:01:47,890
+and that makes sense because independence
+
+25
+00:01:47,890 --> 00:01:51,815
+means that the outcome of B does not depend on A.
+
+26
+00:01:51,815 --> 00:01:55,095
+So, let's do some computations.
+
+27
+00:01:55,095 --> 00:02:01,010
+It's known that the probability that any e-mail is spam is about 20%.
+
+28
+00:02:01,010 --> 00:02:07,600
+Let's compute the probability that a randomly chosen e-mail has the word money in it.
+
+29
+00:02:07,600 --> 00:02:09,890
+How would we do that?
+
+30
+00:02:09,980 --> 00:02:12,885
+So, remember what we know so far.
+
+31
+00:02:12,885 --> 00:02:15,480
+We know that the probability that money
+
+32
+00:02:15,480 --> 00:02:18,655
+appears given the e-mail is spam is 8%,
+
+33
+00:02:18,655 --> 00:02:23,950
+and the probability that money appears given that the e-mail is ham is only 1%.
+
+34
+00:02:23,950 --> 00:02:28,310
+But, I want to know the probability of money and I
+
+35
+00:02:28,310 --> 00:02:33,095
+only have the conditional probability of money given spam and ham.
+
+36
+00:02:33,095 --> 00:02:36,195
+So, the key idea here is,
+
+37
+00:02:36,195 --> 00:02:41,595
+to artificially introduce that event whether we have spam or ham.
+
+38
+00:02:41,595 --> 00:02:43,890
+The way this is done is,
+
+39
+00:02:43,890 --> 00:02:49,525
+we can write the event that money appears in the e-mail as two events.
+
+40
+00:02:49,525 --> 00:02:53,135
+The event that money appears in the e-mail is spam
+
+41
+00:02:53,135 --> 00:02:57,015
+or the event that money appears in the e-mail is ham.
+
+42
+00:02:57,015 --> 00:03:03,060
+And now you see these two events are mutually exclusive because if the e-mail is spam,
+
+43
+00:03:03,060 --> 00:03:04,685
+it cannot be ham.
+
+44
+00:03:04,685 --> 00:03:08,235
+And since there's an or in between these two,
+
+45
+00:03:08,235 --> 00:03:10,955
+we can use the addition rule.
+
+46
+00:03:10,955 --> 00:03:16,990
+The probability that money appears in the e-mail is the probability that money
+
+47
+00:03:16,990 --> 00:03:19,780
+appears in the e-mail is spam and
+
+48
+00:03:19,780 --> 00:03:23,530
+the probability that money appears in the e-mail is ham.
+
+49
+00:03:23,530 --> 00:03:29,630
+And now, I simply plug in the definition of conditional probability.
+
+50
+00:03:29,630 --> 00:03:34,520
+The first term is the probability that the word money appears
+
+51
+00:03:34,520 --> 00:03:39,025
+given the e-mail is spam times the probability that the e-mail is spam,
+
+52
+00:03:39,025 --> 00:03:41,305
+and likewise, for the second term.
+
+53
+00:03:41,305 --> 00:03:43,155
+And all of these things,
+
+54
+00:03:43,155 --> 00:03:49,240
+I know and can simply plug in, and I get 2.4%.

@@ -1,0 +1,87 @@
+1
+00:00:00,000 --> 00:00:03,340
+Hello, my name is Guenther Walther and I would
+
+2
+00:00:03,340 --> 00:00:06,830
+like to come you to the introductory statistics course.
+
+3
+00:00:06,830 --> 00:00:09,550
+I'm a professor in the Department of Statistics at
+
+4
+00:00:09,550 --> 00:00:13,150
+Stanford University where I teach and do research.
+
+5
+00:00:13,150 --> 00:00:18,430
+I regularly teach a variety of classes from the introductory level for freshmen,
+
+6
+00:00:18,430 --> 00:00:20,995
+all the way to Ph.D. level classes.
+
+7
+00:00:20,995 --> 00:00:26,035
+I've been involved in developing the data science track in our Master of Science program,
+
+8
+00:00:26,035 --> 00:00:28,780
+which the Department of Statistics runs jointly with
+
+9
+00:00:28,780 --> 00:00:32,395
+the Institute for Computational and Mathematical Engineering.
+
+10
+00:00:32,395 --> 00:00:35,830
+Together with some of my colleagues in the statistics department,
+
+11
+00:00:35,830 --> 00:00:37,300
+I've also helped to create
+
+12
+00:00:37,300 --> 00:00:41,425
+a data science course that is accessible to all students at Stanford,
+
+13
+00:00:41,425 --> 00:00:46,620
+which incorporates many topics that you will find in this introductory statistics course.
+
+14
+00:00:46,620 --> 00:00:49,450
+Research-wise, I have worked in a range of
+
+15
+00:00:49,450 --> 00:00:53,270
+areas from investigating puzzling behavior in solar neutrinos,
+
+16
+00:00:53,270 --> 00:00:55,840
+to extracting information from many measurements of
+
+17
+00:00:55,840 --> 00:00:59,140
+single cells in high-throughput biological experiments,
+
+18
+00:00:59,140 --> 00:01:02,260
+to developing new statistical methodology.
+
+19
+00:01:02,260 --> 00:01:04,840
+One thing that I noticed when working in
+
+20
+00:01:04,840 --> 00:01:09,680
+these diverse areas is that statistical questions come up everywhere,
+
+21
+00:01:09,680 --> 00:01:12,250
+and that having a good grasp of the key ideas
+
+22
+00:01:12,250 --> 00:01:15,770
+of statistical thinking can make a big difference.

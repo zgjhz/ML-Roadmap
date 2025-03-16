@@ -1,0 +1,95 @@
+1
+00:00:00,100 --> 00:00:05,380
+So now, let's look how we would go about actually doing a test.
+
+2
+00:00:05,380 --> 00:00:08,970
+The first step is to come up with a test statistic.
+
+3
+00:00:08,970 --> 00:00:12,030
+A test statistic measures how far away the data
+
+4
+00:00:12,030 --> 00:00:16,355
+are from what we would expect if the null hypothesis were true.
+
+5
+00:00:16,355 --> 00:00:20,605
+A common test statistic is the so-called Z-statistic.
+
+6
+00:00:20,605 --> 00:00:22,855
+The Z-statistic looks at
+
+7
+00:00:22,855 --> 00:00:28,440
+the observed outcome minus the expected outcome divided by the standard error.
+
+8
+00:00:28,440 --> 00:00:31,730
+Here the observed outcome is a statistic
+
+9
+00:00:31,730 --> 00:00:35,135
+that is appropriate for assessing the null hypothesis.
+
+10
+00:00:35,135 --> 00:00:38,135
+For example, when we toss 10 coins,
+
+11
+00:00:38,135 --> 00:00:43,750
+an appropriate statistic would be the number of tails, or maybe the percent of tails.
+
+12
+00:00:43,750 --> 00:00:49,515
+Expected here stands for the expected value of this statistic,
+
+13
+00:00:49,515 --> 00:00:52,970
+assuming that the null hypothesis is true.
+
+14
+00:00:52,970 --> 00:00:57,080
+Likewise, the standard error is the standard error of
+
+15
+00:00:57,080 --> 00:01:01,255
+the statistic under the assumption that the null hypothesis is true.
+
+16
+00:01:01,255 --> 00:01:03,905
+Let's look at an example.
+
+17
+00:01:03,905 --> 00:01:07,330
+Our statistic was the number of tails,
+
+18
+00:01:07,330 --> 00:01:11,695
+and so using the formulas for the expected values of sums,
+
+19
+00:01:11,695 --> 00:01:17,610
+we find that the expected value is 10 times the probability of getting a tail,
+
+20
+00:01:17,610 --> 00:01:22,660
+which is 5, and using the formula for the standard error,
+
+21
+00:01:22,660 --> 00:01:26,210
+we get the standard error for the sum is 1.58.
+
+22
+00:01:26,210 --> 00:01:33,555
+So, our x-statistic becomes the observed sum that is the number of tails, which is 7,
+
+23
+00:01:33,555 --> 00:01:37,045
+minus the expected, which is 5,
+
+24
+00:01:37,045 --> 00:01:43,000
+divided by the standard error, and that gives us a z-value of 1.27.

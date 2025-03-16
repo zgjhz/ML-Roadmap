@@ -1,0 +1,159 @@
+1
+00:00:00,000 --> 00:00:04,125
+In this module, we will examine how data are produced.
+
+2
+00:00:04,125 --> 00:00:08,970
+We will look at the main concepts for drawing samples, and designing experiments.
+
+3
+00:00:08,970 --> 00:00:11,640
+We will see when it is possible to attribute and
+
+4
+00:00:11,640 --> 00:00:15,045
+observe the effect of treatment, such as a medical treatment,
+
+5
+00:00:15,045 --> 00:00:16,775
+and when that's not possible.
+
+6
+00:00:16,775 --> 00:00:19,725
+We will also look at some curious pitfalls.
+
+7
+00:00:19,725 --> 00:00:22,825
+To explain what statistical inference is,
+
+8
+00:00:22,825 --> 00:00:26,850
+let's look at a question you've probably heard a lot about in the news.
+
+9
+00:00:26,850 --> 00:00:33,205
+What percentage of voters approve of the way the U.S. President is handling his job?
+
+10
+00:00:33,205 --> 00:00:39,735
+This question has been asked by polling companies since the 1930s.
+
+11
+00:00:39,735 --> 00:00:41,605
+If you think about it,
+
+12
+00:00:41,605 --> 00:00:44,250
+it's actually quite difficult to answer that question
+
+13
+00:00:44,250 --> 00:00:47,365
+because you would have to ask each voter,
+
+14
+00:00:47,365 --> 00:00:51,900
+and there are more than 250 million people of voting age in the US.
+
+15
+00:00:51,900 --> 00:00:56,175
+It's a daunting task to ask all of these 250 million people.
+
+16
+00:00:56,175 --> 00:00:59,820
+So this would seem to be an impossible question to answer.
+
+17
+00:00:59,820 --> 00:01:05,860
+However, it's actually not that difficult to estimate that percentage.
+
+18
+00:01:05,860 --> 00:01:09,030
+What a polling company does is,
+
+19
+00:01:09,030 --> 00:01:12,915
+it samples, say, 1,000 voters at random.
+
+20
+00:01:12,915 --> 00:01:17,150
+Then it uses the approval percentage among those voters,
+
+21
+00:01:17,150 --> 00:01:21,205
+as an estimate for the approval percentage of all voters.
+
+22
+00:01:21,205 --> 00:01:26,345
+So there are a few technical terms which we are going to use in the future.
+
+23
+00:01:26,345 --> 00:01:30,700
+The population simply means the entire group of subjects,
+
+24
+00:01:30,700 --> 00:01:32,440
+about which we want information.
+
+25
+00:01:32,440 --> 00:01:34,195
+In the previous example,
+
+26
+00:01:34,195 --> 00:01:37,145
+this would be all U.S. voters.
+
+27
+00:01:37,145 --> 00:01:43,085
+The parameter is the quantity about the population which we are interested in.
+
+28
+00:01:43,085 --> 00:01:45,500
+In the previous example,
+
+29
+00:01:45,500 --> 00:01:49,380
+that would be the approval percentage among all U.S. voters.
+
+30
+00:01:49,380 --> 00:01:53,940
+The sample is the part of the population from which we collect information.
+
+31
+00:01:53,940 --> 00:01:58,620
+That would be the 1,000 voters which were selected at random.
+
+32
+00:01:58,620 --> 00:02:02,910
+Finally, a statistic, or an estimate is
+
+33
+00:02:02,910 --> 00:02:07,000
+the quantity we're interested in as it was measured in the sample.
+
+34
+00:02:07,000 --> 00:02:12,045
+So that would be the approval percentage among the sample voters only.
+
+35
+00:02:12,045 --> 00:02:14,855
+An important point is,
+
+36
+00:02:14,855 --> 00:02:20,145
+that even a relatively small sample of 100 or 1,000 voters
+
+37
+00:02:20,145 --> 00:02:24,575
+will produce an estimate that is quite close to the parameter
+
+38
+00:02:24,575 --> 00:02:30,590
+even if the population is very large like the 250 million subjects in that case.
+
+39
+00:02:30,590 --> 00:02:34,570
+We will see later why that's the case.
+
+40
+00:02:34,700 --> 00:02:42,110
+This example shows why statistics can be such a powerful and useful tool.

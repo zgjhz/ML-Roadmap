@@ -1,0 +1,237 @@
+1
+00:00:00,880 --> 00:00:04,090
+So here's a survey question
+that's quite tricky.
+
+2
+00:00:04,090 --> 00:00:07,322
+What percentage of students have
+cheated during an exam in college?
+
+3
+00:00:07,322 --> 00:00:15,050
+The problem here is that you cannot simply
+ask students whether they have cheated.
+
+4
+00:00:15,050 --> 00:00:20,750
+Students may simply be too embarrassed to
+answer truthfully, so what can be done?
+
+5
+00:00:20,750 --> 00:00:24,860
+This is being addressed with
+what's called randomization.
+
+6
+00:00:24,860 --> 00:00:26,030
+It works as follows.
+
+7
+00:00:27,110 --> 00:00:31,310
+We do a survey that first instructs
+students to toss a coin twice.
+
+8
+00:00:32,440 --> 00:00:36,170
+If the student gets
+tails on the first toss,
+
+9
+00:00:36,170 --> 00:00:39,010
+then the student has to answer question 1.
+
+10
+00:00:39,010 --> 00:00:42,090
+Otherwise, the student
+has to answer question 2.
+
+11
+00:00:42,090 --> 00:00:43,440
+Here are the two questions.
+
+12
+00:00:45,620 --> 00:00:50,850
+Question 1 says, have you ever
+cheated on an exam in college?
+
+13
+00:00:50,850 --> 00:00:54,980
+Question 2 is,
+did you get tails on the second toss?
+
+14
+00:00:56,480 --> 00:00:58,040
+So why are we doing this?
+
+15
+00:00:58,040 --> 00:01:01,580
+The answer we are going to
+get will be partly random.
+
+16
+00:01:01,580 --> 00:01:06,545
+A yes answer could be due to
+the student answering question 1 and
+
+17
+00:01:06,545 --> 00:01:09,870
+having cheated on an exam,
+or it could be due to
+
+18
+00:01:09,870 --> 00:01:14,080
+the student answering question 2 in
+getting tails on the second toss.
+
+19
+00:01:15,570 --> 00:01:18,540
+So a yes answer doesn't
+really tell us anything, and
+
+20
+00:01:18,540 --> 00:01:22,660
+this should put the student
+at ease to answer truthfully.
+
+21
+00:01:22,660 --> 00:01:28,760
+So if a yes answer doesn't tell us
+anything, then why does that work at all?
+
+22
+00:01:28,760 --> 00:01:30,490
+So here's the key point.
+
+23
+00:01:30,490 --> 00:01:35,630
+We cannot really tell what an individual
+yes means, but by looking at all
+
+24
+00:01:35,630 --> 00:01:41,220
+the answers collectively, we can actually
+estimate the proportion of cheaters.
+
+25
+00:01:41,220 --> 00:01:42,180
+Here's how it works.
+
+26
+00:01:43,390 --> 00:01:49,500
+A yes answer can come from
+either question 1 or question 2.
+
+27
+00:01:49,500 --> 00:01:54,140
+So we can divide up the event
+of a yes into two parts.
+
+28
+00:01:56,070 --> 00:02:00,090
+This is the same reasoning that we've
+used before with the spam filter.
+
+29
+00:02:02,100 --> 00:02:07,590
+So the probability of a yes answer could
+be a probability of a yes answer and
+
+30
+00:02:07,590 --> 00:02:12,220
+question 1 was answered, plus
+the probability of a yes answer and
+
+31
+00:02:12,220 --> 00:02:14,710
+question 2 was answered.
+
+32
+00:02:14,710 --> 00:02:17,570
+And now I simply plug in the formulas for
+
+33
+00:02:17,570 --> 00:02:21,440
+conditional probabilities,
+and I get this.
+
+34
+00:02:21,440 --> 00:02:25,870
+What we are interested
+in is this probability.
+
+35
+00:02:25,870 --> 00:02:30,430
+A yes answer on question 1,
+which is the question about cheating.
+
+36
+00:02:30,430 --> 00:02:36,730
+So what we do is we solve for this
+probability, and we get this expression.
+
+37
+00:02:37,890 --> 00:02:43,590
+So let's see, we know the probability
+that question 2 was asked.
+
+38
+00:02:43,590 --> 00:02:47,310
+That's just a half, because it
+depended on the first coin toss.
+
+39
+00:02:48,380 --> 00:02:52,290
+The probability that question
+1 was asked is also half.
+
+40
+00:02:53,940 --> 00:02:58,880
+And the probability of a yes answer
+given question 2 was asked, that's also
+
+41
+00:02:58,880 --> 00:03:03,580
+half because question 2 simply asks
+whether you got tails on the second toss.
+
+42
+00:03:05,460 --> 00:03:09,980
+So the only thing which we don't know is
+the probability that the answer will be 
+
+43
+00:03:09,980 --> 00:03:10,550
+yes.
+
+44
+00:03:11,560 --> 00:03:14,100
+But this we can estimate from data.
+
+45
+00:03:16,000 --> 00:03:21,980
+In one survey, 27 students answered yes and
+30 answered no.
+
+46
+00:03:23,420 --> 00:03:30,842
+So we can estimate the probability of
+a yes answer as 27 over 57, which is 47%.
+
+47
+00:03:30,842 --> 00:03:38,672
+Now we plug in and we find that
+the probability of a yes answer,
+
+48
+00:03:38,672 --> 00:03:44,405
+given question 1 was answered, is 44%.
+
+49
+00:03:44,405 --> 00:03:49,358
+So we can estimate that about
+44% of all students have cheated
+
+50
+00:03:49,358 --> 00:03:51,110
+on an exam in college.

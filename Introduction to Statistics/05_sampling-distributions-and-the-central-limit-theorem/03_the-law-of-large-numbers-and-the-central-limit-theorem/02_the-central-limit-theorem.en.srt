@@ -1,0 +1,255 @@
+1
+00:00:00,000 --> 00:00:02,525
+Now let's go back to the online game,
+
+2
+00:00:02,525 --> 00:00:07,945
+which we considered earlier where you win a small prize with probability 0.2.
+
+3
+00:00:07,945 --> 00:00:11,650
+We gamble n times and count a number of
+
+4
+00:00:11,650 --> 00:00:16,095
+small prizes, and we called this a random variable X.
+
+5
+00:00:16,095 --> 00:00:22,915
+At that time we saw that X has a binomial distribution with n, and p = 0.2.
+
+6
+00:00:22,915 --> 00:00:27,355
+Here are some probability histograms for that binomial distribution.
+
+7
+00:00:27,355 --> 00:00:30,980
+If n = 1, we see that it's
+
+8
+00:00:30,980 --> 00:00:37,960
+a very much skewed histogram, and for n = 10 it still has a long right tail.
+
+9
+00:00:37,960 --> 00:00:43,960
+But for n = 50, the whole thing looks pretty much like a normal curve.
+
+10
+00:00:43,960 --> 00:00:47,805
+This is an example of the famous central limit theorem.
+
+11
+00:00:47,805 --> 00:00:52,205
+It says that when we sample with replacement and n is large,
+
+12
+00:00:52,205 --> 00:00:55,690
+then the sampling distribution of the sample average, or of
+
+13
+00:00:55,690 --> 00:01:00,555
+the sum, or of the percentage approximately follows the normal curve.
+
+14
+00:01:00,555 --> 00:01:06,665
+That means we can use normal approximation to compute probabilities.
+
+15
+00:01:06,665 --> 00:01:09,180
+To standardize, we subtract off
+
+16
+00:01:09,180 --> 00:01:13,660
+the expected value of this statistic, and then divide by its standard error.
+
+17
+00:01:13,660 --> 00:01:17,050
+The name central limit theorem comes from
+
+18
+00:01:17,050 --> 00:01:21,820
+the fact that it has a central place in statistical theory.
+
+19
+00:01:21,820 --> 00:01:27,430
+The reason why the central limit theorem is so important is that it shows
+
+20
+00:01:27,430 --> 00:01:32,810
+that the statistic has a normal distribution no matter what the population histogram is.
+
+21
+00:01:32,810 --> 00:01:38,280
+Let's look back at the distribution of annual household incomes in the United States.
+
+22
+00:01:38,280 --> 00:01:43,150
+We saw that this distribution is very much skewed to the right.
+
+23
+00:01:43,150 --> 00:01:45,205
+So it's very far from normal.
+
+24
+00:01:45,205 --> 00:01:53,690
+The mean of the household incomes was $67,000, and the standard deviation was $38,000.
+
+25
+00:01:53,690 --> 00:01:59,325
+So, if we sample n incomes at random among all the households,
+
+26
+00:01:59,325 --> 00:02:04,180
+then we know that the sample average follows the normal curve,
+
+27
+00:02:04,180 --> 00:02:08,885
+even though the histogram of the incomes itself is far from normal.
+
+28
+00:02:08,885 --> 00:02:11,235
+And to do normal approximation,
+
+29
+00:02:11,235 --> 00:02:15,015
+we need to subtract off the expected value of the statistic,
+
+30
+00:02:15,015 --> 00:02:20,835
+which in this case is the average of all incomes, namely $67,000.
+
+31
+00:02:20,835 --> 00:02:26,740
+And then we have to divide by the standard error of the statistic and we know by
+
+32
+00:02:26,740 --> 00:02:32,410
+the square root law that one is $38,000 over the square root of the sample size.
+
+33
+00:02:32,410 --> 00:02:35,935
+For example, let's take 100 incomes.
+
+34
+00:02:35,935 --> 00:02:37,740
+If n = 100,
+
+35
+00:02:37,740 --> 00:02:46,155
+then square root n is 10, and so the standard error is equal to $3,800.
+
+36
+00:02:46,155 --> 00:02:52,730
+The central limit theorem says that a sample mean follows the normal curve centered
+
+37
+00:02:52,730 --> 00:02:59,900
+at $67,000, with a standard error of $3,800.
+
+38
+00:02:59,900 --> 00:03:02,520
+So the empirical rule says,
+
+39
+00:03:02,520 --> 00:03:06,255
+if we go one standard error above the average,
+
+40
+00:03:06,255 --> 00:03:12,235
+then there's a 16% chance to fall above that number.
+
+41
+00:03:12,235 --> 00:03:21,750
+And one standard error above average is precisely that $70,800 we were looking at.
+
+42
+00:03:21,750 --> 00:03:25,970
+Let's go back to our example about online gambling.
+
+43
+00:03:25,970 --> 00:03:32,090
+We did n gambles, and looked at the number of small prizes which we called X.
+
+44
+00:03:32,090 --> 00:03:34,510
+Remember when counting things,
+
+45
+00:03:34,510 --> 00:03:37,605
+we use labels which have 0s and 1s on them.
+
+46
+00:03:37,605 --> 00:03:40,545
+In that case, every time a small prize comes up,
+
+47
+00:03:40,545 --> 00:03:44,165
+we give it a label 1, and 0 goes to everything else.
+
+48
+00:03:44,165 --> 00:03:47,080
+That means that the number of small prizes,
+
+49
+00:03:47,080 --> 00:03:50,010
+simply equals the sum of these labels.
+
+50
+00:03:50,010 --> 00:03:52,130
+And since we are now looking at the sum,
+
+51
+00:03:52,130 --> 00:03:54,560
+we can use the central limit theorem.
+
+52
+00:03:54,560 --> 00:03:57,225
+To apply normal approximation,
+
+53
+00:03:57,225 --> 00:04:02,205
+we need to find the mean and the standard error of x.
+
+54
+00:04:02,205 --> 00:04:05,120
+So remember when we looked at simulations, we had
+
+55
+00:04:05,120 --> 00:04:09,560
+formulas for the expected value and the standard error.
+
+56
+00:04:09,560 --> 00:04:11,120
+And if you plug in,
+
+57
+00:04:11,120 --> 00:04:15,585
+you'll find that in this case mu = p and sigma is
+
+58
+00:04:15,585 --> 00:04:22,150
+square root p times 1 - p. That was the formula for one gamble.
+
+59
+00:04:22,150 --> 00:04:26,930
+Now we are looking at the sum of n gambles and we had formulas
+
+60
+00:04:26,930 --> 00:04:31,480
+for the expected value and standard error, and these formulas show that
+
+61
+00:04:31,480 --> 00:04:37,150
+the expected value of the sum X = n times p and the standard error is
+
+62
+00:04:37,150 --> 00:04:39,940
+square root n times p times 1 - p.
+
+63
+00:04:39,940 --> 00:04:45,590
+Those are the numbers we use when we standardize x.
+
+64
+00:04:45,590 --> 00:04:50,070
+And remember, we found the same thing when we talked about the binomial distribution.

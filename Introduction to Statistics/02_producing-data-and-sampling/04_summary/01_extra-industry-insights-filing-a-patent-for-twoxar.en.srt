@@ -1,0 +1,123 @@
+1
+00:00:00,000 --> 00:00:01,705
+So, through my startups,
+
+2
+00:00:01,705 --> 00:00:04,085
+I had been working with with Paul Lee.
+
+3
+00:00:04,085 --> 00:00:06,840
+Paul was the former President of Electronic Arts.
+
+4
+00:00:06,840 --> 00:00:11,160
+He ran the show there for about 20 years before he started his own venture capital firm.
+
+5
+00:00:11,160 --> 00:00:13,760
+He invested in some of my prior startups and I was
+
+6
+00:00:13,760 --> 00:00:16,910
+working for him doing diligence at some other companies.
+
+7
+00:00:16,910 --> 00:00:19,340
+And so anyway, we were out to lunch,
+
+8
+00:00:19,340 --> 00:00:22,780
+and he sort of asked me, "Andrew, what the heck are you doing?
+
+9
+00:00:22,780 --> 00:00:26,990
+You've done all these startups and now you've gone back to school, help me understand."
+
+10
+00:00:26,990 --> 00:00:29,180
+And I told him about this project,
+
+11
+00:00:29,180 --> 00:00:32,010
+and I said, "I've been working on this really cool thing.
+
+12
+00:00:32,010 --> 00:00:34,940
+I'm using data science to find potential new drug treatments.
+
+13
+00:00:34,940 --> 00:00:38,130
+I got one of the best grades in the class on that project.
+
+14
+00:00:38,130 --> 00:00:41,750
+I'm really excited, I'm going to publish a paper on this, an academic paper."
+
+15
+00:00:41,750 --> 00:00:45,110
+And Paul has got this look,
+
+16
+00:00:45,110 --> 00:00:49,100
+when you do something really stupid, it's like, his face does this thing.
+
+17
+00:00:49,100 --> 00:00:52,070
+And he started to make that face and I was a little
+
+18
+00:00:52,070 --> 00:00:55,130
+baffled, right? I just told him how I'm living my dream,
+
+19
+00:00:55,130 --> 00:00:57,565
+I'm doing this thing that I'm so passionate about.
+
+20
+00:00:57,565 --> 00:00:59,030
+And he says to me, 
+
+21
+00:00:59,030 --> 00:01:03,920
+"Andrew, you just told me this story about how you want to change the world.
+
+22
+00:01:03,920 --> 00:01:06,530
+Do you think you'll do that by writing a paper,
+
+23
+00:01:06,530 --> 00:01:08,900
+or you think you'll do that by filing a patent,
+
+24
+00:01:08,900 --> 00:01:11,790
+starting a company, and bringing this technology into the world?"
+
+25
+00:01:11,790 --> 00:01:17,075
+And so that conversation is just like a worm that dug into my brain,
+
+26
+00:01:17,075 --> 00:01:20,620
+and I kind of couldn't get away from it because he was right.
+
+27
+00:01:20,620 --> 00:01:23,660
+It was more than just doing something to be
+
+28
+00:01:23,660 --> 00:01:28,160
+impressive, and rather wanted to actually bring this technology to the world,
+
+29
+00:01:28,160 --> 00:01:30,090
+and do something meaningful with it.
+
+30
+00:01:30,090 --> 00:01:32,660
+And that was the beginning of the transition from
+
+31
+00:01:32,660 --> 00:01:36,000
+the academic world and to creating a new startup around that technology.

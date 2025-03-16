@@ -1,0 +1,359 @@
+1
+00:00:00,000 --> 00:00:04,870
+Since we are interested in how these two measures of variability compare,
+
+2
+00:00:04,870 --> 00:00:07,005
+we simply look at the ratio,
+
+3
+00:00:07,005 --> 00:00:09,975
+and that ratio is called the F statistic.
+
+4
+00:00:09,975 --> 00:00:14,240
+Under the null hypothesis where there is no difference in treatment means,
+
+5
+00:00:14,240 --> 00:00:16,455
+this ratio should be about 1.
+
+6
+00:00:16,455 --> 00:00:20,095
+Of course, it will be not exactly 1 due to sampling variability.
+
+7
+00:00:20,095 --> 00:00:22,515
+In fact, it follows what's called an
+
+8
+00:00:22,515 --> 00:00:27,060
+F-distribution with k - 1 and N - k degrees of freedom.
+
+9
+00:00:27,060 --> 00:00:29,130
+So, the F-distribution is a little bit like
+
+10
+00:00:29,130 --> 00:00:32,655
+the student's T-distribution in that it comes with degrees of freedom.
+
+11
+00:00:32,655 --> 00:00:35,265
+But in this case, there are actually two degrees of freedom.
+
+12
+00:00:35,265 --> 00:00:36,580
+One for the numerator,
+
+13
+00:00:36,580 --> 00:00:38,340
+which is k - 1,
+
+14
+00:00:38,340 --> 00:00:39,670
+and one for the denominator,
+
+15
+00:00:39,670 --> 00:00:42,585
+which is N - k. Remember,
+
+16
+00:00:42,585 --> 00:00:46,410
+our idea is to assess whether the variability between
+
+17
+00:00:46,410 --> 00:00:51,000
+the treatment means is large compared to the variability within the groups.
+
+18
+00:00:51,000 --> 00:00:56,550
+So, we would reject our null hypothesis if this F statistic is large.
+
+19
+00:00:56,550 --> 00:01:00,470
+And that means that if F is in the right 5% tail,
+
+20
+00:01:00,470 --> 00:01:03,625
+that is then the p-value is smaller than 5%.
+
+21
+00:01:03,625 --> 00:01:09,500
+Typically, the results of an analysis of variance are summarized in an ANOVA table.
+
+22
+00:01:09,500 --> 00:01:12,590
+Remember, we looked at two sources of variation,
+
+23
+00:01:12,590 --> 00:01:16,500
+the treatment and the error,
+
+24
+00:01:16,500 --> 00:01:18,735
+but just the variability within the groups.
+
+25
+00:01:18,735 --> 00:01:22,630
+We saw the treatment has k - 1 degrees of freedom and
+
+26
+00:01:22,630 --> 00:01:27,350
+the corresponding treatment sum of squares are denoted by SST.
+
+27
+00:01:27,350 --> 00:01:33,590
+The mean square is simply the treatment sum of squares divided by the degrees of freedom.
+
+28
+00:01:33,590 --> 00:01:36,850
+The same thing applies to the second line where we
+
+29
+00:01:36,850 --> 00:01:40,135
+look at the error sum of squares and the mean square error.
+
+30
+00:01:40,135 --> 00:01:45,060
+And finally, we saw that the F statistic is simply the ratio of these two mean squares.
+
+31
+00:01:45,060 --> 00:01:48,040
+And then, the analysis will produce a p-value,
+
+32
+00:01:48,040 --> 00:01:50,700
+which goes in this last cell here.
+
+33
+00:01:50,700 --> 00:01:53,395
+There's also a third line in the ANOVA table,
+
+34
+00:01:53,395 --> 00:01:57,230
+which simply sums up the degrees of freedom and the sum of squares,
+
+35
+00:01:57,230 --> 00:01:59,290
+and we will talk about that later.
+
+36
+00:01:59,290 --> 00:02:02,645
+In the previous example about peer assessment,
+
+37
+00:02:02,645 --> 00:02:06,555
+when we do the ANOVA for the data in the right-hand display,
+
+38
+00:02:06,555 --> 00:02:08,700
+we get the following ANOVA table.
+
+39
+00:02:08,700 --> 00:02:13,025
+The p-value comes out as 9.7%.
+
+40
+00:02:13,025 --> 00:02:15,480
+Since that is not smaller than 5%,
+
+41
+00:02:15,480 --> 00:02:19,230
+there is not sufficient evidence to reject the null hypothesis.
+
+42
+00:02:19,230 --> 00:02:23,860
+Remember, that was also our impression when we looked at the box plots.
+
+43
+00:02:23,860 --> 00:02:30,085
+The idea behind the ANOVA table is that each observation is generated
+
+44
+00:02:30,085 --> 00:02:36,980
+as the sum of a treatment mean, mu j, and an error term, epsilon.
+
+45
+00:02:36,980 --> 00:02:40,960
+You can think of the error term as a measurement error,
+
+46
+00:02:40,960 --> 00:02:43,570
+and the assumption for ANOVA is that
+
+47
+00:02:43,570 --> 00:02:46,650
+these error terms at least roughly follow the normal curve,
+
+48
+00:02:46,650 --> 00:02:51,215
+and they are independent with mean 0, and a common variance, sigma square.
+
+49
+00:02:51,215 --> 00:02:57,500
+Remember, our null hypothesis is that all those treatment means are the same.
+
+50
+00:02:57,900 --> 00:03:02,330
+Instead of looking at these treatment means, mu j,
+
+51
+00:03:02,330 --> 00:03:06,340
+it's common to look at deviations from an overall mean, mu.
+
+52
+00:03:06,340 --> 00:03:09,125
+That deviation is called tau j.
+
+53
+00:03:09,125 --> 00:03:14,940
+It's simply the difference of the jth treatment mean, from the overall mean mu.
+
+54
+00:03:14,940 --> 00:03:16,450
+So, if we rewrite that model,
+
+55
+00:03:16,450 --> 00:03:23,070
+we get that an observation yij is a sum of the overall treatment mean mu,
+
+56
+00:03:23,070 --> 00:03:26,250
+the treatment effect of the jth group,
+
+57
+00:03:26,250 --> 00:03:29,039
+and the error term epsilon.
+
+58
+00:03:29,039 --> 00:03:34,500
+Since we are now looking at deviations from the overall treatment mean mu,
+
+59
+00:03:34,500 --> 00:03:40,015
+the null hypothesis becomes that all these deviations are 0.
+
+60
+00:03:40,015 --> 00:03:46,585
+Of course, we would estimate the overall mean mu by the grand mean y bar bar.
+
+61
+00:03:46,585 --> 00:03:50,180
+Then, the estimate of the treatment effect tau j simply
+
+62
+00:03:50,180 --> 00:03:54,400
+becomes yj bar - y bar bar.
+
+63
+00:03:54,400 --> 00:04:00,160
+All we did there was plug in the estimates for mu j and mu.
+
+64
+00:04:00,160 --> 00:04:05,515
+Finally, the estimate of our error term epsilon is simply the residual.
+
+65
+00:04:05,515 --> 00:04:08,880
+The residual is defined just the same way as in regression.
+
+66
+00:04:08,880 --> 00:04:13,685
+So, now, when we look at our model where y is the sum of an overall mean mu,
+
+67
+00:04:13,685 --> 00:04:16,080
+a treatment effect, tau j, and an error term,
+
+68
+00:04:16,080 --> 00:04:20,910
+we can plug in our estimates and we get this equation,
+
+69
+00:04:20,910 --> 00:04:24,110
+y is the sum of three terms.
+
+70
+00:04:24,110 --> 00:04:29,200
+Now, of course, this is kind of obvious because you see that y bar bar
+
+71
+00:04:29,200 --> 00:04:34,250
+cancels out here, and the jth treatment mean also cancels out.
+
+72
+00:04:34,250 --> 00:04:38,630
+So, this identity simply says that yij = yij.
+
+73
+00:04:38,630 --> 00:04:43,100
+But it's useful to write it that way, because it tells us how we
+
+74
+00:04:43,100 --> 00:04:47,775
+think that yij comes about from the various sources of variation.
+
+75
+00:04:47,775 --> 00:04:52,690
+It turns out that this type of decomposition is also true after squaring terms.
+
+76
+00:04:52,690 --> 00:04:58,435
+That is, after we move y bar bar to the left side by subtracting it off, and then,
+
+77
+00:04:58,435 --> 00:05:00,805
+if we square and take sums,
+
+78
+00:05:00,805 --> 00:05:03,675
+we get this identity here.
+
+79
+00:05:03,675 --> 00:05:09,800
+We already know what the last term there is, that's simply the error sum of squares.
+
+80
+00:05:09,800 --> 00:05:14,240
+Likewise, the second to last term is the treatment sum of squares.
+
+81
+00:05:14,240 --> 00:05:16,795
+We haven't discussed the first term.
+
+82
+00:05:16,795 --> 00:05:18,725
+It's called total sum of squares.
+
+83
+00:05:18,725 --> 00:05:19,910
+If you look at this,
+
+84
+00:05:19,910 --> 00:05:21,360
+you see what we are doing here,
+
+85
+00:05:21,360 --> 00:05:23,200
+we look at all the observations,
+
+86
+00:05:23,200 --> 00:05:26,775
+look at the squared differences from the overall mean, and sum up.
+
+87
+00:05:26,775 --> 00:05:30,320
+So, this is like a formula from computing a sample variance.
+
+88
+00:05:30,320 --> 00:05:35,580
+What this means is that the total variation can be split into two sources,
+
+89
+00:05:35,580 --> 00:05:38,930
+the treatment sum of squares and the error sum of squares.
+
+90
+00:05:38,930 --> 00:05:43,000
+This is the decomposition that's behind the ANOVA table.

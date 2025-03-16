@@ -1,0 +1,14 @@
+Let's look at another example to see
+what normal approximation can do for us. Recall that the 30th percentile is the
+point where 30% of the data fall below. So if I draw a standard normal curve, then the 30th percentile
+would be the z value, where 30% of the data fall below. Using a table of software, one can find that that z is -0.52. Now, we have to figure out how to
+go from that z value to the 30th percentile of the heights. That means simply doing
+the standardization backwards. Remember that the z value is height minus
+mean divided by standard deviation. Now we know what z is, and
+we already know what the mean and the standard deviation is. So we can simply solve for height,
+all we have to do is plug in the numbers. Now there is a second way
+of doing this problem. Remember z tells you how many standard
+deviations you are above or below average. So z = -0.52 means that the height is
+0.52 standard deviations below average. So the height would be the average,
+0.52 standard deviations, and then plugging in the numbers,
+we get 67.4 inches.

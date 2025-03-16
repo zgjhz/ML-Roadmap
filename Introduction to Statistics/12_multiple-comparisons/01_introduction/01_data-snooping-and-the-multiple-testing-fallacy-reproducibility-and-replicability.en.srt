@@ -1,0 +1,199 @@
+1
+00:00:00,000 --> 00:00:04,530
+The era of big data has led to a crisis of replicability and
+
+2
+00:00:04,530 --> 00:00:06,750
+reproducibility, which has hit
+
+3
+00:00:06,750 --> 00:00:11,265
+the mainstream news and which has even led some to question the scientific method.
+
+4
+00:00:11,265 --> 00:00:14,010
+We will discuss some of the important causes of
+
+5
+00:00:14,010 --> 00:00:19,180
+these problems and how to guard against them in doing statistical analysis.
+
+6
+00:00:19,180 --> 00:00:21,800
+So, what is data snooping?
+
+7
+00:00:21,800 --> 00:00:25,840
+Let's look at a famous Swedish study from 1992
+
+8
+00:00:25,840 --> 00:00:31,145
+which examined whether living near a power line causes adverse health effects.
+
+9
+00:00:31,145 --> 00:00:37,640
+That study reported a statistically highly significant increase in childhood leukemia.
+
+10
+00:00:37,640 --> 00:00:41,050
+But then curiously, when people followed up on
+
+11
+00:00:41,050 --> 00:00:46,130
+that study, it turned out they couldn't really confirm that result.
+
+12
+00:00:46,130 --> 00:00:52,600
+So why then did that study result in such a statistically significant outcome?
+
+13
+00:00:52,600 --> 00:00:55,055
+To understand what's going on,
+
+14
+00:00:55,055 --> 00:01:00,050
+we have to keep in mind that the study looked at 800 different health effects.
+
+15
+00:01:00,050 --> 00:01:03,900
+That means the way to think about it is that
+
+16
+00:01:03,900 --> 00:01:08,350
+the study did 800 different statistical tests.
+
+17
+00:01:08,380 --> 00:01:14,480
+Remember that the p-value summarizes the evidence for an effect.
+
+18
+00:01:14,480 --> 00:01:20,885
+And the interpretation is that the smaller the p-value, the stronger the evidence.
+
+19
+00:01:20,885 --> 00:01:26,130
+In particular, if the p-value is smaller than 1%, than one says,
+
+20
+00:01:26,130 --> 00:01:28,735
+that the test is highly significant.
+
+21
+00:01:28,735 --> 00:01:31,285
+But keep in mind what that means.
+
+22
+00:01:31,285 --> 00:01:33,805
+It means that if there's no effect,
+
+23
+00:01:33,805 --> 00:01:38,895
+then there's still a 1% chance to get such a highly significant outcome.
+
+24
+00:01:38,895 --> 00:01:42,910
+So, that means that if we do 800 tests,
+
+25
+00:01:42,910 --> 00:01:45,640
+then even if there's nothing going on at all,
+
+26
+00:01:45,640 --> 00:01:50,030
+we would expect to see about 800 times 1% which
+
+27
+00:01:50,030 --> 00:01:54,470
+is roughly 8 highly significant outcomes just by chance.
+
+28
+00:01:54,470 --> 00:01:57,445
+This is what happened in that Swedish study.
+
+29
+00:01:57,445 --> 00:02:00,440
+They did so many tests that they found
+
+30
+00:02:00,440 --> 00:02:05,705
+highly significant outcomes, even if there's nothing going on there.
+
+31
+00:02:05,705 --> 00:02:08,790
+This effect has a name, it's called the multiple
+
+32
+00:02:08,790 --> 00:02:12,530
+testing fallacy or the look-elsewhere effect.
+
+33
+00:02:12,780 --> 00:02:16,920
+With the large amounts of data that are available nowadays,
+
+34
+00:02:16,920 --> 00:02:19,510
+it's very easy to fall into this trap.
+
+35
+00:02:19,510 --> 00:02:25,030
+The reason is that there are just so many potential relationships one can look into,
+
+36
+00:02:25,030 --> 00:02:31,270
+that one sooner or later will run across a test which is significant just by chance.
+
+37
+00:02:31,270 --> 00:02:33,835
+This behavior is called data snooping.
+
+38
+00:02:33,835 --> 00:02:37,760
+One way people find out that data snooping was done is,
+
+39
+00:02:37,760 --> 00:02:40,345
+if they cannot replicate the study.
+
+40
+00:02:40,345 --> 00:02:46,050
+Replicating means to get the same conclusion with slightly different samples,
+
+41
+00:02:46,050 --> 00:02:49,380
+procedures, and data analysis methods.
+
+42
+00:02:49,380 --> 00:02:53,770
+Related to that is the problem of reproducibility.
+
+43
+00:02:53,770 --> 00:02:57,400
+That means to get the same results then you simply use
+
+44
+00:02:57,400 --> 00:03:01,750
+the same data and same methods that were claimed in the analysis.
+
+45
+00:03:01,750 --> 00:03:05,465
+In past years, there have been some high profile publications
+
+46
+00:03:05,465 --> 00:03:10,185
+that discuss the lack of replicability and reproducibility.
+
+47
+00:03:10,185 --> 00:03:13,295
+Two interesting papers are,
+
+48
+00:03:13,295 --> 00:03:14,930
+"How Science Goes Wrong",
+
+49
+00:03:14,930 --> 00:03:18,800
+which is an article in The Economist, and the research paper,
+
+50
+00:03:18,800 --> 00:03:23,800
+"Why Most Published Research Findings are False" by John Ioannidis.

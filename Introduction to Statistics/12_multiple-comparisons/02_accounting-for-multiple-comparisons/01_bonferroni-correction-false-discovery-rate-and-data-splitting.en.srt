@@ -1,0 +1,447 @@
+1
+00:00:00,200 --> 00:00:03,575
+So, what can be done about this problem?
+
+2
+00:00:03,575 --> 00:00:07,690
+We will look at three methods that account for multiple testing.
+
+3
+00:00:07,690 --> 00:00:10,810
+The first one is called Bonferroni correction.
+
+4
+00:00:10,810 --> 00:00:14,375
+It simply means that if you do M tests,
+
+5
+00:00:14,375 --> 00:00:19,500
+you multiply the P-values by M. What that correction does is,
+
+6
+00:00:19,500 --> 00:00:24,830
+it makes sure that the probability of a type one error is still at most five percent.
+
+7
+00:00:24,830 --> 00:00:27,400
+That means, the probability of any of
+
+8
+00:00:27,400 --> 00:00:31,345
+the M tests rejecting an error is smaller than five percent.
+
+9
+00:00:31,345 --> 00:00:36,445
+On the other hand, the price you have to pay is that the P-values get bigger.
+
+10
+00:00:36,445 --> 00:00:41,765
+After all, you multiply them by M. Note that this is a very restrictive condition.
+
+11
+00:00:41,765 --> 00:00:44,165
+If you do a large number of tests,
+
+12
+00:00:44,165 --> 00:00:46,160
+let's say M is a thousand,
+
+13
+00:00:46,160 --> 00:00:50,250
+you guard against even having one false positive.
+
+14
+00:00:50,250 --> 00:00:53,890
+A consequence of this is that it may be
+
+15
+00:00:53,890 --> 00:00:59,035
+difficult to claim a significant finding even if a noticeable effect is present.
+
+16
+00:00:59,035 --> 00:01:02,590
+For example, if you do a thousand tests and
+
+17
+00:01:02,590 --> 00:01:07,345
+the P-value is let's say 0.1 percent which would look quite significant,
+
+18
+00:01:07,345 --> 00:01:13,030
+we have to multiply it by a thousand and then it doesn't look significant anymore at all.
+
+19
+00:01:13,030 --> 00:01:16,135
+So the Bonferroni correction is probably working well
+
+20
+00:01:16,135 --> 00:01:19,690
+if you don't have a large number of tests to look at.
+
+21
+00:01:19,690 --> 00:01:25,850
+There is an alternative way that's much more promising if the number of tests is large.
+
+22
+00:01:25,850 --> 00:01:30,125
+And that has to do with a false discovery proportion,
+
+23
+00:01:30,125 --> 00:01:32,875
+which is abbreviated FDP.
+
+24
+00:01:32,875 --> 00:01:39,070
+That is the proportion of false discoveries over the total number of discoveries,
+
+25
+00:01:39,070 --> 00:01:42,730
+where discoveries simply means that a test rejects.
+
+26
+00:01:42,730 --> 00:01:46,905
+That thing is best explained with an example.
+
+27
+00:01:46,905 --> 00:01:51,135
+Suppose we test 1,000 hypotheses.
+
+28
+00:01:51,135 --> 00:01:54,340
+So that picture shows 1,000 squares,
+
+29
+00:01:54,340 --> 00:01:56,800
+each one corresponds to one hypothesis.
+
+30
+00:01:56,800 --> 00:02:01,705
+Now, let's assume 900 of these hypothesis are null,
+
+31
+00:02:01,705 --> 00:02:03,875
+that means there's nothing going on.
+
+32
+00:02:03,875 --> 00:02:07,365
+And 100 of them are alternative hypothesis,
+
+33
+00:02:07,365 --> 00:02:09,160
+so there is an effect there.
+
+34
+00:02:09,160 --> 00:02:14,755
+In that picture, the alternative hypotheses would be the blue square on the top.
+
+35
+00:02:14,755 --> 00:02:17,320
+So, ideally what we would like to do is,
+
+36
+00:02:17,320 --> 00:02:22,600
+we would like to do a test for each of these 1,000 hypotheses and we would like to
+
+37
+00:02:22,600 --> 00:02:28,250
+find that the tests reject for the blue sub squares but not for the green ones.
+
+38
+00:02:28,250 --> 00:02:32,365
+So, if we do that we might get an outcome like this.
+
+39
+00:02:32,365 --> 00:02:35,620
+The red squares are tests that reject.
+
+40
+00:02:35,620 --> 00:02:38,375
+So those are resulting in discoveries.
+
+41
+00:02:38,375 --> 00:02:41,860
+And the gray squares are tests that don't reject.
+
+42
+00:02:41,860 --> 00:02:44,095
+So those are the none discoveries.
+
+43
+00:02:44,095 --> 00:02:47,740
+Now, remember a test can make two kinds of errors.
+
+44
+00:02:47,740 --> 00:02:51,405
+It can reject the null hypothesis even though it's true.
+
+45
+00:02:51,405 --> 00:02:55,065
+Those type one errors would be the red squares
+
+46
+00:02:55,065 --> 00:02:59,275
+among the null hypothesis, for example, these.
+
+47
+00:02:59,275 --> 00:03:03,560
+The second type of error a test can make is it can
+
+48
+00:03:03,560 --> 00:03:07,730
+fail to reject the null even if the alternative is true.
+
+49
+00:03:07,730 --> 00:03:12,340
+Those would be the gray squares among the right apex corner.
+
+50
+00:03:12,340 --> 00:03:14,690
+So what you see in this picture,
+
+51
+00:03:14,690 --> 00:03:19,445
+that among the alternative hypothesis in the right upper corner,
+
+52
+00:03:19,445 --> 00:03:21,290
+the test does quite well,
+
+53
+00:03:21,290 --> 00:03:25,505
+there's a few errors but overall it finds all the alternatives.
+
+54
+00:03:25,505 --> 00:03:28,760
+On the other hand among the null hypothesis,
+
+55
+00:03:28,760 --> 00:03:30,860
+there is quite a number of red squares.
+
+56
+00:03:30,860 --> 00:03:33,615
+So, the test makes quite a number of errors.
+
+57
+00:03:33,615 --> 00:03:37,270
+But keep in mind that if we use a test that has
+
+58
+00:03:37,270 --> 00:03:42,145
+a probability of a type one error of five percent which is our usual threshold,
+
+59
+00:03:42,145 --> 00:03:48,050
+then we would expect about five percent of the null hypothesis to be rejected in error.
+
+60
+00:03:48,050 --> 00:03:55,550
+Since we have 900 null hypotheses and five percent should be rejected in error,
+
+61
+00:03:55,550 --> 00:04:01,380
+we would expect to see about 45 false discoveries,
+
+62
+00:04:01,380 --> 00:04:04,195
+and that's roughly what's going on in this picture.
+
+63
+00:04:04,195 --> 00:04:07,340
+So, that's not at all unusual.
+
+64
+00:04:07,340 --> 00:04:10,750
+So, if we tally up the results of this procedure,
+
+65
+00:04:10,750 --> 00:04:16,285
+then we see among the area where the alternative is true on the right upper corner,
+
+66
+00:04:16,285 --> 00:04:22,070
+we made 82 discoveries and we missed 20.
+
+67
+00:04:22,070 --> 00:04:24,650
+And then among the null hypothesis,
+
+68
+00:04:24,650 --> 00:04:27,860
+we made 41 discoveries which are false discoveries.
+
+69
+00:04:27,860 --> 00:04:32,380
+So, the false discovery proportion is the fraction of the number of
+
+70
+00:04:32,380 --> 00:04:38,835
+false discoveries which is 41 divided by the total number of discoveries.
+
+71
+00:04:38,835 --> 00:04:44,050
+And there we have 82 discoveries and 41 false discoveries.
+
+72
+00:04:44,050 --> 00:04:50,835
+So, the false discovery proportion is 41 over 121 which is 34 percent.
+
+73
+00:04:50,835 --> 00:04:55,520
+And the procedure we discuss next tries to control this proportion.
+
+74
+00:04:55,520 --> 00:04:58,130
+For example, it tries to keep it at five percent.
+
+75
+00:04:58,130 --> 00:05:02,880
+So, that means we may well allow some of the red squares,
+
+76
+00:05:02,880 --> 00:05:04,445
+but we want to make sure that
+
+77
+00:05:04,445 --> 00:05:10,220
+those false discoveries are a small fraction of the total number of discoveries.
+
+78
+00:05:10,220 --> 00:05:13,205
+Here is how the procedure works.
+
+79
+00:05:13,205 --> 00:05:16,625
+It's called a false discovery rate procedure,
+
+80
+00:05:16,625 --> 00:05:21,240
+and it controls the expected proportion of discoveries that are false.
+
+81
+00:05:21,240 --> 00:05:24,015
+Just as we explained on the previous slide.
+
+82
+00:05:24,015 --> 00:05:28,870
+That procedure was published in 1995 by Benjamini-Hochberg,
+
+83
+00:05:28,870 --> 00:05:30,215
+so it carries their name.
+
+84
+00:05:30,215 --> 00:05:32,500
+It consists of three steps.
+
+85
+00:05:32,500 --> 00:05:36,235
+First, what you do is you sort the p-values.
+
+86
+00:05:36,235 --> 00:05:43,630
+So, you look at the smallest which is P with a subscript of one in brackets up to Pm,
+
+87
+00:05:43,630 --> 00:05:45,415
+which is the largest p-value.
+
+88
+00:05:45,415 --> 00:05:50,515
+So, this is simply a sorting of the p-values according to their size.
+
+89
+00:05:50,515 --> 00:05:54,125
+Next, you look at the largest number k,
+
+90
+00:05:54,125 --> 00:06:00,390
+such that the k smallest p-value is not more than k over m times alpha.
+
+91
+00:06:00,390 --> 00:06:03,925
+And of course, you would simply write a small computer code to do that for you.
+
+92
+00:06:03,925 --> 00:06:07,940
+And that's pretty much all because in the third step you declare
+
+93
+00:06:07,940 --> 00:06:12,450
+discoveries for all tests i from one to k. That is,
+
+94
+00:06:12,450 --> 00:06:17,335
+for the k most significant tests you just clear them to be true discoveries.
+
+95
+00:06:17,335 --> 00:06:20,545
+It turns out that this very simple procedure
+
+96
+00:06:20,545 --> 00:06:26,210
+controls the expected proportion of false discoveries at a rate of alpha.
+
+97
+00:06:26,210 --> 00:06:30,570
+The third approach we are looking at is called the validation set approach.
+
+98
+00:06:30,570 --> 00:06:34,410
+The idea is you split your data set into two parts.
+
+99
+00:06:34,410 --> 00:06:36,240
+One is a model building set,
+
+100
+00:06:36,240 --> 00:06:38,055
+and the other is a validation set.
+
+101
+00:06:38,055 --> 00:06:40,025
+Now you use the first part,
+
+102
+00:06:40,025 --> 00:06:41,485
+the model building set,
+
+103
+00:06:41,485 --> 00:06:43,410
+to find something interesting.
+
+104
+00:06:43,410 --> 00:06:46,275
+So, you may well you data snooping on that one.
+
+105
+00:06:46,275 --> 00:06:48,780
+After you come up with hypothesis,
+
+106
+00:06:48,780 --> 00:06:51,995
+you test this hypothesis on the validation set.
+
+107
+00:06:51,995 --> 00:06:56,070
+This is not any more multiple testing because
+
+108
+00:06:56,070 --> 00:07:00,555
+the test you did on the validation set is only one test,
+
+109
+00:07:00,555 --> 00:07:04,960
+and the validation set is completely different from the model-building set.
+
+110
+00:07:04,960 --> 00:07:08,040
+However, that approach requires strict discipline.
+
+111
+00:07:08,040 --> 00:07:11,010
+You have to be sure that you never peek at
+
+112
+00:07:11,010 --> 00:07:17,020
+the validation set until right away at and when you're ready to evaluate your test.

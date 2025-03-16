@@ -1,0 +1,247 @@
+1
+00:00:00,000 --> 00:00:04,400
+Now, the main use of regression is to predict y from x.
+
+2
+00:00:04,400 --> 00:00:08,070
+And we can simply do that by plugging in x into
+
+3
+00:00:08,070 --> 00:00:13,125
+the equation of our regression line which gives us the predicted value y hat.
+
+4
+00:00:13,125 --> 00:00:15,560
+Now, from the formulas on the previous slide,
+
+5
+00:00:15,560 --> 00:00:20,685
+you can see that if we predicted x equal the average of all the x's,
+
+6
+00:00:20,685 --> 00:00:25,515
+then this prediction will simply produce the average of the y's.
+
+7
+00:00:25,515 --> 00:00:28,630
+But the formula for the slope means,
+
+8
+00:00:28,630 --> 00:00:34,080
+that if we take x to be one standard deviation above the average,
+
+9
+00:00:34,080 --> 00:00:36,125
+then the predicted y value is
+
+10
+00:00:36,125 --> 00:00:41,540
+only r times one standard deviation above the average of the y's.
+
+11
+00:00:41,540 --> 00:00:46,180
+Now r is typically smaller than 1 and larger than -1.
+
+12
+00:00:46,180 --> 00:00:50,380
+And so this means the prediction is towards the mean,
+
+13
+00:00:50,380 --> 00:00:56,455
+in a sense that the predicted value y hat is fewer stardard deviations away from its mean,
+
+14
+00:00:56,455 --> 00:00:59,670
+then x is from the mean of the x's.
+
+15
+00:00:59,670 --> 00:01:03,095
+Let's look at the scatter plot that shows scores
+
+16
+00:01:03,095 --> 00:01:06,880
+on midterms and final exams for a number of students.
+
+17
+00:01:06,880 --> 00:01:10,025
+The midterm scores are on the horizontal axis,
+
+18
+00:01:10,025 --> 00:01:13,185
+and the final exam scores on the vertical axis.
+
+19
+00:01:13,185 --> 00:01:18,410
+You see that the regression line clearly shows regression towards the mean.
+
+20
+00:01:18,410 --> 00:01:22,540
+For example, if you look at students who did very well on the midterm,
+
+21
+00:01:22,540 --> 00:01:26,770
+it would be roughly those very much on the right hand side.
+
+22
+00:01:26,770 --> 00:01:30,130
+You see that their final exam scores which are given on
+
+23
+00:01:30,130 --> 00:01:35,440
+the vertical axis are somewhat below the top scores on the final exam.
+
+24
+00:01:35,440 --> 00:01:39,405
+So, regression towards the mean actually makes sense.
+
+25
+00:01:39,405 --> 00:01:42,110
+We predict that the top scores on the midterm will
+
+26
+00:01:42,110 --> 00:01:45,370
+score somewhat below the top on the final exam.
+
+27
+00:01:45,370 --> 00:01:49,405
+Likewise, if you look at the worst scores on the midterm,
+
+28
+00:01:49,405 --> 00:01:51,750
+it would be roughly those,
+
+29
+00:01:51,750 --> 00:01:55,360
+but those students did actually not score the worst on the final
+
+30
+00:01:55,360 --> 00:01:59,295
+because the worst scores on the finals are below there.
+
+31
+00:01:59,295 --> 00:02:02,550
+Again, we would predict correctly that
+
+32
+00:02:02,550 --> 00:02:05,140
+the final exam scores should not be as
+
+33
+00:02:05,140 --> 00:02:09,265
+far away from the average as the midterm scores were.
+
+34
+00:02:09,265 --> 00:02:14,685
+This is called regression to the mean, or the regression effect.
+
+35
+00:02:14,685 --> 00:02:16,790
+One way to remember that,
+
+36
+00:02:16,790 --> 00:02:21,120
+is to look at a test-retest situation just as
+
+37
+00:02:21,120 --> 00:02:23,350
+the example of where we previously looked at
+
+38
+00:02:23,350 --> 00:02:26,640
+the midterm and final exam scores of students.
+
+39
+00:02:26,640 --> 00:02:29,410
+In such a test-retest situation,
+
+40
+00:02:29,410 --> 00:02:32,190
+the top group on the test would drop down
+
+41
+00:02:32,190 --> 00:02:35,125
+somewhat on the retest, and the bottom group moves up.
+
+42
+00:02:35,125 --> 00:02:36,605
+Why would that be?
+
+43
+00:02:36,605 --> 00:02:39,275
+Here's a very heuristic explanation.
+
+44
+00:02:39,275 --> 00:02:43,580
+To score among the very top on the midterm requires two things.
+
+45
+00:02:43,580 --> 00:02:47,565
+First of all, the student has to be prepared very well,
+
+46
+00:02:47,565 --> 00:02:50,110
+and there's probably also some luck involved.
+
+47
+00:02:50,110 --> 00:02:52,900
+For example, the students may be very well
+
+48
+00:02:52,900 --> 00:02:56,430
+prepared for the questions that happen to be on the midterm.
+
+49
+00:02:56,430 --> 00:03:01,740
+Another element of luck might be that the student had a very good sleep the night before.
+
+50
+00:03:01,740 --> 00:03:05,805
+Now when we go to the retest situation like the final exam,
+
+51
+00:03:05,805 --> 00:03:10,295
+then some of the students may not have that luck anymore in their favor.
+
+52
+00:03:10,295 --> 00:03:15,025
+And that's the reason why we expect this group to fall back a little bit.
+
+53
+00:03:15,025 --> 00:03:18,245
+The same thing applies to the bottom group.
+
+54
+00:03:18,245 --> 00:03:21,570
+The worst score is probably due to
+
+55
+00:03:21,570 --> 00:03:25,010
+some degree to some bad luck and on the retest situation,
+
+56
+00:03:25,010 --> 00:03:28,600
+there's hope that this bad luck is not there anymore.
+
+57
+00:03:28,600 --> 00:03:35,975
+It's important to realize that this is simply an effect of the scatter around the line.
+
+58
+00:03:35,975 --> 00:03:38,715
+Sometimes, people look at that effect
+
+59
+00:03:38,715 --> 00:03:41,805
+and conclude that there must be something else going on.
+
+60
+00:03:41,805 --> 00:03:45,270
+For example, the conclusion might be that the top scorers on
+
+61
+00:03:45,270 --> 00:03:48,860
+the midterm slackened off and did worse on the final.
+
+62
+00:03:48,860 --> 00:03:54,000
+Such an erroneous conclusion is called the regression fallacy.

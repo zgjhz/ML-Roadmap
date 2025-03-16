@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:03,050
+Now, let's have a look how big the confidence interval is.
+
+2
+00:00:03,050 --> 00:00:06,200
+Remember, the formula for the interval is we take
+
+3
+00:00:06,200 --> 00:00:10,660
+the estimate plus/minus z times standard error.
+
+4
+00:00:10,660 --> 00:00:17,450
+So the width of the confidence interval is given by twice z times standard error.
+
+5
+00:00:17,450 --> 00:00:19,800
+That term, z times standard error,
+
+6
+00:00:19,800 --> 00:00:21,970
+is called the margin of error.
+
+7
+00:00:21,970 --> 00:00:24,900
+So remember, the square-root law says that
+
+8
+00:00:24,900 --> 00:00:27,810
+the standard error is given by sigma over square-root
+
+9
+00:00:27,810 --> 00:00:34,670
+n. And what that means is that the width goes down as the sample size n increases.
+
+10
+00:00:34,670 --> 00:00:37,060
+However, because there's a square-root there,
+
+11
+00:00:37,060 --> 00:00:40,350
+that means that if we want to cut the width in half,
+
+12
+00:00:40,350 --> 00:00:43,400
+we need four times the sample size.
+
+13
+00:00:43,400 --> 00:00:46,950
+And likewise, if we wanted one-tenth of the width,
+
+14
+00:00:46,950 --> 00:00:50,325
+we would need 100 times the sample size.
+
+15
+00:00:50,325 --> 00:00:56,370
+Another option to make the confidence interval smaller is to make z smaller.
+
+16
+00:00:56,370 --> 00:00:59,715
+Remember, z is determined by the confidence level.
+
+17
+00:00:59,715 --> 00:01:04,515
+So we can make z smaller by choosing a smaller confidence level.
+
+18
+00:01:04,515 --> 00:01:09,135
+For example, instead of using a confidence level of 95%,
+
+19
+00:01:09,135 --> 00:01:10,885
+we could use 80%.
+
+20
+00:01:10,885 --> 00:01:13,010
+So there's a trade off here.
+
+21
+00:01:13,010 --> 00:01:16,935
+We would get a smaller confidence interval at the cost of
+
+22
+00:01:16,935 --> 00:01:21,405
+having less confidence that it covers the true parameter mu.
+
+23
+00:01:21,405 --> 00:01:25,810
+If we're interested in confidence intervals for percentages,
+
+24
+00:01:25,810 --> 00:01:28,510
+then there's a simple rule of thumb that allows us
+
+25
+00:01:28,510 --> 00:01:31,445
+to compute its confidence intervals on the fly.
+
+26
+00:01:31,445 --> 00:01:33,390
+The rule of thumb says,
+
+27
+00:01:33,390 --> 00:01:38,480
+just take the estimated percentage plus/minus 1 over square root sample size.
+
+28
+00:01:38,480 --> 00:01:43,980
+The reason why this works is because sigma can be shown to be
+
+29
+00:01:43,980 --> 00:01:50,100
+never larger than one-half no matter what the population parameter p is.
+
+30
+00:01:50,100 --> 00:01:54,570
+So, if we plug this into our formula for the standard error,
+
+31
+00:01:54,570 --> 00:02:01,560
+we see that z times standard error, where z equals 2 and sigma is not more than a half,
+
+32
+00:02:01,560 --> 00:02:03,275
+and those 2s cancel out,
+
+33
+00:02:03,275 --> 00:02:06,265
+and so, we are left over with that rule of thumb.
+
+34
+00:02:06,265 --> 00:02:08,920
+Sometimes, newspaper articles give
+
+35
+00:02:08,920 --> 00:02:12,805
+confidence intervals without stating a confidence level.
+
+36
+00:02:12,805 --> 00:02:19,000
+In that case, it's tacitly assumed that the confidence level is 95%.

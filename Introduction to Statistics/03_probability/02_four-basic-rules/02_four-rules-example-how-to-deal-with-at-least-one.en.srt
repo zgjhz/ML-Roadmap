@@ -1,0 +1,135 @@
+1
+00:00:00,000 --> 00:00:03,275
+So let's do an example to apply these rules.
+
+2
+00:00:03,275 --> 00:00:05,570
+Let's roll a die three times.
+
+3
+00:00:05,570 --> 00:00:11,605
+And we want to compute the probability that we get at least one six in the three rolls.
+
+4
+00:00:11,605 --> 00:00:13,975
+So, how would we do that?
+
+5
+00:00:13,975 --> 00:00:21,270
+So, one idea is to write the event at least one six as follows.
+
+6
+00:00:21,270 --> 00:00:25,140
+It could mean one six on the first roll, or
+
+7
+00:00:25,140 --> 00:00:29,680
+one six on the second roll, or one six on the third roll.
+
+8
+00:00:29,680 --> 00:00:35,590
+So, now we have or in between there.
+
+9
+00:00:35,590 --> 00:00:38,965
+So that suggests we should try the addition rule.
+
+10
+00:00:38,965 --> 00:00:44,510
+But there's a problem here, because those three events are not mutually exclusive,
+
+11
+00:00:44,510 --> 00:00:46,710
+because if we get a six on the first roll,
+
+12
+00:00:46,710 --> 00:00:49,090
+we can also get a six on a second roll.
+
+13
+00:00:49,090 --> 00:00:51,650
+So we cannot use the addition rule,
+
+14
+00:00:51,650 --> 00:00:54,470
+and we have to try a different approach.
+
+15
+00:00:54,470 --> 00:00:57,285
+So let's try the complement rule.
+
+16
+00:00:57,285 --> 00:01:00,120
+The probability of having at least one six in
+
+17
+00:01:00,120 --> 00:01:05,380
+three rolls is one minus the probability of its complement,
+
+18
+00:01:05,380 --> 00:01:08,635
+which is no six in three rolls.
+
+19
+00:01:08,635 --> 00:01:11,325
+So, why am I doing this?
+
+20
+00:01:11,325 --> 00:01:15,840
+No six in three rolls means no six in
+
+21
+00:01:15,840 --> 00:01:20,905
+the first roll, and no six in the second roll, and no six in the third roll.
+
+22
+00:01:20,905 --> 00:01:25,390
+So, now you see there's an and between the events,
+
+23
+00:01:25,390 --> 00:01:29,965
+and that's just what I need, because I know the three rolls are independent.
+
+24
+00:01:29,965 --> 00:01:32,700
+So I would like to use the multiplication rule.
+
+25
+00:01:32,700 --> 00:01:34,660
+And for the multiplication rule,
+
+26
+00:01:34,660 --> 00:01:37,455
+I have to use ands.
+
+27
+00:01:37,455 --> 00:01:40,545
+So, by using the complement rule first,
+
+28
+00:01:40,545 --> 00:01:45,255
+I put the whole thing in a position where I can use the multiplication rule.
+
+29
+00:01:45,255 --> 00:01:51,030
+So I can simply multiply those events and then I can just
+
+30
+00:01:51,030 --> 00:01:57,065
+plug in, because the probability of no six in the first roll is simply five six.
+
+31
+00:01:57,065 --> 00:02:00,135
+And by the way, that's another application of the complement rule.
+
+32
+00:02:00,135 --> 00:02:04,775
+So I get one minus five six, times five six, times five six.
+
+33
+00:02:04,775 --> 00:02:06,570
+And if you plug it in your calculator,
+
+34
+00:02:06,570 --> 00:02:09,760
+you'll see this is 41.4%.
