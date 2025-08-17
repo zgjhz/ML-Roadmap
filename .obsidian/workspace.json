@@ -25,14 +25,12 @@
             "id": "0ae247d57ce84d97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "video",
               "state": {
-                "file": "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/5. Sampling distributions and the central limit theorem.md",
-                "mode": "source",
-                "source": false
+                "file": "Introduction to Statistics/06_regression/03_inference-in-regression/04_normal-approximation-given-x.mp4"
               },
               "icon": "lucide-file",
-              "title": "5. Sampling distributions and the central limit theorem"
+              "title": "04_normal-approximation-given-x"
             }
           }
         ],
@@ -185,19 +183,20 @@
   },
   "active": "0ae247d57ce84d97",
   "lastOpenFiles": [
+    "Introduction to Statistics/06_regression/03_inference-in-regression/03_predicting-y-from-x-and-x-from-y.mp4",
+    "Introduction to Statistics/06_regression/03_inference-in-regression/02_regression-to-the-mean-the-regression-fallacy.mp4",
+    "Introduction to Statistics/06_regression/03_inference-in-regression/01_regression-line-and-the-method-of-least-squares.mp4",
+    "Introduction to Statistics/06_regression/02_correlation/02_correlation-measures-linear-association.mp4",
+    "Introduction to Statistics/06_regression/02_correlation/01_the-correlation-coefficient.mp4",
+    "Introduction to Statistics/06_regression/01_introduction/01_prediction-is-a-key-task-of-statistics.mp4",
+    "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/5. Sampling distributions and the central limit theorem.md",
     "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/03_the-law-of-large-numbers-and-the-central-limit-theorem/03_when-does-the-central-limit-theorem-apply.mp4",
     "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/03_the-law-of-large-numbers-and-the-central-limit-theorem/02_the-central-limit-theorem.mp4",
     "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/03_the-law-of-large-numbers-and-the-central-limit-theorem/01_the-law-of-large-numbers.mp4",
     "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/02_the-expected-value-standard-error-and-sampling-distribution-of-a-statistic/05_three-histograms.mp4",
     "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/02_the-expected-value-standard-error-and-sampling-distribution-of-a-statistic/04_the-sampling-distribution.mp4",
-    "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/02_the-expected-value-standard-error-and-sampling-distribution-of-a-statistic/03_the-square-root-law.mp4",
-    "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/02_the-expected-value-standard-error-and-sampling-distribution-of-a-statistic/02_ev-and-se-of-sum-percentages-and-when-simulating.mp4",
-    "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/02_the-expected-value-standard-error-and-sampling-distribution-of-a-statistic/01_expected-value-and-standard-error.mp4",
-    "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/01_introduction/01_parameter-and-statistic.mp4",
     "Introduction to Statistics/06_regression/6. Regression.md",
     "Introduction to Statistics/04_normal-approximation-and-binomial-distribution/4. The Normal Approximation for Data and the Binomial Distribution.md",
-    "Introduction to Statistics/04_normal-approximation-and-binomial-distribution/03_binomial-distributions/04_normal-approximation-to-the-binomial-sampling-without-replacement.mp4",
-    "Introduction to Statistics/04_normal-approximation-and-binomial-distribution/03_binomial-distributions/03_random-variables-and-probability-histograms.mp4",
     "Introduction to Statistics/03_probability/3. Probability.md",
     "Математика для машинного обучения - PCA/week1/3. Линейное преобразование наборов данных.md",
     "Introduction to Statistics/02_producing-data-and-sampling/2. Producing Data and Sampling.md",
@@ -208,7 +207,6 @@
     "Introduction to Statistics/09_resampling/9. Resampling.md",
     "Introduction to Statistics/08_tests-of-significance/8. Tests of Significance.md",
     "Introduction to Statistics/07_confidence-intervals/7. Confidence Intervals.md",
-    "Introduction to Statistics/05_sampling-distributions-and-the-central-limit-theorem/5. Sampling distributions and the central limit theorem.md",
     "Математика для машинного обучения - PCA/week4/2. Алгоритм PCA.md",
     "Математика для машинного обучения - PCA/week4/1. Вывод PCA.md",
     "Pasted image 20250305184021.png",
